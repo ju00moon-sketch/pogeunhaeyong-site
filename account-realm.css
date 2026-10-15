@@ -1,0 +1,112 @@
+/* Account page: the 2026-09-17 reference split (castle picture on the left, account panel on the right) without the
+   ornament layer. Authentication states remain controlled by their existing modules. */
+[data-account-page]{--account-hairline:color-mix(in srgb,var(--border) 70%,transparent)}
+[data-account-page]::before{display:none}
+[data-account-page] .account-layout{width:100%;max-width:none;min-height:calc(100svh - 64px);margin:0;padding:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;align-items:stretch;background:none}
+
+/* Left: the shared castle picture with the brand and one headline. The veil exists for text contrast only. */
+[data-account-page] .account-intro{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;gap:32px;min-height:100%;padding:44px 56px;border:0;border-radius:0;background:url("assets/realm-panorama.png") 50% 40%/cover no-repeat}
+[data-account-page] .account-intro::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,color-mix(in srgb,var(--bg) 62%,transparent),color-mix(in srgb,var(--bg) 58%,transparent) 50%,color-mix(in srgb,var(--bg) 92%,transparent))}
+[data-account-page] .account-intro::after{display:none}
+.account-identity{display:flex;align-items:center;gap:12px}
+.account-identity img{width:40px;height:40px;object-fit:contain;flex-shrink:0}
+.account-identity strong{font:400 28px/1.2 "Gowun Dodum",var(--body);color:var(--text)}
+.account-intro-copy{max-width:460px;margin:auto 0}
+[data-account-page] .account-intro h1{font:600 clamp(30px,3vw,40px)/1.35 var(--body);letter-spacing:-.04em;color:var(--text)}
+.account-intro-copy>p{margin-top:16px;color:var(--text);font-size:15px;line-height:1.8}
+[data-account-page] .account-intro-links{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:24px}
+.account-intro-links a{color:var(--gold);font-size:14px;text-decoration:underline;text-underline-offset:4px}
+
+/* Right: the account panel, sized to its content. */
+[data-account-page] .account-card{position:relative;display:block;align-self:start;margin:28px 28px 28px 0;padding:44px 52px 48px;border:1px solid var(--border);border-radius:12px;min-width:0;background:var(--bg-card)}
+.account-card::before,.account-card::after{display:none}
+[data-account-page] .account-card>*{max-width:760px}
+[data-account-page] .account-card h2{font:600 28px/1.35 var(--body);letter-spacing:-.03em}
+[data-account-page] #auth-status{margin:6px 0 22px;font-size:14px;line-height:1.7;color:var(--text-dim);min-height:0}
+[data-account-page] .account-status.error{color:var(--theme-danger)}
+[data-account-page] .account-card .account-help{font-size:13px;line-height:1.8;color:var(--text-dim)}
+[data-account-page] .provider-buttons{gap:12px;margin-top:6px}
+[data-account-page] .provider-button{border-radius:8px;min-height:52px;font-size:15px}
+[data-account-page] .provider-readiness{font-size:13px}
+[data-account-page] .account-privacy{font-size:13px;margin-top:24px;padding-top:20px;border-top:1px solid var(--account-hairline);line-height:1.8}
+[data-account-page] .account-policy-detail{font-size:12px;line-height:1.8}
+
+[data-account-page] .account-member-summary{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;padding:16px 18px;border:1px solid var(--border);border-radius:10px;background:var(--bg-soft);min-width:0}
+.account-member-identity{min-width:0}
+[data-account-page] #member-name{font-size:19px;line-height:1.4;letter-spacing:-.02em;font-weight:600}
+[data-account-page] #member-provider,[data-account-page] #member-character{font-size:13px;line-height:1.6;margin:4px 0 0}
+.account-settings>summary{list-style:none;display:flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:7px 14px;border:1px solid var(--border-strong);border-radius:8px;background:var(--bg-card);font-size:13px;color:var(--text-dim);white-space:nowrap;cursor:pointer}
+.account-settings>summary::-webkit-details-marker{display:none}.account-settings>summary svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.6}.account-settings[open]>summary{color:var(--accent);border-color:var(--accent)}
+.account-settings-body{position:absolute;top:calc(100% + 8px);right:0;width:min(320px,100%);padding:18px;border:1px solid var(--border-strong);border-radius:10px;background:var(--bg-card);box-shadow:var(--shadow);z-index:8;overflow-wrap:anywhere}
+[data-account-page] .account-settings-body .account-help{margin:0;font-size:13px;line-height:1.7}[data-account-page] .account-settings-body .member-actions{margin-top:14px}.account-settings-body .account-reauth{margin-top:14px}.account-settings-body .delete-link{width:100%;margin-top:8px;text-align:center}
+
+[data-account-page] .account-guild,[data-account-page] .member-characters{margin-top:28px;padding-top:24px;border-top:1px solid var(--account-hairline)}
+.account-section-head,[data-account-page] .member-characters-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+[data-account-page] .account-guild h3,[data-account-page] .member-characters-heading h3{margin:0;font-size:18px;font-weight:600;line-height:1.5;color:var(--text)}
+[data-account-page] .account-guide-link,[data-account-page] .member-characters-heading .quiet-button{display:inline-flex;align-items:center;min-height:36px;margin:0;padding:6px 14px;border:1px solid var(--border-strong);border-radius:8px;background:transparent;color:var(--text-dim);font-size:13px;line-height:1.5;text-decoration:none}
+[data-account-page] .account-guide-link:hover,[data-account-page] .member-characters-heading .quiet-button:hover:not(:disabled){border-color:var(--accent);color:var(--accent);background:transparent}
+
+/* Onboarding progress: numbered steps on one line; the current step is the only filled mark. */
+[data-account-page] .onboarding-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:22px 0 16px;padding:0;list-style:none;counter-reset:account-step}
+[data-account-page] .onboarding-steps li{position:relative;padding:38px 4px 0;border:0;text-align:center;font-size:13px;line-height:1.5;color:var(--text-muted);counter-increment:account-step;min-width:0}
+.onboarding-steps li::after{content:"";position:absolute;top:14px;left:0;right:0;height:1px;background:var(--border-strong)}.onboarding-steps li:first-child::after{left:50%}.onboarding-steps li:last-child::after{right:50%}
+.onboarding-steps .account-step-mark::before{content:counter(account-step);position:absolute;z-index:1;top:0;left:50%;transform:translateX(-50%);width:28px;height:28px;border:1px solid var(--border-strong);border-radius:50%;display:grid;place-items:center;background:var(--bg-card);color:var(--text-dim);font-size:13px;font-weight:600;line-height:1}
+[data-account-page] .onboarding-steps li[data-complete=true]{color:var(--text-dim)}.onboarding-steps li[data-complete=true] .account-step-mark::before{content:"✓";border-color:var(--accent);background:var(--bg-card);color:var(--accent)}.onboarding-steps li[data-complete=true]::after{background:var(--accent)}
+[data-account-page] .onboarding-steps li[aria-current=step]{font-weight:600;color:var(--accent)}.onboarding-steps li[aria-current=step] .account-step-mark::before{border-color:var(--accent);background:var(--accent);color:var(--theme-on-accent)}
+
+.account-membership-summary{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 20px;padding:12px 16px;border:1px solid color-mix(in srgb,var(--accent) 45%,var(--border));border-radius:10px;background:var(--accent-soft)}
+[data-account-page] .account-membership-summary .membership-status{display:block;flex-shrink:0;margin:0;padding:0 12px 0 0;border:0;border-right:1px solid color-mix(in srgb,var(--accent) 40%,transparent);border-radius:0;background:none;font-size:14px;line-height:1.6;font-weight:600;color:var(--accent)}
+[data-account-page] .account-membership-summary .account-help{flex:1 1 200px;margin:0;font-size:13px;line-height:1.65;color:var(--text)}
+
+[data-account-page] .account-guild label{display:block;margin:22px 0 8px;font-size:14px;font-weight:600;color:var(--text)}
+[data-account-page] .account-guild input{min-height:46px;border:1px solid var(--border-strong);border-radius:8px;background:var(--bg);color:var(--text);padding:10px 14px;font-size:15px}
+[data-account-page] .account-guild input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[data-account-page] .signup-preview{position:relative;margin-top:44px;padding:14px 16px;border:1px solid var(--border-strong);border-radius:8px;background:var(--bg);overflow-wrap:anywhere}
+[data-account-page] #ownership-character-profile::before{content:"선택한 캐릭터";position:absolute;left:0;top:-30px;font-size:14px;font-weight:600;color:var(--text)}
+[data-account-page] .signup-preview h4{font-size:17px;font-weight:600;margin:0 0 4px}[data-account-page] .signup-preview p{font-size:13px;line-height:1.6;margin:3px 0 0;color:var(--text-dim)}
+[data-account-page] .signup-preview .ownership-verified{position:absolute;right:14px;top:14px;margin:0;padding:2px 8px;border:1px solid color-mix(in srgb,var(--accent) 50%,var(--border));border-radius:6px;background:var(--accent-soft);font-size:12px;color:var(--accent)!important}
+[data-account-page] .account-onboarding .guild-verification{margin-top:18px;padding:18px;border:1px solid var(--border);border-radius:10px;background:var(--bg-soft)}
+[data-account-page] .guild-verification h4{font-size:15px}
+[data-account-page] #application-status:empty{display:none}
+[data-account-page] .account-guild .account-status{margin:12px 0 0;font-size:13px}
+
+/* Representative character list. */
+[data-account-page] .member-characters>.account-help{margin-top:8px;font-size:13px;line-height:1.7}
+[data-account-page] .representative-character{margin:14px 0 0;padding:10px 14px;border:1px solid var(--border);border-radius:8px;background:var(--bg-soft);font-size:14px;line-height:1.65}
+[data-account-page] .member-characters .account-status{margin:10px 0 12px;font-size:13px;line-height:1.7;min-height:0}
+[data-account-page] .member-characters-groups{max-height:372px;gap:12px;padding:2px 8px 2px 2px;scrollbar-width:thin;scrollbar-color:var(--border-strong) transparent}
+[data-account-page] .member-character-server{margin:0;padding:4px 6px 6px;border:1px solid var(--border);border-radius:10px;background:transparent;min-width:0}
+[data-account-page] .member-character-server legend{padding:0 8px;margin-left:8px;font-size:12px;font-weight:600;color:var(--text-dim)}
+[data-account-page] .member-character-option{position:relative;display:grid;grid-template-columns:20px 32px minmax(0,1fr) auto;align-items:center;gap:12px;min-height:52px;padding:6px 12px;border:0;border-bottom:1px solid var(--account-hairline);border-radius:8px}
+[data-account-page] .member-character-option:last-child{border-bottom:0}
+/* The inset 1px line marks the chosen row without shifting the layout. */
+[data-account-page] .member-character-option:has(input:checked){background:var(--accent-soft);box-shadow:inset 0 0 0 1px var(--accent);z-index:1}
+[data-account-page] .member-character-option input{appearance:none;display:grid;place-content:center;width:20px;height:20px;margin:0;border:1px solid var(--border-strong);border-radius:50%;background:var(--bg-card);cursor:pointer}
+.member-character-option input:checked{border-color:var(--accent);background:var(--accent)!important}.member-character-option input:checked::before{content:"✓";font-size:12px;font-weight:700;color:var(--theme-on-accent)}
+.member-character-glyph{width:32px;height:32px;display:grid;place-items:center;border:1px solid var(--border-strong);border-radius:50%;background:var(--bg-soft);color:var(--text-dim);font-size:13px;font-weight:600}
+[data-account-page] .member-character-info{gap:2px;line-height:1.45}[data-account-page] .member-character-info strong{font-size:15px}[data-account-page] .member-character-info>span{font-size:13px}
+[data-account-page] .member-character-level{font-size:14px;white-space:nowrap;color:var(--text-dim);font-variant-numeric:tabular-nums}
+
+/* Buttons: one flat gold primary per step, outlined secondary actions. */
+[data-account-page] .account-card .home-button{min-height:48px;border:1px solid var(--gold);border-radius:8px;background:var(--gold);color:var(--theme-on-gold);font-size:15px;font-weight:600}
+[data-account-page] .account-card .home-button:hover:not(:disabled){background:color-mix(in srgb,var(--gold) 84%,var(--text));color:var(--theme-on-gold)}
+[data-account-page] .account-card .home-button:disabled{opacity:.55;cursor:not-allowed}
+[data-account-page] #member-characters-save{margin-top:14px}
+[data-account-page] .account-card .quiet-button{border-radius:8px;font-size:14px;min-height:42px}
+[data-account-page] .account-card .quiet-button:hover:not(:disabled){border-color:var(--accent);background:transparent}
+.account-page-actions{display:flex;justify-content:flex-end;margin-top:16px}.account-page-actions .quiet-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none}
+[data-account-page] #signed-in>.account-help{margin-top:14px;font-size:13px;color:var(--text-muted)}
+[data-account-page] #signed-in>.account-help::before{content:"※ "}
+[data-account-page] .delete-link{font-size:13px;margin-top:20px}
+.delete-dialog{border-radius:12px}.delete-dialog::backdrop{background:color-mix(in srgb,var(--bg) 78%,transparent)}
+
+:root[data-theme="light"] [data-account-page] .account-intro::before{background:color-mix(in srgb,var(--bg) 86%,transparent)}
+/* The panorama shows through the light veil, so the story links take the body text colour; the underline keeps them recognisable as links. */
+:root[data-theme="light"] [data-account-page] .account-intro-links a{color:var(--text)}
+
+@media(max-width:1100px){[data-account-page] .account-layout{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}[data-account-page] .account-intro{padding:32px 30px}[data-account-page] .account-card{margin:20px 20px 20px 0;padding:34px 30px 40px}.account-identity strong{font-size:24px}[data-account-page] .account-intro h1{font-size:30px}}
+@media(max-width:820px){[data-account-page] .account-layout{display:block;min-height:0}[data-account-page] .account-intro{min-height:0;gap:0;padding:20px 20px 18px;background:none;border-bottom:1px solid var(--border)}[data-account-page] .account-intro::before{display:none}.account-identity{display:none}.account-intro-copy{margin:0}[data-account-page] .account-intro h1{max-width:none;font-size:22px}.account-intro-copy>p{display:none}[data-account-page] .account-intro-links{flex-direction:row;margin-top:10px;gap:8px 18px}.account-intro-links a{font-size:13px}[data-account-page] .account-card{margin:0;padding:24px 20px 36px;border:0;border-radius:0}[data-account-page] .account-card h2{font-size:24px}[data-account-page] .account-guild input{font-size:16px}}
+@media(max-width:480px){[data-account-page] .account-card{padding:22px 16px 32px}[data-account-page] .account-card h2{font-size:22px}[data-account-page] .account-member-summary{grid-template-columns:minmax(0,1fr);gap:10px;padding:12px}.account-settings{justify-self:start}[data-account-page] #member-name{font-size:17px}[data-account-page] .account-guild h3,[data-account-page] .member-characters-heading h3{font-size:16px}.account-membership-summary{gap:8px;padding:10px 12px}[data-account-page] .account-membership-summary .membership-status{border-right:0;padding-right:0}[data-account-page] .onboarding-steps li{font-size:12px;padding-inline:0}.onboarding-steps .account-step-mark::before{width:26px;height:26px;font-size:12px}[data-account-page] .member-character-option{grid-template-columns:18px 30px minmax(0,1fr) auto;gap:8px;padding:8px 9px}.member-character-glyph{width:30px;height:30px;font-size:12px}[data-account-page] .member-character-option input{width:18px;height:18px}[data-account-page] .member-character-level{font-size:12px}[data-account-page] .member-character-info strong{font-size:14px}[data-account-page] .member-character-info>span{font-size:12px}[data-account-page] .member-characters-groups{max-height:350px;padding-right:4px}[data-account-page] .account-card .guild-verification{padding:14px 12px}}
+@media(max-width:360px){[data-account-page] .member-character-option{grid-template-columns:18px 28px minmax(0,1fr)}[data-account-page] .member-character-level{grid-column:3;white-space:normal}}
+/* Touch targets: 44x44px minimum on narrow or touch screens. */
+@media(max-width:1024px),(pointer:coarse){[data-account-page] .account-intro-links a{display:inline-flex;align-items:center;min-height:44px}.account-settings>summary{min-height:44px}[data-account-page] .account-card .quiet-button,[data-account-page] .account-guide-link,[data-account-page] .member-characters-heading .quiet-button{min-height:44px}[data-account-page] .delete-link{display:flex;align-items:center;justify-content:center;min-height:44px}[data-account-page] .ownership-launcher-help{display:flex;align-items:center;min-height:44px;margin-block:4px 12px}}

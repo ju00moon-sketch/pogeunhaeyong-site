@@ -1,0 +1,79 @@
+@import url("auth.css");
+.todo-layout{max-width:1480px;margin:auto;padding:28px 28px 72px;min-height:calc(100svh - 190px)}
+/* Page buttons: gold primary (save/apply), neutral outline secondary. */
+.todo-layout .home-button{display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;border:1px solid var(--gold);border-radius:8px;background:var(--gold);color:var(--theme-on-gold);font-size:14px;font-weight:600;cursor:pointer;transition:background-color .15s,border-color .15s}
+.todo-layout .home-button:hover:not(:disabled){border-color:color-mix(in srgb,var(--gold) 86%,var(--text));background:color-mix(in srgb,var(--gold) 86%,var(--text));color:var(--theme-on-gold)}
+.todo-layout .quiet-button{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 16px;border:1px solid var(--border-strong);border-radius:8px;background:var(--bg-soft);color:var(--text);font-size:14px;cursor:pointer;transition:border-color .15s,background-color .15s}
+.todo-layout .quiet-button:hover:not(:disabled){border-color:var(--accent)}
+.todo-layout :is(.home-button,.quiet-button):disabled{opacity:.55;cursor:not-allowed}
+.todo-layout :is(.home-button,.quiet-button):focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.todo-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 18px;padding:10px 0 18px;border-bottom:1px solid var(--border)}
+.todo-head-copy{min-width:0}
+.todo-head h1{font-size:1.72rem;line-height:1.35;letter-spacing:-.03em;margin-bottom:6px}
+.todo-lead{color:var(--text-dim);font-size:13px;line-height:1.7}
+.todo-head-actions{display:flex;flex-wrap:wrap;gap:8px;margin-left:auto}
+.todo-head-actions .quiet-button{min-height:40px;padding:8px 14px;border-radius:8px;font-size:13px}
+.todo-layout>.account-status{margin:12px 0 18px;font-size:13px;min-height:1.5em}
+.todo-picker,.todo-summary{margin-bottom:20px;padding:20px 22px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card)}
+.todo-picker .section-heading{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 16px}
+.todo-picker .section-heading h2{font-size:17px;font-weight:600;letter-spacing:-.02em}
+.todo-picker .section-description{color:var(--text-dim);font-size:13px;font-variant-numeric:tabular-nums}
+.todo-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0}.todo-metrics>div{min-width:0}.todo-metrics>div+div{padding-left:16px;border-left:1px solid var(--border)}.todo-metrics dt{color:var(--text-dim);font-size:13px;line-height:1.5;margin-bottom:4px}.todo-metrics dd{display:flex;align-items:baseline;gap:4px;font-size:1.5rem;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}.todo-metrics dd small{font-size:13px;font-weight:400;color:var(--text-dim)}
+.todo-roster{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 20px;margin:14px 0 18px}
+.todo-roster-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px;min-height:44px;padding:6px 2px;border-top:1px solid var(--border);font-size:14px;cursor:pointer}
+.todo-roster-row input{width:18px;height:18px;margin:0;accent-color:var(--accent)}
+.todo-roster-row:has(input:checked) .todo-roster-name{color:var(--text);font-weight:600}
+.todo-roster-name{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:var(--text-dim)}
+.todo-roster-meta{color:var(--text-dim);font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.todo-picker-actions{display:flex;flex-wrap:wrap;gap:10px}
+.todo-picker-hint{color:var(--text-dim);font-size:13px;line-height:1.6;margin-bottom:8px}
+.todo-board{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+.todo-card{display:flex;flex-direction:column;gap:14px;min-width:0;padding:18px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card)}
+.todo-card-head{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:2px 10px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.todo-card-name{font-size:16px;font-weight:600;letter-spacing:-.02em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.todo-card-meta{grid-row:2;color:var(--text-dim);font-size:12px;font-variant-numeric:tabular-nums}
+.todo-card-gold{grid-row:2;grid-column:2;color:var(--gold);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.todo-line{display:grid;grid-template-columns:2.4rem minmax(0,1fr);align-items:start;gap:10px}
+.todo-line-label{padding-top:8px;color:var(--text-dim);font-size:13px;font-weight:500}
+.todo-items{display:flex;flex-wrap:wrap;gap:6px}
+/* Toggle states: unchecked = outline, partial = teal outline, done = teal fill with a check mark (not color alone). */
+.todo-item,.todo-gate-clear,.todo-gate-bonus,.todo-chip{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--border-strong);border-radius:6px;background:transparent;color:var(--text);font:inherit;line-height:1.4;cursor:pointer;white-space:nowrap;font-variant-numeric:tabular-nums;transition:color .15s,border-color .15s,background-color .15s}
+.todo-item{min-height:36px;padding:5px 11px;font-size:13px}
+.todo-item:hover:not(:disabled),.todo-gate-clear:hover:not(:disabled),.todo-gate-bonus:hover:not(:disabled),.todo-chip:hover:not(:disabled){border-color:var(--accent)}
+.todo-item.partial{border-color:var(--accent);background:var(--accent-soft)}
+.todo-item.partial .todo-item-count{color:var(--accent);font-weight:600}
+.todo-item.done,.todo-gate-clear.done,.todo-chip.chosen{border-color:var(--accent);background:var(--accent);color:var(--theme-on-accent)}
+.todo-item.done::before,.todo-gate-clear.done::before{content:"✓" / "";font-weight:700}
+.todo-item-count{font-size:12px}
+.todo-item:focus-visible,.todo-gate-clear:focus-visible,.todo-gate-bonus:focus-visible,.todo-chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.todo-raids{display:flex;flex-direction:column;gap:10px}
+.todo-raid{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px}
+.todo-raid-name{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:14px}
+.todo-raid-name.done{color:var(--accent)}
+.todo-gates{display:flex;flex-wrap:wrap;gap:6px}
+.todo-gate{display:flex;flex-direction:column;gap:4px}
+.todo-gate-clear{min-height:36px;padding:4px 10px;font-size:13px}
+.todo-gate-bonus{min-height:28px;padding:2px 8px;font-size:12px;color:var(--text-dim);border-color:var(--border)}
+.todo-gate-bonus.done{border-color:var(--gold);background:var(--gold-soft);color:var(--gold)}
+.todo-raid-edit>summary{display:inline-block;padding:6px 0;color:var(--accent);font-size:13px;cursor:pointer}
+.todo-raid-edit>summary:hover{text-decoration:underline;text-underline-offset:3px}
+.todo-chips{display:flex;flex-wrap:wrap;gap:6px}
+.todo-chip{min-height:36px;padding:5px 11px;font-size:13px}
+.todo-draft-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:10px}.todo-draft-count{margin-right:auto;color:var(--text-dim);font-size:13px;font-variant-numeric:tabular-nums}.todo-draft-actions .home-button,.todo-draft-actions .quiet-button{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:0;min-height:40px;padding:6px 16px;border-radius:8px;font-size:13px;line-height:1.35}
+.todo-chip:disabled,.todo-item:disabled,.todo-gate-clear:disabled,.todo-gate-bonus:disabled,.todo-draft-actions button:disabled{opacity:.5;cursor:default}
+.todo-empty{color:var(--text-dim);font-size:13px;line-height:1.7}
+.todo-empty-board{grid-column:1/-1;padding:30px 4px}
+#todo-note{margin-top:20px;color:var(--text-dim);font-size:12px;line-height:1.7}
+@media(max-width:760px){
+.todo-layout{padding:18px 16px 48px}.todo-head{padding:6px 0 16px}.todo-head h1{font-size:1.5rem}.todo-head-actions{margin-left:0}
+.todo-picker,.todo-summary{padding:16px 14px}.todo-metrics{gap:8px}.todo-metrics>div+div{padding-left:10px}.todo-metrics dt{font-size:12px}.todo-metrics dd{font-size:1.2rem;flex-wrap:wrap}.todo-card{padding:16px 14px}
+.todo-board{grid-template-columns:minmax(0,1fr)}
+.todo-line{grid-template-columns:minmax(0,1fr);gap:6px}.todo-line-label{padding-top:0}
+.todo-raid{grid-template-columns:minmax(0,1fr);gap:6px}
+}
+/* Touch targets: every toggle, chip and button is at least 44x44px on narrow or touch screens. */
+@media(max-width:1024px),(pointer:coarse){
+.todo-layout .quiet-button,.todo-head-actions .quiet-button,.todo-draft-actions .home-button,.todo-draft-actions .quiet-button{min-height:44px}
+.todo-item,.todo-gate-clear,.todo-gate-bonus,.todo-chip{min-width:44px;min-height:44px}
+.todo-raid-edit>summary{display:inline-flex;align-items:center;min-height:44px;padding-block:0}
+}
