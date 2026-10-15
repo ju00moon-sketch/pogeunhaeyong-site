@@ -1,0 +1,4670 @@
+{
+ "items": [
+  {
+   "id": "previous-home",
+   "version": "previous",
+   "group": "home",
+   "page": "index.html",
+   "live": "https://pogeunhaeyong.duckdns.org/index.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-home/pc-dark.webp",
+      "thumb": "shots/previous-home/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1103,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-home/pc-light.webp",
+      "thumb": "shots/previous-home/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1103,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-home/mobile-dark.webp",
+      "thumb": "shots/previous-home/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2756,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-home/mobile-light.webp",
+      "thumb": "shots/previous-home/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2756,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-home-member",
+   "version": "previous",
+   "group": "home",
+   "page": "index.html",
+   "live": "https://pogeunhaeyong.duckdns.org/index.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-home-member/pc-dark.webp",
+      "thumb": "shots/previous-home-member/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1192,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-home-member/pc-light.webp",
+      "thumb": "shots/previous-home-member/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1192,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-home-member/mobile-dark.webp",
+      "thumb": "shots/previous-home-member/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2809,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-home-member/mobile-light.webp",
+      "thumb": "shots/previous-home-member/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2809,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-home-empty",
+   "version": "previous",
+   "group": "home",
+   "page": "index.html",
+   "live": "https://pogeunhaeyong.duckdns.org/index.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-home-empty/pc-dark.webp",
+      "thumb": "shots/previous-home-empty/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1130,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-home-empty/pc-light.webp",
+      "thumb": "shots/previous-home-empty/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1130,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-home-empty/mobile-dark.webp",
+      "thumb": "shots/previous-home-empty/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2448,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-home-empty/mobile-light.webp",
+      "thumb": "shots/previous-home-empty/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2448,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-home-commands",
+   "version": "previous",
+   "group": "home",
+   "page": "index.html#commands",
+   "live": "https://pogeunhaeyong.duckdns.org/index.html#commands",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-home-commands/pc-dark.webp",
+      "thumb": "shots/previous-home-commands/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 6546,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-home-commands/pc-light.webp",
+      "thumb": "shots/previous-home-commands/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 6546,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-home-commands/mobile-dark.webp",
+      "thumb": "shots/previous-home-commands/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 10313,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-home-commands/mobile-light.webp",
+      "thumb": "shots/previous-home-commands/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 10313,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-home-emoticons",
+   "version": "previous",
+   "group": "home",
+   "page": "index.html#emoticons",
+   "live": "https://pogeunhaeyong.duckdns.org/index.html#emoticons",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-home-emoticons/pc-dark.webp",
+      "thumb": "shots/previous-home-emoticons/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1525,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-home-emoticons/pc-light.webp",
+      "thumb": "shots/previous-home-emoticons/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1525,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-home-emoticons/mobile-dark.webp",
+      "thumb": "shots/previous-home-emoticons/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2270,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-home-emoticons/mobile-light.webp",
+      "thumb": "shots/previous-home-emoticons/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2270,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-home-link",
+   "version": "previous",
+   "group": "home",
+   "page": "index.html#link",
+   "live": "https://pogeunhaeyong.duckdns.org/index.html#link",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-home-link/pc-dark.webp",
+      "thumb": "shots/previous-home-link/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2442,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-home-link/pc-light.webp",
+      "thumb": "shots/previous-home-link/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2442,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-home-link/mobile-dark.webp",
+      "thumb": "shots/previous-home-link/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4602,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-home-link/mobile-light.webp",
+      "thumb": "shots/previous-home-link/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4602,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-home-updates",
+   "version": "previous",
+   "group": "home",
+   "page": "index.html#updates",
+   "live": "https://pogeunhaeyong.duckdns.org/index.html#updates",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-home-updates/pc-dark.webp",
+      "thumb": "shots/previous-home-updates/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1601,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-home-updates/pc-light.webp",
+      "thumb": "shots/previous-home-updates/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1601,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-home-updates/mobile-dark.webp",
+      "thumb": "shots/previous-home-updates/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2114,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-home-updates/mobile-light.webp",
+      "thumb": "shots/previous-home-updates/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2114,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-menu",
+   "version": "previous",
+   "group": "home",
+   "page": "index.html",
+   "live": "https://pogeunhaeyong.duckdns.org/index.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-menu/pc-dark.webp",
+      "thumb": "shots/previous-menu/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1103,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-menu/pc-light.webp",
+      "thumb": "shots/previous-menu/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1103,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-menu/mobile-dark.webp",
+      "thumb": "shots/previous-menu/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3041,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-menu/mobile-light.webp",
+      "thumb": "shots/previous-menu/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3041,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-search",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-search/pc-dark.webp",
+      "thumb": "shots/previous-spec-search/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-search/pc-light.webp",
+      "thumb": "shots/previous-spec-search/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-search/mobile-dark.webp",
+      "thumb": "shots/previous-spec-search/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-search/mobile-light.webp",
+      "thumb": "shots/previous-spec-search/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-summary",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-summary",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-summary",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-summary/pc-dark.webp",
+      "thumb": "shots/previous-spec-summary/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1891,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-summary/pc-light.webp",
+      "thumb": "shots/previous-spec-summary/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1891,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-summary/mobile-dark.webp",
+      "thumb": "shots/previous-spec-summary/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4885,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-summary/mobile-light.webp",
+      "thumb": "shots/previous-spec-summary/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4885,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-equipment",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-equipment",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-equipment",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-equipment/pc-dark.webp",
+      "thumb": "shots/previous-spec-equipment/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2411,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-equipment/pc-light.webp",
+      "thumb": "shots/previous-spec-equipment/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2411,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-equipment/mobile-dark.webp",
+      "thumb": "shots/previous-spec-equipment/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3985,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-equipment/mobile-light.webp",
+      "thumb": "shots/previous-spec-equipment/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3985,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-engravings",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-engravings",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-engravings",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-engravings/pc-dark.webp",
+      "thumb": "shots/previous-spec-engravings/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1383,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-engravings/pc-light.webp",
+      "thumb": "shots/previous-spec-engravings/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1383,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-engravings/mobile-dark.webp",
+      "thumb": "shots/previous-spec-engravings/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2021,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-engravings/mobile-light.webp",
+      "thumb": "shots/previous-spec-engravings/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2021,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-build",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-build",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-build",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-build/pc-dark.webp",
+      "thumb": "shots/previous-spec-build/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1494,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-build/pc-light.webp",
+      "thumb": "shots/previous-spec-build/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1494,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-build/mobile-dark.webp",
+      "thumb": "shots/previous-spec-build/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2704,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-build/mobile-light.webp",
+      "thumb": "shots/previous-spec-build/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2704,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-cards",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-cards",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-cards",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-cards/pc-dark.webp",
+      "thumb": "shots/previous-spec-cards/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1294,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-cards/pc-light.webp",
+      "thumb": "shots/previous-spec-cards/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1294,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-cards/mobile-dark.webp",
+      "thumb": "shots/previous-spec-cards/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2136,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-cards/mobile-light.webp",
+      "thumb": "shots/previous-spec-cards/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2136,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-arkpassive",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-arkpassive",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-arkpassive",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-arkpassive/pc-dark.webp",
+      "thumb": "shots/previous-spec-arkpassive/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1177,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-arkpassive/pc-light.webp",
+      "thumb": "shots/previous-spec-arkpassive/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1177,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-arkpassive/mobile-dark.webp",
+      "thumb": "shots/previous-spec-arkpassive/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2336,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-arkpassive/mobile-light.webp",
+      "thumb": "shots/previous-spec-arkpassive/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2336,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-arkgrid",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-arkgrid",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-arkgrid",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-arkgrid/pc-dark.webp",
+      "thumb": "shots/previous-spec-arkgrid/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2155,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-arkgrid/pc-light.webp",
+      "thumb": "shots/previous-spec-arkgrid/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2155,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-arkgrid/mobile-dark.webp",
+      "thumb": "shots/previous-spec-arkgrid/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4685,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-arkgrid/mobile-light.webp",
+      "thumb": "shots/previous-spec-arkgrid/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4685,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-crit",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-crit",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-crit",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-crit/pc-dark.webp",
+      "thumb": "shots/previous-spec-crit/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1264,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-crit/pc-light.webp",
+      "thumb": "shots/previous-spec-crit/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1264,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-crit/mobile-dark.webp",
+      "thumb": "shots/previous-spec-crit/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2208,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-crit/mobile-light.webp",
+      "thumb": "shots/previous-spec-crit/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2208,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-specup",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-specup",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-specup",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-specup/pc-dark.webp",
+      "thumb": "shots/previous-spec-specup/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2100,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-specup/pc-light.webp",
+      "thumb": "shots/previous-spec-specup/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2100,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-specup/mobile-dark.webp",
+      "thumb": "shots/previous-spec-specup/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2880,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-specup/mobile-light.webp",
+      "thumb": "shots/previous-spec-specup/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2880,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-roster",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-roster",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-roster",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-roster/pc-dark.webp",
+      "thumb": "shots/previous-spec-roster/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1390,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-roster/pc-light.webp",
+      "thumb": "shots/previous-spec-roster/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1390,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-roster/mobile-dark.webp",
+      "thumb": "shots/previous-spec-roster/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2044,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-roster/mobile-light.webp",
+      "thumb": "shots/previous-spec-roster/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2044,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-spec-valuation",
+   "version": "previous",
+   "group": "spec",
+   "page": "spec.html#panel-valuation",
+   "live": "https://pogeunhaeyong.duckdns.org/spec.html#panel-valuation",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-spec-valuation/pc-dark.webp",
+      "thumb": "shots/previous-spec-valuation/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2864,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-spec-valuation/pc-light.webp",
+      "thumb": "shots/previous-spec-valuation/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2864,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-spec-valuation/mobile-dark.webp",
+      "thumb": "shots/previous-spec-valuation/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3886,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-spec-valuation/mobile-light.webp",
+      "thumb": "shots/previous-spec-valuation/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3886,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-tools-gate",
+   "version": "previous",
+   "group": "tools",
+   "page": "tools.html",
+   "live": "https://pogeunhaeyong.duckdns.org/tools.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-tools-gate/pc-dark.webp",
+      "thumb": "shots/previous-tools-gate/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-tools-gate/pc-light.webp",
+      "thumb": "shots/previous-tools-gate/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-tools-gate/mobile-dark.webp",
+      "thumb": "shots/previous-tools-gate/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-tools-gate/mobile-light.webp",
+      "thumb": "shots/previous-tools-gate/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-tools-market",
+   "version": "previous",
+   "group": "tools",
+   "page": "tools.html",
+   "live": "https://pogeunhaeyong.duckdns.org/tools.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-tools-market/pc-dark.webp",
+      "thumb": "shots/previous-tools-market/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1240,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-tools-market/pc-light.webp",
+      "thumb": "shots/previous-tools-market/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1240,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-tools-market/mobile-dark.webp",
+      "thumb": "shots/previous-tools-market/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2566,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-tools-market/mobile-light.webp",
+      "thumb": "shots/previous-tools-market/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2566,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-tools-gems",
+   "version": "previous",
+   "group": "tools",
+   "page": "tools.html?kind=gems",
+   "live": "https://pogeunhaeyong.duckdns.org/tools.html?kind=gems",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-tools-gems/pc-dark.webp",
+      "thumb": "shots/previous-tools-gems/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1998,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-tools-gems/pc-light.webp",
+      "thumb": "shots/previous-tools-gems/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1998,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-tools-gems/mobile-dark.webp",
+      "thumb": "shots/previous-tools-gems/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3551,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-tools-gems/mobile-light.webp",
+      "thumb": "shots/previous-tools-gems/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3551,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-tools-bid",
+   "version": "previous",
+   "group": "tools",
+   "page": "tools.html#bid-calculator",
+   "live": "https://pogeunhaeyong.duckdns.org/tools.html#bid-calculator",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-tools-bid/pc-dark.webp",
+      "thumb": "shots/previous-tools-bid/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-tools-bid/pc-light.webp",
+      "thumb": "shots/previous-tools-bid/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-tools-bid/mobile-dark.webp",
+      "thumb": "shots/previous-tools-bid/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 924,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-tools-bid/mobile-light.webp",
+      "thumb": "shots/previous-tools-bid/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 924,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-tools-honing",
+   "version": "previous",
+   "group": "tools",
+   "page": "tools.html#honing",
+   "live": "https://pogeunhaeyong.duckdns.org/tools.html#honing",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-tools-honing/pc-dark.webp",
+      "thumb": "shots/previous-tools-honing/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1813,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-tools-honing/pc-light.webp",
+      "thumb": "shots/previous-tools-honing/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1813,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-tools-honing/mobile-dark.webp",
+      "thumb": "shots/previous-tools-honing/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2611,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-tools-honing/mobile-light.webp",
+      "thumb": "shots/previous-tools-honing/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2611,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-todo-gate",
+   "version": "previous",
+   "group": "todo",
+   "page": "todo.html",
+   "live": "https://pogeunhaeyong.duckdns.org/todo.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-todo-gate/pc-dark.webp",
+      "thumb": "shots/previous-todo-gate/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-todo-gate/pc-light.webp",
+      "thumb": "shots/previous-todo-gate/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-todo-gate/mobile-dark.webp",
+      "thumb": "shots/previous-todo-gate/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 891,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-todo-gate/mobile-light.webp",
+      "thumb": "shots/previous-todo-gate/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 891,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-todo-pending",
+   "version": "previous",
+   "group": "todo",
+   "page": "todo.html",
+   "live": "https://pogeunhaeyong.duckdns.org/todo.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-todo-pending/pc-dark.webp",
+      "thumb": "shots/previous-todo-pending/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-todo-pending/pc-light.webp",
+      "thumb": "shots/previous-todo-pending/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-todo-pending/mobile-dark.webp",
+      "thumb": "shots/previous-todo-pending/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 891,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-todo-pending/mobile-light.webp",
+      "thumb": "shots/previous-todo-pending/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 891,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-todo-board",
+   "version": "previous",
+   "group": "todo",
+   "page": "todo.html",
+   "live": "https://pogeunhaeyong.duckdns.org/todo.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-todo-board/pc-dark.webp",
+      "thumb": "shots/previous-todo-board/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1036,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-todo-board/pc-light.webp",
+      "thumb": "shots/previous-todo-board/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1036,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-todo-board/mobile-dark.webp",
+      "thumb": "shots/previous-todo-board/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2446,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-todo-board/mobile-light.webp",
+      "thumb": "shots/previous-todo-board/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2446,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-todo-picker",
+   "version": "previous",
+   "group": "todo",
+   "page": "todo.html",
+   "live": "https://pogeunhaeyong.duckdns.org/todo.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-todo-picker/pc-dark.webp",
+      "thumb": "shots/previous-todo-picker/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1409,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-todo-picker/pc-light.webp",
+      "thumb": "shots/previous-todo-picker/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1409,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-todo-picker/mobile-dark.webp",
+      "thumb": "shots/previous-todo-picker/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2953,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-todo-picker/mobile-light.webp",
+      "thumb": "shots/previous-todo-picker/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2953,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-todo-empty",
+   "version": "previous",
+   "group": "todo",
+   "page": "todo.html",
+   "live": "https://pogeunhaeyong.duckdns.org/todo.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-todo-empty/pc-dark.webp",
+      "thumb": "shots/previous-todo-empty/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-todo-empty/pc-light.webp",
+      "thumb": "shots/previous-todo-empty/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-todo-empty/mobile-dark.webp",
+      "thumb": "shots/previous-todo-empty/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 891,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-todo-empty/mobile-light.webp",
+      "thumb": "shots/previous-todo-empty/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 891,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-guild-gate",
+   "version": "previous",
+   "group": "guild",
+   "page": "guild.html",
+   "live": "https://pogeunhaeyong.duckdns.org/guild.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-guild-gate/pc-dark.webp",
+      "thumb": "shots/previous-guild-gate/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-guild-gate/pc-light.webp",
+      "thumb": "shots/previous-guild-gate/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-guild-gate/mobile-dark.webp",
+      "thumb": "shots/previous-guild-gate/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 891,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-guild-gate/mobile-light.webp",
+      "thumb": "shots/previous-guild-gate/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 891,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-guild-admin",
+   "version": "previous",
+   "group": "guild",
+   "page": "guild.html",
+   "live": "https://pogeunhaeyong.duckdns.org/guild.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-guild-admin/pc-dark.webp",
+      "thumb": "shots/previous-guild-admin/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 4596,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-guild-admin/pc-light.webp",
+      "thumb": "shots/previous-guild-admin/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 4596,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-guild-admin/mobile-dark.webp",
+      "thumb": "shots/previous-guild-admin/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 6217,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-guild-admin/mobile-light.webp",
+      "thumb": "shots/previous-guild-admin/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 6217,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-guild-review",
+   "version": "previous",
+   "group": "guild",
+   "page": "guild.html",
+   "live": "https://pogeunhaeyong.duckdns.org/guild.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-guild-review/pc-dark.webp",
+      "thumb": "shots/previous-guild-review/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-guild-review/pc-light.webp",
+      "thumb": "shots/previous-guild-review/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-guild-review/mobile-dark.webp",
+      "thumb": "shots/previous-guild-review/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-guild-review/mobile-light.webp",
+      "thumb": "shots/previous-guild-review/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-guild-editor",
+   "version": "previous",
+   "group": "guild",
+   "page": "guild.html",
+   "live": "https://pogeunhaeyong.duckdns.org/guild.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-guild-editor/pc-dark.webp",
+      "thumb": "shots/previous-guild-editor/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-guild-editor/pc-light.webp",
+      "thumb": "shots/previous-guild-editor/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-guild-editor/mobile-dark.webp",
+      "thumb": "shots/previous-guild-editor/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-guild-editor/mobile-light.webp",
+      "thumb": "shots/previous-guild-editor/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-account-login",
+   "version": "previous",
+   "group": "account",
+   "page": "account.html",
+   "live": "https://pogeunhaeyong.duckdns.org/account.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-account-login/pc-dark.webp",
+      "thumb": "shots/previous-account-login/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 970,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-account-login/pc-light.webp",
+      "thumb": "shots/previous-account-login/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 970,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-account-login/mobile-dark.webp",
+      "thumb": "shots/previous-account-login/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 985,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-account-login/mobile-light.webp",
+      "thumb": "shots/previous-account-login/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 985,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-account-pending",
+   "version": "previous",
+   "group": "account",
+   "page": "account.html",
+   "live": "https://pogeunhaeyong.duckdns.org/account.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-account-pending/pc-dark.webp",
+      "thumb": "shots/previous-account-pending/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 970,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-account-pending/pc-light.webp",
+      "thumb": "shots/previous-account-pending/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 970,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-account-pending/mobile-dark.webp",
+      "thumb": "shots/previous-account-pending/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1210,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-account-pending/mobile-light.webp",
+      "thumb": "shots/previous-account-pending/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1210,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-account-member",
+   "version": "previous",
+   "group": "account",
+   "page": "account.html",
+   "live": "https://pogeunhaeyong.duckdns.org/account.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-account-member/pc-dark.webp",
+      "thumb": "shots/previous-account-member/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1528,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-account-member/pc-light.webp",
+      "thumb": "shots/previous-account-member/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1528,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-account-member/mobile-dark.webp",
+      "thumb": "shots/previous-account-member/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1842,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-account-member/mobile-light.webp",
+      "thumb": "shots/previous-account-member/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1842,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-account-delete",
+   "version": "previous",
+   "group": "account",
+   "page": "account.html",
+   "live": "https://pogeunhaeyong.duckdns.org/account.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-account-delete/pc-dark.webp",
+      "thumb": "shots/previous-account-delete/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-account-delete/pc-light.webp",
+      "thumb": "shots/previous-account-delete/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-account-delete/mobile-dark.webp",
+      "thumb": "shots/previous-account-delete/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-account-delete/mobile-light.webp",
+      "thumb": "shots/previous-account-delete/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-updates",
+   "version": "previous",
+   "group": "docs",
+   "page": "updates.html",
+   "live": "https://pogeunhaeyong.duckdns.org/updates.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-updates/pc-dark.webp",
+      "thumb": "shots/previous-updates/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 25471,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/previous-updates/pc-dark.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/previous-updates/pc-dark-2.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/previous-updates/pc-dark-3.webp",
+        "height": 1471
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/previous-updates/pc-light.webp",
+      "thumb": "shots/previous-updates/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 25471,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/previous-updates/pc-light.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/previous-updates/pc-light-2.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/previous-updates/pc-light-3.webp",
+        "height": 1471
+       }
+      ]
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-updates/mobile-dark.webp",
+      "thumb": "shots/previous-updates/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 51476,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/previous-updates/mobile-dark.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-updates/mobile-dark-2.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-updates/mobile-dark-3.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-updates/mobile-dark-4.webp",
+        "height": 3476
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/previous-updates/mobile-light.webp",
+      "thumb": "shots/previous-updates/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 51476,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/previous-updates/mobile-light.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-updates/mobile-light-2.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-updates/mobile-light-3.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-updates/mobile-light-4.webp",
+        "height": 3476
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-terms",
+   "version": "previous",
+   "group": "docs",
+   "page": "terms.html",
+   "live": "https://pogeunhaeyong.duckdns.org/terms.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-terms/pc-dark.webp",
+      "thumb": "shots/previous-terms/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 4963,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-terms/pc-light.webp",
+      "thumb": "shots/previous-terms/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 4963,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-terms/mobile-dark.webp",
+      "thumb": "shots/previous-terms/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 7815,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-terms/mobile-light.webp",
+      "thumb": "shots/previous-terms/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 7815,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-privacy",
+   "version": "previous",
+   "group": "docs",
+   "page": "privacy.html",
+   "live": "https://pogeunhaeyong.duckdns.org/privacy.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-privacy/pc-dark.webp",
+      "thumb": "shots/previous-privacy/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 6527,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-privacy/pc-light.webp",
+      "thumb": "shots/previous-privacy/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 6527,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-privacy/mobile-dark.webp",
+      "thumb": "shots/previous-privacy/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 10671,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-privacy/mobile-light.webp",
+      "thumb": "shots/previous-privacy/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 10671,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-note-v1.4",
+   "version": "previous",
+   "group": "notes",
+   "page": "updates/v1.4.html",
+   "live": "https://pogeunhaeyong.duckdns.org/updates/v1.4.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-note-v1.4/pc-dark.webp",
+      "thumb": "shots/previous-note-v1.4/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2503,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-note-v1.4/pc-light.webp",
+      "thumb": "shots/previous-note-v1.4/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2503,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-note-v1.4/mobile-dark.webp",
+      "thumb": "shots/previous-note-v1.4/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3967,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-note-v1.4/mobile-light.webp",
+      "thumb": "shots/previous-note-v1.4/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3967,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-note-v1.3",
+   "version": "previous",
+   "group": "notes",
+   "page": "updates/v1.3.html",
+   "live": "https://pogeunhaeyong.duckdns.org/updates/v1.3.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-note-v1.3/pc-dark.webp",
+      "thumb": "shots/previous-note-v1.3/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 12556,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/previous-note-v1.3/pc-dark.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/previous-note-v1.3/pc-dark-2.webp",
+        "height": 556
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/previous-note-v1.3/pc-light.webp",
+      "thumb": "shots/previous-note-v1.3/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 12556,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/previous-note-v1.3/pc-light.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/previous-note-v1.3/pc-light-2.webp",
+        "height": 556
+       }
+      ]
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-note-v1.3/mobile-dark.webp",
+      "thumb": "shots/previous-note-v1.3/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 29119,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/previous-note-v1.3/mobile-dark.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-note-v1.3/mobile-dark-2.webp",
+        "height": 13119
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/previous-note-v1.3/mobile-light.webp",
+      "thumb": "shots/previous-note-v1.3/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 29119,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/previous-note-v1.3/mobile-light.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-note-v1.3/mobile-light-2.webp",
+        "height": 13119
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-note-v1.2",
+   "version": "previous",
+   "group": "notes",
+   "page": "updates/v1.2.html",
+   "live": "https://pogeunhaeyong.duckdns.org/updates/v1.2.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-note-v1.2/pc-dark.webp",
+      "thumb": "shots/previous-note-v1.2/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 10392,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-note-v1.2/pc-light.webp",
+      "thumb": "shots/previous-note-v1.2/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 10392,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-note-v1.2/mobile-dark.webp",
+      "thumb": "shots/previous-note-v1.2/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 16998,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/previous-note-v1.2/mobile-dark.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-note-v1.2/mobile-dark-2.webp",
+        "height": 998
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/previous-note-v1.2/mobile-light.webp",
+      "thumb": "shots/previous-note-v1.2/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 16998,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/previous-note-v1.2/mobile-light.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/previous-note-v1.2/mobile-light-2.webp",
+        "height": 998
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-note-v1.1",
+   "version": "previous",
+   "group": "notes",
+   "page": "updates/v1.1.html",
+   "live": "https://pogeunhaeyong.duckdns.org/updates/v1.1.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-note-v1.1/pc-dark.webp",
+      "thumb": "shots/previous-note-v1.1/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2381,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-note-v1.1/pc-light.webp",
+      "thumb": "shots/previous-note-v1.1/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2381,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-note-v1.1/mobile-dark.webp",
+      "thumb": "shots/previous-note-v1.1/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3087,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-note-v1.1/mobile-light.webp",
+      "thumb": "shots/previous-note-v1.1/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3087,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-note-2026-08-31",
+   "version": "previous",
+   "group": "notes",
+   "page": "updates/2026-08-31.html",
+   "live": "https://pogeunhaeyong.duckdns.org/updates/2026-08-31.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-note-2026-08-31/pc-dark.webp",
+      "thumb": "shots/previous-note-2026-08-31/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1680,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-note-2026-08-31/pc-light.webp",
+      "thumb": "shots/previous-note-2026-08-31/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1680,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-note-2026-08-31/mobile-dark.webp",
+      "thumb": "shots/previous-note-2026-08-31/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2438,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-note-2026-08-31/mobile-light.webp",
+      "thumb": "shots/previous-note-2026-08-31/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2438,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "previous-note-v0.1",
+   "version": "previous",
+   "group": "notes",
+   "page": "updates/v0.1.html",
+   "live": "https://pogeunhaeyong.duckdns.org/updates/v0.1.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/previous-note-v0.1/pc-dark.webp",
+      "thumb": "shots/previous-note-v0.1/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1634,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/previous-note-v0.1/pc-light.webp",
+      "thumb": "shots/previous-note-v0.1/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1634,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/previous-note-v0.1/mobile-dark.webp",
+      "thumb": "shots/previous-note-v0.1/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2066,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/previous-note-v0.1/mobile-light.webp",
+      "thumb": "shots/previous-note-v0.1/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2066,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-home",
+   "version": "current",
+   "group": "home",
+   "page": "index.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-home/pc-dark.webp",
+      "thumb": "shots/current-home/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-home/pc-light.webp",
+      "thumb": "shots/current-home/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-home/mobile-dark.webp",
+      "thumb": "shots/current-home/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1520,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-home/mobile-light.webp",
+      "thumb": "shots/current-home/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1520,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-home-service",
+   "version": "current",
+   "group": "home",
+   "page": "index.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-home-service/pc-dark.webp",
+      "thumb": "shots/current-home-service/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1177,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-home-service/pc-light.webp",
+      "thumb": "shots/current-home-service/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1177,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-home-service/mobile-dark.webp",
+      "thumb": "shots/current-home-service/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3229,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-home-service/mobile-light.webp",
+      "thumb": "shots/current-home-service/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3229,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-home-restoration",
+   "version": "current",
+   "group": "home",
+   "page": "index.html",
+   "live": null,
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-home-restoration/pc-dark.webp",
+      "thumb": "shots/current-home-restoration/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-home-restoration/pc-light.webp",
+      "thumb": "shots/current-home-restoration/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-home-restoration/mobile-dark.webp",
+      "thumb": "shots/current-home-restoration/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1477,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-home-restoration/mobile-light.webp",
+      "thumb": "shots/current-home-restoration/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1477,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-home-commands",
+   "version": "current",
+   "group": "home",
+   "page": "index.html#commands",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html#commands",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-home-commands/pc-dark.webp",
+      "thumb": "shots/current-home-commands/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 6202,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-home-commands/pc-light.webp",
+      "thumb": "shots/current-home-commands/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 6202,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-home-commands/mobile-dark.webp",
+      "thumb": "shots/current-home-commands/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 10819,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-home-commands/mobile-light.webp",
+      "thumb": "shots/current-home-commands/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 10819,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-home-emoticons",
+   "version": "current",
+   "group": "home",
+   "page": "index.html#emoticons",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html#emoticons",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-home-emoticons/pc-dark.webp",
+      "thumb": "shots/current-home-emoticons/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1518,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-home-emoticons/pc-light.webp",
+      "thumb": "shots/current-home-emoticons/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1518,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-home-emoticons/mobile-dark.webp",
+      "thumb": "shots/current-home-emoticons/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2409,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-home-emoticons/mobile-light.webp",
+      "thumb": "shots/current-home-emoticons/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2409,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-home-link",
+   "version": "current",
+   "group": "home",
+   "page": "index.html#link",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html#link",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-home-link/pc-dark.webp",
+      "thumb": "shots/current-home-link/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2384,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-home-link/pc-light.webp",
+      "thumb": "shots/current-home-link/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2384,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-home-link/mobile-dark.webp",
+      "thumb": "shots/current-home-link/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4354,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-home-link/mobile-light.webp",
+      "thumb": "shots/current-home-link/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4354,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-home-updates",
+   "version": "current",
+   "group": "home",
+   "page": "index.html#updates",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html#updates",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-home-updates/pc-dark.webp",
+      "thumb": "shots/current-home-updates/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1793,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-home-updates/pc-light.webp",
+      "thumb": "shots/current-home-updates/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1793,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-home-updates/mobile-dark.webp",
+      "thumb": "shots/current-home-updates/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2524,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-home-updates/mobile-light.webp",
+      "thumb": "shots/current-home-updates/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2524,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-menu",
+   "version": "current",
+   "group": "home",
+   "page": "index.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-menu/pc-dark.webp",
+      "thumb": "shots/current-menu/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-menu/pc-light.webp",
+      "thumb": "shots/current-menu/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-menu/mobile-dark.webp",
+      "thumb": "shots/current-menu/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1815,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-menu/mobile-light.webp",
+      "thumb": "shots/current-menu/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1815,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-search",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html",
+   "live": null,
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-search/pc-dark.webp",
+      "thumb": "shots/current-spec-search/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-search/pc-light.webp",
+      "thumb": "shots/current-spec-search/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-search/mobile-dark.webp",
+      "thumb": "shots/current-spec-search/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-search/mobile-light.webp",
+      "thumb": "shots/current-spec-search/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-summary",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-summary",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-summary/pc-dark.webp",
+      "thumb": "shots/current-spec-summary/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1940,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-summary/pc-light.webp",
+      "thumb": "shots/current-spec-summary/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1940,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-summary/mobile-dark.webp",
+      "thumb": "shots/current-spec-summary/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 5223,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-summary/mobile-light.webp",
+      "thumb": "shots/current-spec-summary/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 5225,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-equipment",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-equipment",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-equipment/pc-dark.webp",
+      "thumb": "shots/current-spec-equipment/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2421,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-equipment/pc-light.webp",
+      "thumb": "shots/current-spec-equipment/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2421,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-equipment/mobile-dark.webp",
+      "thumb": "shots/current-spec-equipment/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4222,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-equipment/mobile-light.webp",
+      "thumb": "shots/current-spec-equipment/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4224,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-engravings",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-engravings",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-engravings/pc-dark.webp",
+      "thumb": "shots/current-spec-engravings/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1390,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-engravings/pc-light.webp",
+      "thumb": "shots/current-spec-engravings/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1390,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-engravings/mobile-dark.webp",
+      "thumb": "shots/current-spec-engravings/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2160,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-engravings/mobile-light.webp",
+      "thumb": "shots/current-spec-engravings/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2162,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-build",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-build",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-build/pc-dark.webp",
+      "thumb": "shots/current-spec-build/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1501,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-build/pc-light.webp",
+      "thumb": "shots/current-spec-build/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1501,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-build/mobile-dark.webp",
+      "thumb": "shots/current-spec-build/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2853,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-build/mobile-light.webp",
+      "thumb": "shots/current-spec-build/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2855,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-cards",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-cards",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-cards/pc-dark.webp",
+      "thumb": "shots/current-spec-cards/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1302,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-cards/pc-light.webp",
+      "thumb": "shots/current-spec-cards/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1302,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-cards/mobile-dark.webp",
+      "thumb": "shots/current-spec-cards/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2236,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-cards/mobile-light.webp",
+      "thumb": "shots/current-spec-cards/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2238,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-arkpassive",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-arkpassive",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-arkpassive/pc-dark.webp",
+      "thumb": "shots/current-spec-arkpassive/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1184,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-arkpassive/pc-light.webp",
+      "thumb": "shots/current-spec-arkpassive/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1184,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-arkpassive/mobile-dark.webp",
+      "thumb": "shots/current-spec-arkpassive/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2484,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-arkpassive/mobile-light.webp",
+      "thumb": "shots/current-spec-arkpassive/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2486,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-arkgrid",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-arkgrid",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-arkgrid/pc-dark.webp",
+      "thumb": "shots/current-spec-arkgrid/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2176,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-arkgrid/pc-light.webp",
+      "thumb": "shots/current-spec-arkgrid/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2176,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-arkgrid/mobile-dark.webp",
+      "thumb": "shots/current-spec-arkgrid/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 5281,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-arkgrid/mobile-light.webp",
+      "thumb": "shots/current-spec-arkgrid/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 5283,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-crit",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-crit",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-crit/pc-dark.webp",
+      "thumb": "shots/current-spec-crit/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1271,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-crit/pc-light.webp",
+      "thumb": "shots/current-spec-crit/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1271,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-crit/mobile-dark.webp",
+      "thumb": "shots/current-spec-crit/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2314,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-crit/mobile-light.webp",
+      "thumb": "shots/current-spec-crit/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2316,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-specup",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-specup",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-specup/pc-dark.webp",
+      "thumb": "shots/current-spec-specup/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2139,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-specup/pc-light.webp",
+      "thumb": "shots/current-spec-specup/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2139,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-specup/mobile-dark.webp",
+      "thumb": "shots/current-spec-specup/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3070,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-specup/mobile-light.webp",
+      "thumb": "shots/current-spec-specup/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3072,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-roster",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-roster",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-roster/pc-dark.webp",
+      "thumb": "shots/current-spec-roster/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1397,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-roster/pc-light.webp",
+      "thumb": "shots/current-spec-roster/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1397,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-roster/mobile-dark.webp",
+      "thumb": "shots/current-spec-roster/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2172,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-roster/mobile-light.webp",
+      "thumb": "shots/current-spec-roster/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2174,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-spec-valuation",
+   "version": "current",
+   "group": "spec",
+   "page": "spec.html#panel-valuation",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-spec-valuation/pc-dark.webp",
+      "thumb": "shots/current-spec-valuation/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2912,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-spec-valuation/pc-light.webp",
+      "thumb": "shots/current-spec-valuation/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2912,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-spec-valuation/mobile-dark.webp",
+      "thumb": "shots/current-spec-valuation/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4058,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-spec-valuation/mobile-light.webp",
+      "thumb": "shots/current-spec-valuation/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4060,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-tools-market",
+   "version": "current",
+   "group": "tools",
+   "page": "tools.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-tools-market/pc-dark.webp",
+      "thumb": "shots/current-tools-market/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1253,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-tools-market/pc-light.webp",
+      "thumb": "shots/current-tools-market/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1253,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-tools-market/mobile-dark.webp",
+      "thumb": "shots/current-tools-market/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2812,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-tools-market/mobile-light.webp",
+      "thumb": "shots/current-tools-market/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2812,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-tools-gems",
+   "version": "current",
+   "group": "tools",
+   "page": "tools.html?kind=gems",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-tools-gems/pc-dark.webp",
+      "thumb": "shots/current-tools-gems/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2052,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-tools-gems/pc-light.webp",
+      "thumb": "shots/current-tools-gems/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2052,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-tools-gems/mobile-dark.webp",
+      "thumb": "shots/current-tools-gems/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3735,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-tools-gems/mobile-light.webp",
+      "thumb": "shots/current-tools-gems/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3735,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-tools-bid",
+   "version": "current",
+   "group": "tools",
+   "page": "tools.html#bid-calculator",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-tools-bid/pc-dark.webp",
+      "thumb": "shots/current-tools-bid/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-tools-bid/pc-light.webp",
+      "thumb": "shots/current-tools-bid/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-tools-bid/mobile-dark.webp",
+      "thumb": "shots/current-tools-bid/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 929,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-tools-bid/mobile-light.webp",
+      "thumb": "shots/current-tools-bid/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 929,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-tools-honing",
+   "version": "current",
+   "group": "tools",
+   "page": "tools.html#honing",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-tools-honing/pc-dark.webp",
+      "thumb": "shots/current-tools-honing/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1827,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-tools-honing/pc-light.webp",
+      "thumb": "shots/current-tools-honing/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1827,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-tools-honing/mobile-dark.webp",
+      "thumb": "shots/current-tools-honing/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2781,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-tools-honing/mobile-light.webp",
+      "thumb": "shots/current-tools-honing/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2781,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-todo-gate",
+   "version": "current",
+   "group": "todo",
+   "page": "todo.html",
+   "live": null,
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-todo-gate/pc-dark.webp",
+      "thumb": "shots/current-todo-gate/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-todo-gate/pc-light.webp",
+      "thumb": "shots/current-todo-gate/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-todo-gate/mobile-dark.webp",
+      "thumb": "shots/current-todo-gate/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-todo-gate/mobile-light.webp",
+      "thumb": "shots/current-todo-gate/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-todo-ownership",
+   "version": "current",
+   "group": "todo",
+   "page": "todo.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-todo-ownership/pc-dark.webp",
+      "thumb": "shots/current-todo-ownership/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-todo-ownership/pc-light.webp",
+      "thumb": "shots/current-todo-ownership/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-todo-ownership/mobile-dark.webp",
+      "thumb": "shots/current-todo-ownership/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-todo-ownership/mobile-light.webp",
+      "thumb": "shots/current-todo-ownership/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-todo-board",
+   "version": "current",
+   "group": "todo",
+   "page": "todo.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-todo-board/pc-dark.webp",
+      "thumb": "shots/current-todo-board/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 923,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-todo-board/pc-light.webp",
+      "thumb": "shots/current-todo-board/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 923,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-todo-board/mobile-dark.webp",
+      "thumb": "shots/current-todo-board/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1817,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-todo-board/mobile-light.webp",
+      "thumb": "shots/current-todo-board/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1817,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-todo-picker",
+   "version": "current",
+   "group": "todo",
+   "page": "todo.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-todo-picker/pc-dark.webp",
+      "thumb": "shots/current-todo-picker/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1287,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-todo-picker/pc-light.webp",
+      "thumb": "shots/current-todo-picker/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1287,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-todo-picker/mobile-dark.webp",
+      "thumb": "shots/current-todo-picker/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2282,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-todo-picker/mobile-light.webp",
+      "thumb": "shots/current-todo-picker/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2282,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-todo-empty",
+   "version": "current",
+   "group": "todo",
+   "page": "todo.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-todo-empty/pc-dark.webp",
+      "thumb": "shots/current-todo-empty/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-todo-empty/pc-light.webp",
+      "thumb": "shots/current-todo-empty/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-todo-empty/mobile-dark.webp",
+      "thumb": "shots/current-todo-empty/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 949,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-todo-empty/mobile-light.webp",
+      "thumb": "shots/current-todo-empty/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 949,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-guild-gate",
+   "version": "current",
+   "group": "guild",
+   "page": "guild.html",
+   "live": null,
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-guild-gate/pc-dark.webp",
+      "thumb": "shots/current-guild-gate/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-guild-gate/pc-light.webp",
+      "thumb": "shots/current-guild-gate/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-guild-gate/mobile-dark.webp",
+      "thumb": "shots/current-guild-gate/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-guild-gate/mobile-light.webp",
+      "thumb": "shots/current-guild-gate/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-guild-admin",
+   "version": "current",
+   "group": "guild",
+   "page": "guild.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-guild-admin/pc-dark.webp",
+      "thumb": "shots/current-guild-admin/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2733,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-guild-admin/pc-light.webp",
+      "thumb": "shots/current-guild-admin/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2733,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-guild-admin/mobile-dark.webp",
+      "thumb": "shots/current-guild-admin/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3890,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-guild-admin/mobile-light.webp",
+      "thumb": "shots/current-guild-admin/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3890,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-guild-review",
+   "version": "current",
+   "group": "guild",
+   "page": "guild.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-guild-review/pc-dark.webp",
+      "thumb": "shots/current-guild-review/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-guild-review/pc-light.webp",
+      "thumb": "shots/current-guild-review/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-guild-review/mobile-dark.webp",
+      "thumb": "shots/current-guild-review/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-guild-review/mobile-light.webp",
+      "thumb": "shots/current-guild-review/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-guild-editor",
+   "version": "current",
+   "group": "guild",
+   "page": "guild.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-guild-editor/pc-dark.webp",
+      "thumb": "shots/current-guild-editor/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-guild-editor/pc-light.webp",
+      "thumb": "shots/current-guild-editor/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-guild-editor/mobile-dark.webp",
+      "thumb": "shots/current-guild-editor/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-guild-editor/mobile-light.webp",
+      "thumb": "shots/current-guild-editor/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-account-login",
+   "version": "current",
+   "group": "account",
+   "page": "account.html",
+   "live": null,
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-account-login/pc-dark.webp",
+      "thumb": "shots/current-account-login/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 970,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-account-login/pc-light.webp",
+      "thumb": "shots/current-account-login/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 970,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-account-login/mobile-dark.webp",
+      "thumb": "shots/current-account-login/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1006,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-account-login/mobile-light.webp",
+      "thumb": "shots/current-account-login/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1006,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-account-ownership",
+   "version": "current",
+   "group": "account",
+   "page": "account.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-account-ownership/pc-dark.webp",
+      "thumb": "shots/current-account-ownership/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 995,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-account-ownership/pc-light.webp",
+      "thumb": "shots/current-account-ownership/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 995,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-account-ownership/mobile-dark.webp",
+      "thumb": "shots/current-account-ownership/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1258,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-account-ownership/mobile-light.webp",
+      "thumb": "shots/current-account-ownership/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1258,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-account-member",
+   "version": "current",
+   "group": "account",
+   "page": "account.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-account-member/pc-dark.webp",
+      "thumb": "shots/current-account-member/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1396,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-account-member/pc-light.webp",
+      "thumb": "shots/current-account-member/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1396,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-account-member/mobile-dark.webp",
+      "thumb": "shots/current-account-member/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1720,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-account-member/mobile-light.webp",
+      "thumb": "shots/current-account-member/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1720,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-account-delete",
+   "version": "current",
+   "group": "account",
+   "page": "account.html",
+   "live": null,
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-account-delete/pc-dark.webp",
+      "thumb": "shots/current-account-delete/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-account-delete/pc-light.webp",
+      "thumb": "shots/current-account-delete/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-account-delete/mobile-dark.webp",
+      "thumb": "shots/current-account-delete/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-account-delete/mobile-light.webp",
+      "thumb": "shots/current-account-delete/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-updates",
+   "version": "current",
+   "group": "docs",
+   "page": "updates.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-updates/pc-dark.webp",
+      "thumb": "shots/current-updates/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 26466,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/current-updates/pc-dark.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/current-updates/pc-dark-2.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/current-updates/pc-dark-3.webp",
+        "height": 2466
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/current-updates/pc-light.webp",
+      "thumb": "shots/current-updates/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 26466,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/current-updates/pc-light.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/current-updates/pc-light-2.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/current-updates/pc-light-3.webp",
+        "height": 2466
+       }
+      ]
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-updates/mobile-dark.webp",
+      "thumb": "shots/current-updates/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 53520,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/current-updates/mobile-dark.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-updates/mobile-dark-2.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-updates/mobile-dark-3.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-updates/mobile-dark-4.webp",
+        "height": 5520
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/current-updates/mobile-light.webp",
+      "thumb": "shots/current-updates/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 53520,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/current-updates/mobile-light.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-updates/mobile-light-2.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-updates/mobile-light-3.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-updates/mobile-light-4.webp",
+        "height": 5520
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "current-terms",
+   "version": "current",
+   "group": "docs",
+   "page": "terms.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/terms.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-terms/pc-dark.webp",
+      "thumb": "shots/current-terms/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 4963,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-terms/pc-light.webp",
+      "thumb": "shots/current-terms/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 4963,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-terms/mobile-dark.webp",
+      "thumb": "shots/current-terms/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 7864,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-terms/mobile-light.webp",
+      "thumb": "shots/current-terms/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 7864,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-privacy",
+   "version": "current",
+   "group": "docs",
+   "page": "privacy.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/privacy.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-privacy/pc-dark.webp",
+      "thumb": "shots/current-privacy/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 6527,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-privacy/pc-light.webp",
+      "thumb": "shots/current-privacy/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 6527,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-privacy/mobile-dark.webp",
+      "thumb": "shots/current-privacy/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 10719,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-privacy/mobile-light.webp",
+      "thumb": "shots/current-privacy/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 10719,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-note-upcoming",
+   "version": "current",
+   "group": "notes",
+   "page": "updates/upcoming.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/upcoming.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-note-upcoming/pc-dark.webp",
+      "thumb": "shots/current-note-upcoming/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2092,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-note-upcoming/pc-light.webp",
+      "thumb": "shots/current-note-upcoming/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2092,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-note-upcoming/mobile-dark.webp",
+      "thumb": "shots/current-note-upcoming/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3199,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-note-upcoming/mobile-light.webp",
+      "thumb": "shots/current-note-upcoming/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3199,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-note-v1.4",
+   "version": "current",
+   "group": "notes",
+   "page": "updates/v1.4.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/v1.4.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-note-v1.4/pc-dark.webp",
+      "thumb": "shots/current-note-v1.4/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2569,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-note-v1.4/pc-light.webp",
+      "thumb": "shots/current-note-v1.4/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2569,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-note-v1.4/mobile-dark.webp",
+      "thumb": "shots/current-note-v1.4/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4206,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-note-v1.4/mobile-light.webp",
+      "thumb": "shots/current-note-v1.4/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4206,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-note-v1.3",
+   "version": "current",
+   "group": "notes",
+   "page": "updates/v1.3.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/v1.3.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-note-v1.3/pc-dark.webp",
+      "thumb": "shots/current-note-v1.3/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 12622,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/current-note-v1.3/pc-dark.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/current-note-v1.3/pc-dark-2.webp",
+        "height": 622
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/current-note-v1.3/pc-light.webp",
+      "thumb": "shots/current-note-v1.3/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 12622,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/current-note-v1.3/pc-light.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/current-note-v1.3/pc-light-2.webp",
+        "height": 622
+       }
+      ]
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-note-v1.3/mobile-dark.webp",
+      "thumb": "shots/current-note-v1.3/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 29254,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/current-note-v1.3/mobile-dark.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-note-v1.3/mobile-dark-2.webp",
+        "height": 13254
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/current-note-v1.3/mobile-light.webp",
+      "thumb": "shots/current-note-v1.3/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 29254,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/current-note-v1.3/mobile-light.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-note-v1.3/mobile-light-2.webp",
+        "height": 13254
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "current-note-v1.2",
+   "version": "current",
+   "group": "notes",
+   "page": "updates/v1.2.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/v1.2.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-note-v1.2/pc-dark.webp",
+      "thumb": "shots/current-note-v1.2/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 10458,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-note-v1.2/pc-light.webp",
+      "thumb": "shots/current-note-v1.2/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 10458,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-note-v1.2/mobile-dark.webp",
+      "thumb": "shots/current-note-v1.2/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 17134,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/current-note-v1.2/mobile-dark.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-note-v1.2/mobile-dark-2.webp",
+        "height": 1134
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/current-note-v1.2/mobile-light.webp",
+      "thumb": "shots/current-note-v1.2/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 17134,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/current-note-v1.2/mobile-light.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/current-note-v1.2/mobile-light-2.webp",
+        "height": 1134
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "current-note-v1.1",
+   "version": "current",
+   "group": "notes",
+   "page": "updates/v1.1.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/v1.1.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-note-v1.1/pc-dark.webp",
+      "thumb": "shots/current-note-v1.1/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2447,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-note-v1.1/pc-light.webp",
+      "thumb": "shots/current-note-v1.1/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2447,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-note-v1.1/mobile-dark.webp",
+      "thumb": "shots/current-note-v1.1/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3222,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-note-v1.1/mobile-light.webp",
+      "thumb": "shots/current-note-v1.1/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3222,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-note-2026-08-31",
+   "version": "current",
+   "group": "notes",
+   "page": "updates/2026-08-31.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/2026-08-31.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-note-2026-08-31/pc-dark.webp",
+      "thumb": "shots/current-note-2026-08-31/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1747,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-note-2026-08-31/pc-light.webp",
+      "thumb": "shots/current-note-2026-08-31/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1747,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-note-2026-08-31/mobile-dark.webp",
+      "thumb": "shots/current-note-2026-08-31/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2574,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-note-2026-08-31/mobile-light.webp",
+      "thumb": "shots/current-note-2026-08-31/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2574,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "current-note-v0.1",
+   "version": "current",
+   "group": "notes",
+   "page": "updates/v0.1.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/v0.1.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/current-note-v0.1/pc-dark.webp",
+      "thumb": "shots/current-note-v0.1/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1700,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/current-note-v0.1/pc-light.webp",
+      "thumb": "shots/current-note-v0.1/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1700,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/current-note-v0.1/mobile-dark.webp",
+      "thumb": "shots/current-note-v0.1/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2201,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/current-note-v0.1/mobile-light.webp",
+      "thumb": "shots/current-note-v0.1/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2201,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  }
+ ]
+}
