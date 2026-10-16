@@ -132,11 +132,14 @@
     showAccess(value);
   }
   function suspend() { epoch++; for (const controller of controllers) controller.abort(); loaded = false; }
-  // GitHub Pages 사본에는 /api가 없다. 실시간 정보 패널은 숨기고(homepage.css), 검색 아래에 운영 서비스 안내를 둔다.
+  // GitHub Pages 사본에는 /api가 없다. 실시간 정보 패널은 숨기고(homepage.css), 검색 아래에 정적 안내(static-copy.js의
+  // home.note)를 두며 {service} 자리에 운영 서비스 링크를 넣는다.
   if (window.pogeunStaticHost?.active) {
     document.querySelector('.realm-dashboard').dataset.staticHost = '';
     const service = node('a', '', 'pogeunhaeyong.duckdns.org'); service.href = `${window.pogeunStaticHost.serviceOrigin}/`;
-    byId('home-access-status').append('포근해용 정적 안내 페이지입니다. 버전별 업데이트 내역과 기능 가이드를 확인하실 수 있으며, 캐릭터 검색·도구 계산·소셜 로그인·개인 숙제표·길드 일정 등 실시간 서비스 기능은 기존 운영 서비스(', service, ')로 연결됩니다.');
+    const note = window.POGEUN_STATIC_COPY?.['home.note'];
+    if (typeof note === 'string' && note) byId('home-access-status').append(...note.split(/(\{service\})/).map(part => (part === '{service}' ? service : part)).filter(part => part !== ''));
+    else console.error('static copy missing: home.note');
     return;
   }
   // Character search is public: the form submits to spec.html for every visitor.

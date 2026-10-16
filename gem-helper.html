@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; connect-src 'self' data:; img-src 'self' data: blob:; style-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111d">
+  <meta name="referrer" content="no-referrer">
+  <title>포근해용</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="renewal.css">
+  <link rel="stylesheet" href="tools.css">
+  <link rel="stylesheet" href="gem-helper.css">
+  <script src="renewal.js" defer></script>
+  <script src="auth.js" defer></script>
+  <script type="module" src="gem-helper.js"></script>
+</head>
+<body class="renewal-page tools-page gem-page">
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+  <header data-site-header data-active="tools" data-member-avatar="initial"></header>
+  <main id="main-content" class="tools-shell gem-shell" tabindex="-1">
+    <section class="gem-intro" aria-labelledby="gem-title">
+      <h1 id="gem-title" data-copy="gem.page.title"></h1>
+      <p class="gem-lead" data-copy="gem.page.lead"></p>
+      <p class="gem-note" data-copy="gem.page.unreleased"></p>
+    </section>
+    <p id="gem-status" class="market-status gem-status" role="status" aria-live="polite"></p>
+    <div class="gem-layout">
+      <section class="market-panel gem-screen" aria-labelledby="gem-screen-title">
+        <div class="market-section-head"><h2 id="gem-screen-title" data-copy="gem.section.screen"></h2></div>
+        <div class="gem-source">
+          <button type="button" class="gem-button gem-button-strong" id="gem-share" data-copy="gem.capture.start"></button>
+          <button type="button" class="gem-button" id="gem-share-stop" data-copy="gem.capture.stop" hidden></button>
+          <button type="button" class="gem-button" id="gem-align-edit" data-copy="gem.align.edit" hidden></button>
+        </div>
+        <div class="gem-file">
+          <label for="gem-image" data-copy="gem.mobile.imageInput"></label>
+          <input type="file" id="gem-image" accept="image/png,image/jpeg,image/webp">
+          <button type="button" class="gem-button" id="gem-image-clear" data-copy="gem.image.clear" hidden></button>
+        </div>
+        <ul class="gem-notes">
+          <li data-copy="gem.capture.privacy"></li>
+          <li data-copy="gem.capture.windowHint"></li>
+          <li data-copy="gem.capture.keepVisible"></li>
+          <li data-copy="gem.mobile.photoWarning"></li>
+        </ul>
+        <p class="gem-source-state" id="gem-source-state"></p>
+        <div class="gem-stage" id="gem-stage" hidden>
+          <video id="gem-video" muted playsinline></video>
+          <canvas id="gem-still" hidden></canvas>
+          <div class="gem-overlay" id="gem-overlay"></div>
+        </div>
+        <div class="gem-align" id="gem-align" hidden>
+          <p id="gem-align-needed"></p>
+          <p class="gem-hint" data-copy="gem.align.anchorHint"></p>
+          <p class="gem-hint" data-copy="gem.align.keyboardHelp"></p>
+          <p class="gem-hint" data-copy="gem.align.memoryOnly"></p>
+          <div class="gem-actions">
+            <button type="button" class="gem-button gem-button-strong" id="gem-align-apply" data-copy="gem.align.save"></button>
+            <button type="button" class="gem-button" id="gem-align-cancel" data-copy="gem.align.cancel"></button>
+            <button type="button" class="gem-button" id="gem-align-reset" data-copy="gem.align.reset"></button>
+          </div>
+        </div>
+      </section>
+      <div class="gem-judge">
+        <section class="market-panel gem-rec" aria-labelledby="gem-rec-title">
+          <div class="market-section-head"><h2 id="gem-rec-title" data-copy="gem.rec.title"></h2><span class="gem-chip" id="gem-rec-chip" hidden></span></div>
+          <p class="gem-rec-action" id="gem-rec-action"></p>
+          <p class="gem-rec-reason" id="gem-rec-reason"></p>
+          <div class="gem-rec-detail" id="gem-rec-detail" hidden>
+            <h3 class="gem-subhead" data-copy="gem.rec.valuesTitle"></h3>
+            <dl class="gem-rec-values" id="gem-rec-values"></dl>
+            <p class="gem-hint" id="gem-rec-margin"></p>
+            <p class="gem-hint" id="gem-rec-reset-note" data-copy="gem.rec.resetExcluded" hidden></p>
+            <p class="gem-hint"><span data-copy="gem.rec.policyLabel"></span> <span data-copy="gem.rec.policyNotice"></span></p>
+            <details class="gem-assumptions">
+              <summary data-copy="gem.rec.assumptions"></summary>
+              <ul id="gem-rec-assumptions"></ul>
+            </details>
+          </div>
+        </section>
+        <section class="market-panel gem-target" aria-labelledby="gem-target-title">
+          <div class="market-section-head"><h2 id="gem-target-title" data-copy="gem.section.target"></h2></div>
+          <div class="gem-mode" role="group" aria-labelledby="gem-target-title">
+            <button type="button" id="gem-mode-auto" aria-pressed="false" data-copy="gem.target.mode.auto"></button>
+            <button type="button" id="gem-mode-manual" aria-pressed="true" data-copy="gem.target.mode.manual"></button>
+          </div>
+          <div class="gem-auto" id="gem-auto" hidden>
+            <p class="gem-hint" id="gem-auto-status"></p>
+            <div class="gem-auto-row" id="gem-auto-controls" hidden>
+              <label for="gem-character" data-copy="gem.target.auto.character"></label>
+              <select id="gem-character"></select>
+              <button type="button" class="gem-button" id="gem-auto-refresh" data-copy="gem.target.auto.refresh"></button>
+            </div>
+            <p class="gem-hint" id="gem-auto-checked"></p>
+            <fieldset class="gem-candidates" id="gem-auto-candidates" hidden>
+              <legend data-copy="gem.target.auto.basis"></legend>
+              <div id="gem-auto-candidate-list"></div>
+            </fieldset>
+            <div class="gem-actions">
+              <button type="button" class="gem-button" id="gem-auto-use" data-copy="gem.target.auto.useForThisGem" hidden></button>
+              <button type="button" class="gem-button" id="gem-auto-copy" data-copy="gem.target.auto.copyToManual" hidden></button>
+            </div>
+          </div>
+          <div class="gem-manual" id="gem-manual">
+            <p class="gem-hint" data-copy="gem.target.manual.anyOfHint"></p>
+            <p class="gem-hint" id="gem-manual-gem" data-copy="gem.target.manual.needsGem" hidden></p>
+            <div id="gem-clauses"></div>
+            <div class="gem-actions"><button type="button" class="gem-button" id="gem-clause-add" data-copy="gem.target.manual.addClause"></button></div>
+            <p class="gem-hint" id="gem-manual-status"></p>
+          </div>
+        </section>
+        <section class="market-panel gem-state" aria-labelledby="gem-state-title">
+          <div class="market-section-head"><h2 id="gem-state-title" data-copy="gem.section.state"></h2></div>
+          <p class="gem-hint" id="gem-state-note" data-copy="gem.state.startConfirm"></p>
+          <div class="gem-question" id="gem-applied" hidden>
+            <fieldset>
+              <legend data-copy="gem.state.appliedAsk"></legend>
+              <div class="gem-choices" id="gem-applied-options"></div>
+            </fieldset>
+            <div class="gem-field" id="gem-applied-effect" hidden>
+              <label for="gem-applied-effect-select" data-copy="gem.state.effectChangedAsk"></label>
+              <select id="gem-applied-effect-select"></select>
+            </div>
+            <div class="gem-actions"><button type="button" class="gem-button gem-button-strong" id="gem-applied-confirm" data-copy="gem.state.appliedConfirm"></button></div>
+          </div>
+          <div class="gem-question" id="gem-change" hidden>
+            <p data-copy="gem.state.changeAsk"></p>
+            <div class="gem-actions">
+              <button type="button" class="gem-button" id="gem-change-reset" data-copy="gem.state.choiceReset"></button>
+              <button type="button" class="gem-button" id="gem-change-new" data-copy="gem.state.choiceNewGem"></button>
+            </div>
+          </div>
+          <form class="gem-fields" id="gem-state-form" novalidate>
+            <div class="gem-field">
+              <label for="gem-f-subtype"><span data-copy="gem.field.subtype"></span><span class="gem-chip" data-chip="subtype"></span></label>
+              <select id="gem-f-subtype"></select>
+            </div>
+            <div class="gem-field">
+              <label for="gem-f-grade"><span data-copy="gem.field.grade"></span><span class="gem-chip" data-chip="attempts"></span></label>
+              <select id="gem-f-grade"></select>
+            </div>
+            <div class="gem-field">
+              <label for="gem-f-willpower"><span data-copy="gem.field.willpower"></span><span class="gem-chip" data-chip="value0"></span></label>
+              <select id="gem-f-willpower"></select>
+            </div>
+            <div class="gem-field">
+              <label for="gem-f-points"><span id="gem-f-points-label"></span><span class="gem-chip" data-chip="value1"></span></label>
+              <select id="gem-f-points"></select>
+            </div>
+            <div class="gem-field">
+              <label for="gem-f-effect1"><span data-copy="gem.field.effect1"></span><span class="gem-chip" data-chip="effect0"></span></label>
+              <div class="gem-pair"><select id="gem-f-effect1"></select><select id="gem-f-level1" data-copy-label="gem.field.effectLevel" aria-describedby="gem-chip-level1"></select></div>
+              <span class="gem-chip gem-chip-inline" id="gem-chip-level1" data-chip="value2"></span>
+            </div>
+            <div class="gem-field">
+              <label for="gem-f-effect2"><span data-copy="gem.field.effect2"></span><span class="gem-chip" data-chip="effect1"></span></label>
+              <div class="gem-pair"><select id="gem-f-effect2"></select><select id="gem-f-level2" data-copy-label="gem.field.effectLevel" aria-describedby="gem-chip-level2"></select></div>
+              <span class="gem-chip gem-chip-inline" id="gem-chip-level2" data-chip="value3"></span>
+            </div>
+            <div class="gem-field">
+              <label for="gem-f-remaining"><span data-copy="gem.field.remaining"></span><span class="gem-chip" data-chip="remaining"></span></label>
+              <select id="gem-f-remaining"></select>
+            </div>
+            <div class="gem-field">
+              <label for="gem-f-rerolls"><span data-copy="gem.field.rerolls"></span><span class="gem-chip" data-chip="rerolls"></span></label>
+              <select id="gem-f-rerolls"></select>
+            </div>
+            <div class="gem-field">
+              <label for="gem-f-cost"><span data-copy="gem.field.cost"></span><span class="gem-chip" data-chip="cost"></span></label>
+              <select id="gem-f-cost"></select>
+            </div>
+            <fieldset class="gem-field gem-field-wide">
+              <legend data-copy="gem.field.reset"></legend>
+              <div class="gem-choices">
+                <label><input type="radio" name="gem-reset" value="unused"> <span data-copy="gem.field.reset.unused"></span></label>
+                <label><input type="radio" name="gem-reset" value="used"> <span data-copy="gem.field.reset.used"></span></label>
+                <label><input type="radio" name="gem-reset" value="exclude"> <span data-copy="gem.field.reset.exclude"></span></label>
+              </div>
+            </fieldset>
+            <div class="gem-field gem-field-wide">
+              <label for="gem-f-initial1" data-copy="gem.field.initialEffects"></label>
+              <div class="gem-pair"><select id="gem-f-initial1"></select><select id="gem-f-initial2" data-copy-label="gem.field.initialEffects"></select></div>
+            </div>
+          </form>
+          <p class="gem-hint" id="gem-points-check"></p>
+          <p class="gem-hint gem-issue" id="gem-state-issue"></p>
+          <div class="gem-actions"><button type="button" class="gem-button gem-button-strong" id="gem-state-confirm" data-copy="gem.review.confirmAll"></button></div>
+        </section>
+        <section class="market-panel gem-offers" aria-labelledby="gem-offers-title">
+          <div class="market-section-head"><h2 id="gem-offers-title" data-copy="gem.section.offers"></h2></div>
+          <p class="gem-hint" data-copy="gem.rec.offersRandom"></p>
+          <ol class="gem-offer-row" id="gem-offer-row"></ol>
+          <p class="gem-hint gem-issue" id="gem-offer-issue"></p>
+        </section>
+      </div>
+    </div>
+    <p class="gem-licenses"><span data-copy="gem.licenses"></span> <a href="vendor/NOTICE.md" data-copy="gem.licenses.link"></a></p>
+  </main>
+  <footer class="realm-footer"><a class="realm-brand" href="index.html">포근해용</a><div><a href="terms.html">이용약관</a><a href="privacy.html">개인정보처리방침</a><a href="index.html#commands">명령어 안내</a></div></footer>
+</body>
+</html>

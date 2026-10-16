@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; font-src 'self'; img-src 'self' https://cdn-lostark.game.onstove.com; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <meta name="theme-color" content="#08111d">
+  <title>포근해용</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="renewal.css">
+  <link rel="stylesheet" href="ranking.css">
+  <script src="renewal.js" defer></script>
+  <script src="auth.js" defer></script>
+  <script src="ranking-copy.js" defer></script>
+  <script src="ranking-model.js" defer></script>
+  <script src="ranking.js" defer></script>
+</head>
+<body class="renewal-page ranking-page">
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+  <header data-site-header data-active="ranking"></header>
+  <main id="main-content" class="ranking-shell" tabindex="-1" data-ranking-state="loading" aria-busy="true">
+    <section class="ranking-hero" aria-labelledby="ranking-title">
+      <div class="ranking-heading">
+        <h1 id="ranking-title" data-copy="page.title"></h1>
+        <p class="ranking-intro" data-copy="page.intro"></p>
+        <p class="ranking-notice" data-ranking-notice></p>
+      </div>
+      <div class="ranking-facts">
+        <p><span data-copy="source.label"></span> <a href="https://lopec.kr/rank/specPoint" target="_blank" rel="noopener noreferrer" data-ranking-source data-copy="source.link"></a></p>
+        <p data-ranking-coverage hidden></p>
+        <p data-ranking-collected hidden></p>
+      </div>
+    </section>
+    <div class="ranking-roles" role="group" data-copy-label="role.group">
+      <button type="button" data-role="dealer" aria-pressed="true" disabled data-copy="role.dealer"></button>
+      <button type="button" data-role="support" aria-pressed="false" disabled data-copy="role.support"></button>
+    </div>
+    <form class="ranking-filters" id="ranking-filters" role="search">
+      <div class="ranking-field ranking-field-search">
+        <label class="visually-hidden" for="ranking-search" data-copy="filter.search.label"></label>
+        <input id="ranking-search" type="search" maxlength="64" autocomplete="off" spellcheck="false" disabled data-copy-placeholder="filter.search.placeholder">
+      </div>
+      <div class="ranking-field">
+        <label for="ranking-server" data-copy="filter.server.label"></label>
+        <select id="ranking-server" disabled></select>
+      </div>
+      <div class="ranking-field">
+        <label for="ranking-class" data-copy="filter.class.label"></label>
+        <select id="ranking-class" disabled></select>
+      </div>
+    </form>
+    <div class="ranking-results">
+      <p class="ranking-count" data-ranking-count aria-live="polite" hidden></p>
+      <button type="button" class="realm-action" id="ranking-reset" disabled data-copy="filter.reset"></button>
+    </div>
+    <div class="ranking-board">
+      <table class="ranking-table" hidden>
+        <caption class="visually-hidden" data-ranking-caption></caption>
+        <thead>
+          <tr>
+            <th scope="col" class="ranking-rank" data-copy="col.rank"></th>
+            <th scope="col" class="ranking-name" data-copy="col.character"></th>
+            <th scope="col" class="ranking-server" data-copy="col.server"></th>
+            <th scope="col" class="ranking-class" data-copy="col.class"></th>
+            <th scope="col" class="ranking-level" data-copy="col.itemLevel"></th>
+            <th scope="col" class="ranking-score" data-copy="col.score"></th>
+          </tr>
+        </thead>
+        <tbody data-ranking-rows></tbody>
+      </table>
+      <p class="ranking-state" data-ranking-status role="status"></p>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+</html>

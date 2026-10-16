@@ -1,7 +1,10 @@
 (() => {
   'use strict';
-  // GitHub Pages 사본에서는 renewal.js가 이 화면을 운영 서비스로 넘기므로 조회를 시작하지 않는다.
-  if (window.pogeunStaticHost?.active) return;
+  // GitHub Pages 사본: 시세 조회와 분배금·장비 강화 계산은 서버가 한다. 탭 전환은 그대로 두고 서버 요청은 하지 않으며,
+  // 계산·조회 버튼을 끄고 운영 서비스로 가는 링크와 안내를 보인다(staticTools).
+  const staticHost = window.pogeunStaticHost?.active === true;
+  // 운영 서비스의 같은 도구로 가는 링크(정적 사본에서만 생긴다). 탭을 바꿀 때마다 syncStaticLink가 주소를 맞춘다.
+  let staticLink = null;
   const $ = selector => document.querySelector(selector);
   const all = selector => [...document.querySelectorAll(selector)];
   const el = (tag, className, value) => {
@@ -31,6 +34,7 @@
     : error.status === 400 ? (state.kind === 'gems' ? '보석 종류와 레벨을 함께 적어 주세요. 예: 10겁, 9작' : '아이템 이름과 검색 조건을 확인해 주세요.')
       : error.status === 404 ? '해당 아이템의 정보를 찾지 못했습니다.' : '시세를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.';
   async function request(url, controller) {
+    if (staticHost) throw Object.assign(new Error('static copy has no server'), { status: 0 });
     const timer = setTimeout(() => controller.abort(), 12000);
     try {
       const response = await fetch(url, { credentials: 'same-origin', cache: 'no-store', signal: controller.signal, headers: { Accept: 'application/json' } });
@@ -90,6 +94,8 @@
       : [['운명의', '재련 재료', 50010], ['각인서', '각인서', 40000], ['융화', '융화 재료', 50010], ['회복약', '회복약', 60200]])) {
       const button = el('button', '', label); button.type = 'button'; button.addEventListener('click', () => { $('#market-query').value = query; $('#market-category').value = String(category); searchItems(1); }); shortcuts.append(button);
     }
+    // 정적 사본: 위에서 분류를 켜고 빠른 검색 단추를 새로 만들었으므로 서버 전용 조작을 다시 잠근다.
+    if (staticHost) lockStaticControls();
   }
   function addMetric(container, label, value) { const row = el('div'); row.append(el('dt', '', label), el('dd', '', value)); container.append(row); }
   function renderItems(result) {
@@ -139,6 +145,7 @@
     }
   }
   async function searchItems(page = 1) {
+    if (staticHost) return;
     const serial = ++state.request;
     state.controller?.abort(); state.controller = new AbortController();
     state.result = null; $('#market-results').replaceChildren(); $('#market-pagination').hidden = true;
@@ -196,6 +203,7 @@
     table.append(thead, tbody); wrap.append(table); details.append(wrap); container.append(details);
   }
   async function showHistory(item) {
+    if (staticHost) return;
     const serial = ++state.historyRequest; state.historyController?.abort(); state.historyController = new AbortController();
     const panel = $('#market-history'), content = $('#market-history-content'); panel.hidden = false;
     $('#market-history-title').textContent = `${item.name} 가격 추이`; content.replaceChildren(el('p', 'market-status', '거래 기록을 불러오고 있습니다…'));
@@ -216,6 +224,7 @@
     } catch (error) { if (serial === state.historyRequest) content.replaceChildren(el('p', 'market-status', errorMessage(error))); }
   }
   async function calculateBid() {
+    if (staticHost) return;
     if (!$('#bid-form').reportValidity()) return;
     const serial = ++state.bidRequest; state.bidController?.abort(); state.bidController = new AbortController();
     const params = new URLSearchParams({ price: $('#bid-price').value, partySize: $('#bid-party').value });
@@ -245,6 +254,7 @@
     if (view !== 'market') history.pushState(null, '', location.pathname + location.search);
     showView('market', false);
     setKind(button.dataset.marketKind); $('#market-query').value = state.kind === 'gems' ? '10겁' : '운명의'; $('#market-category').value = '50010'; searchItems(1);
+    syncStaticLink();
   }));
   // 탭 줄: 거래소 시세·보석 경매장은 검색 화면이고, 분배금 계산기·장비 강화는 그 도구 하나만 넓게 보여 준다.
   // 두 도구는 같은 방식으로 주소 조각(#bid-calculator·#honing)으로 바로 열리고, 뒤로 가기로 돌아온다.
@@ -256,6 +266,7 @@
     view = next;
     $('#main-content').dataset.toolsView = next;
     all('[data-tools-tab]').forEach(link => { if (link.dataset.toolsTab === next) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current'); });
+    syncStaticLink();
     if (next !== 'market') all('[data-market-kind]').forEach(button => button.setAttribute('aria-pressed', 'false'));
     else {
       all('[data-market-kind]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.marketKind === state.kind)));
@@ -296,8 +307,24 @@
     $('#market-category').value = data.categories.some(category => String(category.code) === selected) ? selected : '50010';
   }).catch(() => { /* Item-name search remains available without the optional category list. */ });
   }
+  function syncStaticLink() {
+    if (staticLink) staticLink.href = `${window.pogeunStaticHost.serviceOrigin}/tools.html${TOOL_HASHES[view] ?? (state.kind === 'gems' ? '?kind=gems' : '')}`;
+  }
+  // 검색·빠른 검색·정렬·보기·새로고침과 두 계산기는 모두 서버 응답을 다룬다. 탭과 링크만 이 사본에서 동작한다.
+  function lockStaticControls() {
+    for (const control of all('#market-search-form :is(input, select, button), #market-shortcuts button, .market-result-tools :is(select, button), #bid-form :is(input, select, button), #honing-form :is(input, select, button)')) control.disabled = true;
+  }
+  function staticTools() {
+    lockStaticControls();
+    const notice = window.pogeunStaticNotice?.({ area: 'tools', href: `${window.pogeunStaticHost.serviceOrigin}/tools.html` });
+    if (!notice) return;
+    $('.tools-hero').after(notice);
+    staticLink = notice.querySelector('a');
+    syncStaticLink();
+  }
   start();
+  if (staticHost) staticTools();
   addEventListener('pagehide', () => { state.request++; state.historyRequest++; state.bidRequest++; state.controller?.abort(); state.historyController?.abort(); state.bidController?.abort(); optionsController?.abort(); });
-  // 뒤로 가기로 돌아오면 숨길 때 끊은 요청을 다시 시작한다.
-  addEventListener('pageshow', event => { if (event.persisted) start(); });
+  // 뒤로 가기로 돌아오면 숨길 때 끊은 요청을 다시 시작한다. 정적 사본은 끊을 요청이 없고 화면(잠금·탭·링크)이 그대로 돌아온다.
+  addEventListener('pageshow', event => { if (event.persisted && !staticHost) start(); });
 })();

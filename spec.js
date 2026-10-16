@@ -1,7 +1,16 @@
 (function () {
   'use strict';
-  // GitHub Pages 사본에서는 renewal.js가 이 화면을 운영 서비스로 넘기므로 조회를 시작하지 않는다.
-  if (window.pogeunStaticHost?.active) return;
+  // GitHub Pages 사본: 캐릭터 조회에는 서버가 필요하다. 조회하지 않고, 검색한 이름을 담은 운영 서비스 링크와 안내를 보인다.
+  // 검색 폼은 기본 동작(같은 화면에 ?characterName=)으로 이 안내를 다시 연다.
+  if (window.pogeunStaticHost?.active) {
+    const asked = (new URLSearchParams(location.search).get('characterName') || '').trim();
+    const name = /^[가-힣A-Za-z0-9]{2,12}$/.test(asked) ? asked : '';
+    const href = new URL('/spec.html', window.pogeunStaticHost.serviceOrigin);
+    if (name) { href.searchParams.set('characterName', name); document.getElementById('spec-name').value = name; }
+    const notice = window.pogeunStaticNotice?.({ area: 'spec', action: name ? 'spec.actionName' : 'spec.action', href: href.href, values: { name } });
+    if (notice) { document.getElementById('spec-form').after(notice); document.getElementById('spec-status').textContent = ''; }
+    return;
+  }
   const form = document.getElementById('spec-form');
   const input = document.getElementById('spec-name');
   const status = document.getElementById('spec-status');

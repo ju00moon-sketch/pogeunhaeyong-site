@@ -10,7 +10,9 @@
   const controls = document.querySelector('.ui-controls');
   const count = document.querySelector('.ui-count');
   const viewer = document.querySelector('.ui-viewer');
-  const state = { version: 'all', group: 'all', device: 'pc', theme: 'dark' };
+  // The newest capture set opens by default when there is one; ?version=all shows every version.
+  const defaults = { version: data.items.some(item => item.version === 'latest') ? 'latest' : 'all', group: 'all', device: 'pc', theme: 'dark' };
+  const state = { ...defaults };
   const params = new URLSearchParams(location.search);
   for (const key of Object.keys(state)) {
     const value = params.get(key);
@@ -43,7 +45,7 @@
     for (const group of groups) group.hidden = !group.querySelector('.ui-card:not([hidden])');
     count.textContent = count.dataset.template.replace('{n}', String(shown));
     const query = new URLSearchParams();
-    for (const [key, value] of Object.entries(state)) if (value !== { version: 'all', group: 'all', device: 'pc', theme: 'dark' }[key]) query.set(key, value);
+    for (const [key, value] of Object.entries(state)) if (value !== defaults[key]) query.set(key, value);
     history.replaceState(null, '', `${location.pathname}${query.size ? `?${query}` : ''}${location.hash}`);
   }
   controls.addEventListener('click', event => {
@@ -60,11 +62,15 @@
   const stage = viewer.querySelector('.ui-viewer-images');
   const live = viewer.querySelector('[data-viewer-live]');
   const noLive = viewer.querySelector('[data-viewer-nolive]');
-  const counterpart = viewer.querySelector('[data-viewer-counterpart]');
+  const twinButtons = [...viewer.querySelectorAll('[data-viewer-twin]')];
   const segmentsNote = viewer.querySelector('.ui-viewer-segments');
   const themeLabel = theme => viewer.querySelector(`[data-viewer-theme="${theme}"]`).textContent;
   function order() { return cards.filter(card => !card.hidden).map(card => card.dataset.id); }
-  function twin(id) { const other = id.startsWith('previous-') ? id.replace(/^previous-/, 'current-') : id.replace(/^current-/, 'previous-'); return items.has(other) ? other : null; }
+  // The same screen in the other versions (the shared twin key), by version.
+  function twins(id) {
+    const key = items.get(id).twin;
+    return Object.fromEntries(data.items.filter(item => item.twin === key && item.id !== id).map(item => [item.version, item.id]));
+  }
   // A long page is stored as consecutive segments; they are stacked so the page reads as one continuous image.
   function figure(item, theme, caption) {
     const s = shot(item, view.device, theme);
@@ -94,9 +100,8 @@
     if (parts > 1) segmentsNote.textContent = segmentsNote.dataset.template.replace('{n}', String(parts));
     live.hidden = !item.live; noLive.hidden = !!item.live;
     if (item.live) live.href = item.live;
-    const other = twin(view.id);
-    counterpart.hidden = !other;
-    if (other) counterpart.textContent = counterpart.dataset[other.startsWith('previous-') ? 'labelPrevious' : 'labelCurrent'];
+    const others = twins(view.id);
+    for (const button of twinButtons) button.hidden = !others[button.dataset.viewerTwin];
     viewer.querySelector('[data-viewer-prev]').disabled = !neighbour(-1);
     viewer.querySelector('[data-viewer-next]').disabled = !neighbour(1);
     viewer.querySelector('.ui-viewer-stage').scrollTo({ top: 0, behavior: 'instant' });
@@ -127,7 +132,7 @@
     else if (target.dataset.viewerTheme) { view.theme = target.dataset.viewerTheme; paintViewer(); }
     else if (target.hasAttribute('data-viewer-prev')) step(-1);
     else if (target.hasAttribute('data-viewer-next')) step(1);
-    else if (target.hasAttribute('data-viewer-counterpart')) { const other = twin(view.id); if (other) { view.id = other; paintViewer(); } }
+    else if (target.dataset.viewerTwin) { const other = twins(view.id)[target.dataset.viewerTwin]; if (other) { view.id = other; paintViewer(); } }
     else if (target.hasAttribute('data-viewer-close')) viewer.close();
   });
   viewer.addEventListener('keydown', event => {

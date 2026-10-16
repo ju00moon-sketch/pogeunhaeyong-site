@@ -2,7 +2,7 @@
   'use strict';
   // 숙제표: 내 원정대에서 고른 캐릭터의 일일·주간 숙제를 체크한다(specs/2026-09-20-homework-board-design.md).
   // 공식 API는 클리어 여부를 주지 않으므로 체크는 직접 하고, 06:00(주간은 수요일)에 서버가 새 주기로 넘긴다.
-  // GitHub Pages 사본에서는 renewal.js가 이 화면을 운영 서비스로 넘기므로 요청을 시작하지 않는다.
+  // GitHub Pages 사본에는 서버가 없어 요청을 시작하지 않는다. 화면은 renewal.js 관문이 static 안내와 운영 서비스 링크로 덮는다.
   if (window.pogeunStaticHost?.active) return;
   const byId = id => document.getElementById(id);
   const status = byId('todo-status');

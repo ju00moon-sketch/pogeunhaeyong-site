@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  // GitHub Pages 사본에서는 renewal.js가 이 화면을 운영 서비스로 넘기므로 요청을 시작하지 않는다.
+  // GitHub Pages 사본에는 서버가 없어 요청을 시작하지 않는다. 화면은 renewal.js 관문이 static 안내와 운영 서비스 링크로 덮는다.
   if (window.pogeunStaticHost?.active) return;
   const byId = id => document.getElementById(id);
   const status = byId('guild-status');

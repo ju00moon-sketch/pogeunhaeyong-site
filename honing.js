@@ -258,6 +258,8 @@
 
   form.addEventListener('submit', async event => {
     event.preventDefault();
+    // GitHub Pages 사본에는 계산 서버가 없다. 폼은 tools.js가 끄고 안내를 보이며, 여기서도 요청하지 않는다.
+    if (window.pogeunStaticHost?.active) return;
     const kind = kindInput.value;
     const from = Number(fromInput.value), to = Number(toInput.value);
     if (!Number.isInteger(from) || !Number.isInteger(to) || from < 0 || to > 25 || to <= from) {

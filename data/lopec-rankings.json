@@ -1,0 +1,1823 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "id": "lopec",
+    "url": "https://lopec.kr/rank/specPoint"
+  },
+  "collectedAt": "2026-10-15T23:19:19.263Z",
+  "limitPerRole": 100,
+  "boards": [
+    {
+      "role": "dealer",
+      "sourceUrl": "https://lopec.kr/rank/specPoint",
+      "entries": [
+        {
+          "rank": 1,
+          "characterName": "이승건",
+          "server": "아만",
+          "className": "호크아이",
+          "classLabel": "두동 호크아이",
+          "itemLevel": 1805,
+          "score": 10183.94
+        },
+        {
+          "rank": 2,
+          "characterName": "룩쌈",
+          "server": "카마인",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 10156.15
+        },
+        {
+          "rank": 3,
+          "characterName": "시범",
+          "server": "루페온",
+          "className": "브레이커",
+          "classLabel": "수라 브레이커",
+          "itemLevel": 1805,
+          "score": 10115.2
+        },
+        {
+          "rank": 4,
+          "characterName": "천신비후",
+          "server": "실리안",
+          "className": "인파이터",
+          "classLabel": "체술 인파이터",
+          "itemLevel": 1805,
+          "score": 10103.19
+        },
+        {
+          "rank": 5,
+          "characterName": "천우희",
+          "server": "니나브",
+          "className": "소울이터",
+          "classLabel": "만월 소울이터",
+          "itemLevel": 1805,
+          "score": 10098.1
+        },
+        {
+          "rank": 6,
+          "characterName": "필례",
+          "server": "루페온",
+          "className": "배틀마스터",
+          "classLabel": "초심 배틀마스터",
+          "itemLevel": 1805,
+          "score": 10069.64
+        },
+        {
+          "rank": 7,
+          "characterName": "코니참모총장",
+          "server": "니나브",
+          "className": "슬레이어",
+          "classLabel": "포식 슬레이어",
+          "itemLevel": 1805,
+          "score": 10037.36
+        },
+        {
+          "rank": 8,
+          "characterName": "보라냥이집사16",
+          "server": "카제로스",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9978.68
+        },
+        {
+          "rank": 9,
+          "characterName": "만배",
+          "server": "카제로스",
+          "className": "슬레이어",
+          "classLabel": "포식 슬레이어",
+          "itemLevel": 1805,
+          "score": 9966.16
+        },
+        {
+          "rank": 10,
+          "characterName": "inzai",
+          "server": "카단",
+          "className": "리퍼",
+          "classLabel": "갈증 리퍼",
+          "itemLevel": 1805,
+          "score": 9963.42
+        },
+        {
+          "rank": 11,
+          "characterName": "탄지로",
+          "server": "루페온",
+          "className": "데모닉",
+          "classLabel": "충동 데모닉",
+          "itemLevel": 1805,
+          "score": 9956.29
+        },
+        {
+          "rank": 12,
+          "characterName": "옛날딱지",
+          "server": "카제로스",
+          "className": "블래스터",
+          "classLabel": "포강 블래스터",
+          "itemLevel": 1805,
+          "score": 9952.02
+        },
+        {
+          "rank": 13,
+          "characterName": "성갬뽕",
+          "server": "루페온",
+          "className": "기상술사",
+          "classLabel": "질풍 기상술사",
+          "itemLevel": 1805,
+          "score": 9947.31
+        },
+        {
+          "rank": 14,
+          "characterName": "영무콩",
+          "server": "루페온",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9929.73
+        },
+        {
+          "rank": 15,
+          "characterName": "폭주전투사",
+          "server": "실리안",
+          "className": "버서커",
+          "classLabel": "비기 버서커",
+          "itemLevel": 1805,
+          "score": 9925.04
+        },
+        {
+          "rank": 16,
+          "characterName": "손디",
+          "server": "카마인",
+          "className": "블레이드",
+          "classLabel": "잔재 블레이드",
+          "itemLevel": 1805,
+          "score": 9924.33
+        },
+        {
+          "rank": 17,
+          "characterName": "본창",
+          "server": "카마인",
+          "className": "스트라이커",
+          "classLabel": "일격 스트라이커",
+          "itemLevel": 1805,
+          "score": 9923.18
+        },
+        {
+          "rank": 18,
+          "characterName": "건슬붕",
+          "server": "카제로스",
+          "className": "건슬링어",
+          "classLabel": "사시 건슬링어",
+          "itemLevel": 1805,
+          "score": 9922.39
+        },
+        {
+          "rank": 19,
+          "characterName": "꾀물",
+          "server": "실리안",
+          "className": "건슬링어",
+          "classLabel": "사시 건슬링어",
+          "itemLevel": 1805,
+          "score": 9915.13
+        },
+        {
+          "rank": 20,
+          "characterName": "반짝이는레몬버터",
+          "server": "카제로스",
+          "className": "데빌헌터",
+          "classLabel": "전탄 데빌헌터",
+          "itemLevel": 1800,
+          "score": 9904.95
+        },
+        {
+          "rank": 21,
+          "characterName": "해리소나",
+          "server": "아브렐슈드",
+          "className": "블레이드",
+          "classLabel": "버스트 블레이드",
+          "itemLevel": 1805,
+          "score": 9895.67
+        },
+        {
+          "rank": 22,
+          "characterName": "서강룡",
+          "server": "루페온",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9895.29
+        },
+        {
+          "rank": 23,
+          "characterName": "써라결",
+          "server": "카단",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9884.88
+        },
+        {
+          "rank": 24,
+          "characterName": "휘린",
+          "server": "니나브",
+          "className": "블레이드",
+          "classLabel": "잔재 블레이드",
+          "itemLevel": 1805,
+          "score": 9883.53
+        },
+        {
+          "rank": 25,
+          "characterName": "앨범이",
+          "server": "니나브",
+          "className": "소서리스",
+          "classLabel": "점화 소서리스",
+          "itemLevel": 1805,
+          "score": 9868.9
+        },
+        {
+          "rank": 26,
+          "characterName": "흑인파워",
+          "server": "니나브",
+          "className": "디스트로이어",
+          "classLabel": "분망 디스트로이어",
+          "itemLevel": 1805,
+          "score": 9863.09
+        },
+        {
+          "rank": 27,
+          "characterName": "소행성",
+          "server": "카마인",
+          "className": "소서리스",
+          "classLabel": "점화 소서리스",
+          "itemLevel": 1805,
+          "score": 9851.71
+        },
+        {
+          "rank": 28,
+          "characterName": "Fuzzy",
+          "server": "카마인",
+          "className": "리퍼",
+          "classLabel": "달소 리퍼",
+          "itemLevel": 1805,
+          "score": 9849.89
+        },
+        {
+          "rank": 29,
+          "characterName": "쫑이소울",
+          "server": "카단",
+          "className": "소울이터",
+          "classLabel": "만월 소울이터",
+          "itemLevel": 1805,
+          "score": 9841.14
+        },
+        {
+          "rank": 30,
+          "characterName": "데헌이에영",
+          "server": "루페온",
+          "className": "데빌헌터",
+          "classLabel": "전탄 데빌헌터",
+          "itemLevel": 1805,
+          "score": 9839.08
+        },
+        {
+          "rank": 31,
+          "characterName": "방울토마토라면",
+          "server": "루페온",
+          "className": "소서리스",
+          "classLabel": "점화 소서리스",
+          "itemLevel": 1805,
+          "score": 9836.4
+        },
+        {
+          "rank": 32,
+          "characterName": "분신싸개",
+          "server": "아만",
+          "className": "리퍼",
+          "classLabel": "달소 리퍼",
+          "itemLevel": 1805,
+          "score": 9832.35
+        },
+        {
+          "rank": 33,
+          "characterName": "코코풍선",
+          "server": "카마인",
+          "className": "기상술사",
+          "classLabel": "이슬비 기상술사",
+          "itemLevel": 1805,
+          "score": 9824.52
+        },
+        {
+          "rank": 34,
+          "characterName": "차사",
+          "server": "아만",
+          "className": "아르카나",
+          "classLabel": "황후 아르카나",
+          "itemLevel": 1805,
+          "score": 9820.56
+        },
+        {
+          "rank": 35,
+          "characterName": "희영",
+          "server": "루페온",
+          "className": "소울이터",
+          "classLabel": "만월 소울이터",
+          "itemLevel": 1805,
+          "score": 9819.6
+        },
+        {
+          "rank": 36,
+          "characterName": "짹키창",
+          "server": "루페온",
+          "className": "창술사",
+          "classLabel": "절정 창술사",
+          "itemLevel": 1805,
+          "score": 9801.65
+        },
+        {
+          "rank": 37,
+          "characterName": "성범이",
+          "server": "니나브",
+          "className": "브레이커",
+          "classLabel": "수라 브레이커",
+          "itemLevel": 1805,
+          "score": 9797.61
+        },
+        {
+          "rank": 38,
+          "characterName": "방천제일검",
+          "server": "카마인",
+          "className": "배틀마스터",
+          "classLabel": "초심 배틀마스터",
+          "itemLevel": 1805,
+          "score": 9797.42
+        },
+        {
+          "rank": 39,
+          "characterName": "환업",
+          "server": "실리안",
+          "className": "스트라이커",
+          "classLabel": "난무 스트라이커",
+          "itemLevel": 1805,
+          "score": 9795.79
+        },
+        {
+          "rank": 40,
+          "characterName": "레어",
+          "server": "카마인",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9793.66
+        },
+        {
+          "rank": 41,
+          "characterName": "께린",
+          "server": "루페온",
+          "className": "가디언나이트",
+          "classLabel": "드드 가디언나이트",
+          "itemLevel": 1805,
+          "score": 9774.05
+        },
+        {
+          "rank": 42,
+          "characterName": "귤밥이",
+          "server": "아만",
+          "className": "기상술사",
+          "classLabel": "질풍 기상술사",
+          "itemLevel": 1805,
+          "score": 9773.18
+        },
+        {
+          "rank": 43,
+          "characterName": "착해진쫀지",
+          "server": "루페온",
+          "className": "브레이커",
+          "classLabel": "수라 브레이커",
+          "itemLevel": 1805,
+          "score": 9767.99
+        },
+        {
+          "rank": 44,
+          "characterName": "형님",
+          "server": "니나브",
+          "className": "스트라이커",
+          "classLabel": "난무 스트라이커",
+          "itemLevel": 1805,
+          "score": 9765.07
+        },
+        {
+          "rank": 45,
+          "characterName": "장기미접속02",
+          "server": "카단",
+          "className": "환수사",
+          "classLabel": "야성 환수사",
+          "itemLevel": 1805,
+          "score": 9763.5
+        },
+        {
+          "rank": 46,
+          "characterName": "Goingyeo",
+          "server": "아브렐슈드",
+          "className": "배틀마스터",
+          "classLabel": "초심 배틀마스터",
+          "itemLevel": 1805,
+          "score": 9761.84
+        },
+        {
+          "rank": 47,
+          "characterName": "멍유렌",
+          "server": "루페온",
+          "className": "소서리스",
+          "classLabel": "점화 소서리스",
+          "itemLevel": 1805,
+          "score": 9759.84
+        },
+        {
+          "rank": 48,
+          "characterName": "겐시유",
+          "server": "아만",
+          "className": "발키리",
+          "classLabel": "빛의 기사 발키리",
+          "itemLevel": 1805,
+          "score": 9747.26
+        },
+        {
+          "rank": 49,
+          "characterName": "요호",
+          "server": "아만",
+          "className": "리퍼",
+          "classLabel": "갈증 리퍼",
+          "itemLevel": 1805,
+          "score": 9744.54
+        },
+        {
+          "rank": 50,
+          "characterName": "이주",
+          "server": "카단",
+          "className": "환수사",
+          "classLabel": "환각 환수사",
+          "itemLevel": 1805,
+          "score": 9743.16
+        },
+        {
+          "rank": 51,
+          "characterName": "이카사란",
+          "server": "루페온",
+          "className": "버서커",
+          "classLabel": "비기 버서커",
+          "itemLevel": 1805,
+          "score": 9738.82
+        },
+        {
+          "rank": 52,
+          "characterName": "타루루",
+          "server": "실리안",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9736.39
+        },
+        {
+          "rank": 53,
+          "characterName": "파일럿김씨",
+          "server": "실리안",
+          "className": "스카우터",
+          "classLabel": "유산 스카우터",
+          "itemLevel": 1805,
+          "score": 9735.71
+        },
+        {
+          "rank": 54,
+          "characterName": "쫀지",
+          "server": "루페온",
+          "className": "스트라이커",
+          "classLabel": "일격 스트라이커",
+          "itemLevel": 1805,
+          "score": 9732.3
+        },
+        {
+          "rank": 55,
+          "characterName": "딸딸또으라",
+          "server": "카마인",
+          "className": "버서커",
+          "classLabel": "비기 버서커",
+          "itemLevel": 1800,
+          "score": 9729.67
+        },
+        {
+          "rank": 56,
+          "characterName": "하늬바람",
+          "server": "루페온",
+          "className": "기상술사",
+          "classLabel": "이슬비 기상술사",
+          "itemLevel": 1805,
+          "score": 9728.46
+        },
+        {
+          "rank": 57,
+          "characterName": "이다",
+          "server": "루페온",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9723.54
+        },
+        {
+          "rank": 58,
+          "characterName": "쌍검",
+          "server": "루페온",
+          "className": "블레이드",
+          "classLabel": "버스트 블레이드",
+          "itemLevel": 1805,
+          "score": 9722.42
+        },
+        {
+          "rank": 59,
+          "characterName": "도브8",
+          "server": "니나브",
+          "className": "소서리스",
+          "classLabel": "점화 소서리스",
+          "itemLevel": 1805,
+          "score": 9713.99
+        },
+        {
+          "rank": 60,
+          "characterName": "RE트레이커",
+          "server": "니나브",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9709.98
+        },
+        {
+          "rank": 61,
+          "characterName": "먀정",
+          "server": "카마인",
+          "className": "기상술사",
+          "classLabel": "질풍 기상술사",
+          "itemLevel": 1805,
+          "score": 9705.94
+        },
+        {
+          "rank": 62,
+          "characterName": "마스터Asia",
+          "server": "루페온",
+          "className": "버서커",
+          "classLabel": "비기 버서커",
+          "itemLevel": 1805,
+          "score": 9704.01
+        },
+        {
+          "rank": 63,
+          "characterName": "소녀양점순",
+          "server": "카마인",
+          "className": "워로드",
+          "classLabel": "전태 워로드",
+          "itemLevel": 1805,
+          "score": 9703.1
+        },
+        {
+          "rank": 64,
+          "characterName": "펀치",
+          "server": "루페온",
+          "className": "브레이커",
+          "classLabel": "권왕 브레이커",
+          "itemLevel": 1805,
+          "score": 9699.77
+        },
+        {
+          "rank": 65,
+          "characterName": "펜리르",
+          "server": "루페온",
+          "className": "호크아이",
+          "classLabel": "두동 호크아이",
+          "itemLevel": 1805,
+          "score": 9690.91
+        },
+        {
+          "rank": 66,
+          "characterName": "테라페일노트",
+          "server": "니나브",
+          "className": "호크아이",
+          "classLabel": "죽습 호크아이",
+          "itemLevel": 1805,
+          "score": 9672.82
+        },
+        {
+          "rank": 67,
+          "characterName": "KANU",
+          "server": "아만",
+          "className": "리퍼",
+          "classLabel": "갈증 리퍼",
+          "itemLevel": 1805,
+          "score": 9671.68
+        },
+        {
+          "rank": 68,
+          "characterName": "상꼼",
+          "server": "카단",
+          "className": "리퍼",
+          "classLabel": "갈증 리퍼",
+          "itemLevel": 1805,
+          "score": 9671.5
+        },
+        {
+          "rank": 69,
+          "characterName": "악운",
+          "server": "루페온",
+          "className": "아르카나",
+          "classLabel": "황제 아르카나",
+          "itemLevel": 1805,
+          "score": 9670.79
+        },
+        {
+          "rank": 70,
+          "characterName": "폭격킹",
+          "server": "실리안",
+          "className": "버서커",
+          "classLabel": "비기 버서커",
+          "itemLevel": 1805,
+          "score": 9668
+        },
+        {
+          "rank": 71,
+          "characterName": "숏컷",
+          "server": "아브렐슈드",
+          "className": "서머너",
+          "classLabel": "상소 서머너",
+          "itemLevel": 1805,
+          "score": 9663.6
+        },
+        {
+          "rank": 72,
+          "characterName": "째삣",
+          "server": "아만",
+          "className": "소울이터",
+          "classLabel": "만월 소울이터",
+          "itemLevel": 1805,
+          "score": 9662.11
+        },
+        {
+          "rank": 73,
+          "characterName": "이등",
+          "server": "아브렐슈드",
+          "className": "배틀마스터",
+          "classLabel": "초심 배틀마스터",
+          "itemLevel": 1800,
+          "score": 9660.06
+        },
+        {
+          "rank": 74,
+          "characterName": "쿵멍",
+          "server": "카마인",
+          "className": "브레이커",
+          "classLabel": "수라 브레이커",
+          "itemLevel": 1805,
+          "score": 9653.74
+        },
+        {
+          "rank": 75,
+          "characterName": "타르",
+          "server": "루페온",
+          "className": "리퍼",
+          "classLabel": "달소 리퍼",
+          "itemLevel": 1804.16,
+          "score": 9651.09
+        },
+        {
+          "rank": 76,
+          "characterName": "마블",
+          "server": "카마인",
+          "className": "블레이드",
+          "classLabel": "잔재 블레이드",
+          "itemLevel": 1805,
+          "score": 9650.73
+        },
+        {
+          "rank": 77,
+          "characterName": "아컁",
+          "server": "아브렐슈드",
+          "className": "건슬링어",
+          "classLabel": "사시 건슬링어",
+          "itemLevel": 1805,
+          "score": 9637.54
+        },
+        {
+          "rank": 78,
+          "characterName": "뚜또자나",
+          "server": "니나브",
+          "className": "기상술사",
+          "classLabel": "질풍 기상술사",
+          "itemLevel": 1805,
+          "score": 9636.01
+        },
+        {
+          "rank": 79,
+          "characterName": "리퍼는지켜줘야해",
+          "server": "카마인",
+          "className": "리퍼",
+          "classLabel": "달소 리퍼",
+          "itemLevel": 1805,
+          "score": 9632.39
+        },
+        {
+          "rank": 80,
+          "characterName": "쌀느",
+          "server": "니나브",
+          "className": "환수사",
+          "classLabel": "야성 환수사",
+          "itemLevel": 1805,
+          "score": 9630.03
+        },
+        {
+          "rank": 81,
+          "characterName": "츄델",
+          "server": "카마인",
+          "className": "기상술사",
+          "classLabel": "질풍 기상술사",
+          "itemLevel": 1805,
+          "score": 9629.15
+        },
+        {
+          "rank": 82,
+          "characterName": "후L1",
+          "server": "루페온",
+          "className": "버서커",
+          "classLabel": "비기 버서커",
+          "itemLevel": 1805,
+          "score": 9627.21
+        },
+        {
+          "rank": 83,
+          "characterName": "승희",
+          "server": "실리안",
+          "className": "발키리",
+          "classLabel": "빛의 기사 발키리",
+          "itemLevel": 1805,
+          "score": 9625.93
+        },
+        {
+          "rank": 84,
+          "characterName": "꼬리",
+          "server": "실리안",
+          "className": "건슬링어",
+          "classLabel": "사시 건슬링어",
+          "itemLevel": 1805,
+          "score": 9624.8
+        },
+        {
+          "rank": 85,
+          "characterName": "피트",
+          "server": "카마인",
+          "className": "발키리",
+          "classLabel": "빛의 기사 발키리",
+          "itemLevel": 1805,
+          "score": 9622.88
+        },
+        {
+          "rank": 86,
+          "characterName": "둑키",
+          "server": "루페온",
+          "className": "블래스터",
+          "classLabel": "포강 블래스터",
+          "itemLevel": 1805,
+          "score": 9617.74
+        },
+        {
+          "rank": 87,
+          "characterName": "게임할시간없음",
+          "server": "루페온",
+          "className": "기공사",
+          "classLabel": "무상 기공사",
+          "itemLevel": 1805,
+          "score": 9614.22
+        },
+        {
+          "rank": 88,
+          "characterName": "보라냥이집사8",
+          "server": "카제로스",
+          "className": "스트라이커",
+          "classLabel": "일격 스트라이커",
+          "itemLevel": 1805,
+          "score": 9613.37
+        },
+        {
+          "rank": 89,
+          "characterName": "쭈르야",
+          "server": "카마인",
+          "className": "블레이드",
+          "classLabel": "버스트 블레이드",
+          "itemLevel": 1805,
+          "score": 9612.12
+        },
+        {
+          "rank": 90,
+          "characterName": "헬느",
+          "server": "루페온",
+          "className": "리퍼",
+          "classLabel": "달소 리퍼",
+          "itemLevel": 1800,
+          "score": 9607.9
+        },
+        {
+          "rank": 91,
+          "characterName": "검사이자걸",
+          "server": "루페온",
+          "className": "블레이드",
+          "classLabel": "버스트 블레이드",
+          "itemLevel": 1805,
+          "score": 9605.91
+        },
+        {
+          "rank": 92,
+          "characterName": "좀늙고병든버스트블레이드",
+          "server": "카마인",
+          "className": "블레이드",
+          "classLabel": "버스트 블레이드",
+          "itemLevel": 1805,
+          "score": 9605.65
+        },
+        {
+          "rank": 93,
+          "characterName": "말랑말랑해요",
+          "server": "실리안",
+          "className": "인파이터",
+          "classLabel": "체술 인파이터",
+          "itemLevel": 1805,
+          "score": 9605.05
+        },
+        {
+          "rank": 94,
+          "characterName": "해부의미학",
+          "server": "아브렐슈드",
+          "className": "리퍼",
+          "classLabel": "갈증 리퍼",
+          "itemLevel": 1805,
+          "score": 9604.94
+        },
+        {
+          "rank": 95,
+          "characterName": "꼬마퐁퐁단",
+          "server": "카제로스",
+          "className": "서머너",
+          "classLabel": "상소 서머너",
+          "itemLevel": 1805,
+          "score": 9598.12
+        },
+        {
+          "rank": 96,
+          "characterName": "소희솔",
+          "server": "니나브",
+          "className": "건슬링어",
+          "classLabel": "사시 건슬링어",
+          "itemLevel": 1800,
+          "score": 9596.06
+        },
+        {
+          "rank": 97,
+          "characterName": "김뚜띠",
+          "server": "실리안",
+          "className": "워로드",
+          "classLabel": "전태 워로드",
+          "itemLevel": 1805,
+          "score": 9592.25
+        },
+        {
+          "rank": 98,
+          "characterName": "마족66",
+          "server": "루페온",
+          "className": "소울이터",
+          "classLabel": "만월 소울이터",
+          "itemLevel": 1805,
+          "score": 9588.05
+        },
+        {
+          "rank": 99,
+          "characterName": "꼬마완두",
+          "server": "카마인",
+          "className": "스카우터",
+          "classLabel": "유산 스카우터",
+          "itemLevel": 1805,
+          "score": 9584.64
+        },
+        {
+          "rank": 100,
+          "characterName": "악마",
+          "server": "루페온",
+          "className": "워로드",
+          "classLabel": "고기 워로드",
+          "itemLevel": 1805,
+          "score": 9582.59
+        }
+      ]
+    },
+    {
+      "role": "support",
+      "sourceUrl": "https://lopec.kr/rank/specPoint?role=sup",
+      "entries": [
+        {
+          "rank": 1,
+          "characterName": "쥬쥬",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1805,
+          "score": 11463.31
+        },
+        {
+          "rank": 2,
+          "characterName": "별채화",
+          "server": "아브렐슈드",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1805,
+          "score": 11308.98
+        },
+        {
+          "rank": 3,
+          "characterName": "아리안로드",
+          "server": "루페온",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1805,
+          "score": 11265.41
+        },
+        {
+          "rank": 4,
+          "characterName": "무라타Saber",
+          "server": "루페온",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1805,
+          "score": 11164.66
+        },
+        {
+          "rank": 5,
+          "characterName": "뿌슝빠숑뽀숑",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1805,
+          "score": 11125.93
+        },
+        {
+          "rank": 6,
+          "characterName": "백합",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1805,
+          "score": 11108.63
+        },
+        {
+          "rank": 7,
+          "characterName": "남나린",
+          "server": "니나브",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1805,
+          "score": 11041.21
+        },
+        {
+          "rank": 8,
+          "characterName": "닼됴니",
+          "server": "카마인",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 11005.84
+        },
+        {
+          "rank": 9,
+          "characterName": "잇괴",
+          "server": "카마인",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1805,
+          "score": 10992.82
+        },
+        {
+          "rank": 10,
+          "characterName": "보라냥이집사20",
+          "server": "카제로스",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1805,
+          "score": 10936.22
+        },
+        {
+          "rank": 11,
+          "characterName": "지희",
+          "server": "카제로스",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10858.69
+        },
+        {
+          "rank": 12,
+          "characterName": "딥바드바딥",
+          "server": "카제로스",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10837.46
+        },
+        {
+          "rank": 13,
+          "characterName": "PHNTM",
+          "server": "카제로스",
+          "className": "홀리나이트",
+          "classLabel": "서폿 홀리나이트",
+          "itemLevel": 1800,
+          "score": 10830.48
+        },
+        {
+          "rank": 14,
+          "characterName": "히후히후",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1805,
+          "score": 10777.06
+        },
+        {
+          "rank": 15,
+          "characterName": "시예지",
+          "server": "아브렐슈드",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10765.34
+        },
+        {
+          "rank": 16,
+          "characterName": "초예민분노조절장애바드년",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10763.32
+        },
+        {
+          "rank": 17,
+          "characterName": "징바징",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10728.5
+        },
+        {
+          "rank": 18,
+          "characterName": "민요민요",
+          "server": "카제로스",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10723.1
+        },
+        {
+          "rank": 19,
+          "characterName": "쩔구당",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10711.36
+        },
+        {
+          "rank": 20,
+          "characterName": "화이진",
+          "server": "카제로스",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10704.83
+        },
+        {
+          "rank": 21,
+          "characterName": "엘시냥",
+          "server": "카단",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10702.13
+        },
+        {
+          "rank": 22,
+          "characterName": "S3UL",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10696.7
+        },
+        {
+          "rank": 23,
+          "characterName": "세속음악",
+          "server": "실리안",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10680.65
+        },
+        {
+          "rank": 24,
+          "characterName": "나히나아",
+          "server": "카단",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10674.59
+        },
+        {
+          "rank": 25,
+          "characterName": "상추먹는백곰",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10666.75
+        },
+        {
+          "rank": 26,
+          "characterName": "은하수누나",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10666.03
+        },
+        {
+          "rank": 27,
+          "characterName": "껌하",
+          "server": "아브렐슈드",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10645.75
+        },
+        {
+          "rank": 28,
+          "characterName": "유리밍",
+          "server": "아브렐슈드",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10624.48
+        },
+        {
+          "rank": 29,
+          "characterName": "동살고래",
+          "server": "아브렐슈드",
+          "className": "홀리나이트",
+          "classLabel": "서폿 홀리나이트",
+          "itemLevel": 1800,
+          "score": 10622.09
+        },
+        {
+          "rank": 30,
+          "characterName": "출근의사유",
+          "server": "아만",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1805,
+          "score": 10593.39
+        },
+        {
+          "rank": 31,
+          "characterName": "씨케",
+          "server": "카마인",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10584.09
+        },
+        {
+          "rank": 32,
+          "characterName": "귀여운토토이끼",
+          "server": "아브렐슈드",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10577.4
+        },
+        {
+          "rank": 33,
+          "characterName": "김팔복의은밀한온센타마고",
+          "server": "루페온",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10572.16
+        },
+        {
+          "rank": 34,
+          "characterName": "별을사랑하는엠제이",
+          "server": "카단",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1805,
+          "score": 10572.02
+        },
+        {
+          "rank": 35,
+          "characterName": "bbuy0",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1797.5,
+          "score": 10568.99
+        },
+        {
+          "rank": 36,
+          "characterName": "벌중독",
+          "server": "카단",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1800,
+          "score": 10558.33
+        },
+        {
+          "rank": 37,
+          "characterName": "홀나에몬",
+          "server": "카제로스",
+          "className": "홀리나이트",
+          "classLabel": "서폿 홀리나이트",
+          "itemLevel": 1800,
+          "score": 10557.54
+        },
+        {
+          "rank": 38,
+          "characterName": "초숭달",
+          "server": "아만",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10556.1
+        },
+        {
+          "rank": 39,
+          "characterName": "후엉무서엉",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10542.58
+        },
+        {
+          "rank": 40,
+          "characterName": "비밀의",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10530.91
+        },
+        {
+          "rank": 41,
+          "characterName": "림이",
+          "server": "카단",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10527.41
+        },
+        {
+          "rank": 42,
+          "characterName": "파닭을누가가슴살로먹어요",
+          "server": "카단",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1795.83,
+          "score": 10526.03
+        },
+        {
+          "rank": 43,
+          "characterName": "채림씨",
+          "server": "카제로스",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10523.7
+        },
+        {
+          "rank": 44,
+          "characterName": "새리왔새리",
+          "server": "아브렐슈드",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10520.33
+        },
+        {
+          "rank": 45,
+          "characterName": "햬욜",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10520.05
+        },
+        {
+          "rank": 46,
+          "characterName": "하프의마음",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10511.56
+        },
+        {
+          "rank": 47,
+          "characterName": "ZeroArtist",
+          "server": "아브렐슈드",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10507.67
+        },
+        {
+          "rank": 48,
+          "characterName": "예봄",
+          "server": "아브렐슈드",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10505.84
+        },
+        {
+          "rank": 49,
+          "characterName": "에시",
+          "server": "아만",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10500.75
+        },
+        {
+          "rank": 50,
+          "characterName": "메이시에",
+          "server": "실리안",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1805,
+          "score": 10488
+        },
+        {
+          "rank": 51,
+          "characterName": "마실나온양갱",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10486.87
+        },
+        {
+          "rank": 52,
+          "characterName": "신관",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10486.84
+        },
+        {
+          "rank": 53,
+          "characterName": "태연해요",
+          "server": "실리안",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10486.2
+        },
+        {
+          "rank": 54,
+          "characterName": "바드쩡",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10480.6
+        },
+        {
+          "rank": 55,
+          "characterName": "향념",
+          "server": "루페온",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10479.73
+        },
+        {
+          "rank": 56,
+          "characterName": "작은바드님",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10466.42
+        },
+        {
+          "rank": 57,
+          "characterName": "별그리세오",
+          "server": "카마인",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10464.36
+        },
+        {
+          "rank": 58,
+          "characterName": "꾹넴",
+          "server": "아만",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10459.21
+        },
+        {
+          "rank": 59,
+          "characterName": "물음말",
+          "server": "카제로스",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1800,
+          "score": 10458.51
+        },
+        {
+          "rank": 60,
+          "characterName": "잡한자",
+          "server": "카마인",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1790,
+          "score": 10451.35
+        },
+        {
+          "rank": 61,
+          "characterName": "릉부",
+          "server": "루페온",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1805,
+          "score": 10431.88
+        },
+        {
+          "rank": 62,
+          "characterName": "오즈페르",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10431.7
+        },
+        {
+          "rank": 63,
+          "characterName": "왼쪽뺨도갈겨라",
+          "server": "니나브",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1805,
+          "score": 10430.11
+        },
+        {
+          "rank": 64,
+          "characterName": "MissKorea",
+          "server": "아브렐슈드",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10427.46
+        },
+        {
+          "rank": 65,
+          "characterName": "홍소육덮밥",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10413.09
+        },
+        {
+          "rank": 66,
+          "characterName": "꿀꿀됴화",
+          "server": "실리안",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10406.54
+        },
+        {
+          "rank": 67,
+          "characterName": "슬기",
+          "server": "실리안",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10405.87
+        },
+        {
+          "rank": 68,
+          "characterName": "말랑모찡",
+          "server": "카제로스",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1805,
+          "score": 10398.42
+        },
+        {
+          "rank": 69,
+          "characterName": "류안",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10392.02
+        },
+        {
+          "rank": 70,
+          "characterName": "교사",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10390.5
+        },
+        {
+          "rank": 71,
+          "characterName": "규아",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1798.33,
+          "score": 10386.96
+        },
+        {
+          "rank": 72,
+          "characterName": "쏘띠",
+          "server": "아만",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10385.14
+        },
+        {
+          "rank": 73,
+          "characterName": "옅은",
+          "server": "카제로스",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1800,
+          "score": 10380.48
+        },
+        {
+          "rank": 74,
+          "characterName": "안리원",
+          "server": "카제로스",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10371.46
+        },
+        {
+          "rank": 75,
+          "characterName": "첫번째나이트",
+          "server": "실리안",
+          "className": "홀리나이트",
+          "classLabel": "서폿 홀리나이트",
+          "itemLevel": 1800,
+          "score": 10366.78
+        },
+        {
+          "rank": 76,
+          "characterName": "도화죠아",
+          "server": "카마인",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10363.9
+        },
+        {
+          "rank": 77,
+          "characterName": "웬디",
+          "server": "카단",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1798.33,
+          "score": 10363.7
+        },
+        {
+          "rank": 78,
+          "characterName": "psyco",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10363.4
+        },
+        {
+          "rank": 79,
+          "characterName": "진돌z",
+          "server": "루페온",
+          "className": "홀리나이트",
+          "classLabel": "서폿 홀리나이트",
+          "itemLevel": 1800,
+          "score": 10361.83
+        },
+        {
+          "rank": 80,
+          "characterName": "힐링나롱",
+          "server": "아만",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10361.47
+        },
+        {
+          "rank": 81,
+          "characterName": "두숑",
+          "server": "아만",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10360.36
+        },
+        {
+          "rank": 82,
+          "characterName": "저스미",
+          "server": "루페온",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1793.33,
+          "score": 10357.5
+        },
+        {
+          "rank": 83,
+          "characterName": "위기묘멍",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10350.04
+        },
+        {
+          "rank": 84,
+          "characterName": "구원왕김구원",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10345.44
+        },
+        {
+          "rank": 85,
+          "characterName": "땅이애요",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10344.78
+        },
+        {
+          "rank": 86,
+          "characterName": "조래태",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1793.33,
+          "score": 10342.93
+        },
+        {
+          "rank": 87,
+          "characterName": "똘붓",
+          "server": "아만",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10340.32
+        },
+        {
+          "rank": 88,
+          "characterName": "사탕욤욤",
+          "server": "루페온",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10340.11
+        },
+        {
+          "rank": 89,
+          "characterName": "레나릿트",
+          "server": "카제로스",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10336.51
+        },
+        {
+          "rank": 90,
+          "characterName": "달새",
+          "server": "카마인",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10334.29
+        },
+        {
+          "rank": 91,
+          "characterName": "나도투따",
+          "server": "카단",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10319.9
+        },
+        {
+          "rank": 92,
+          "characterName": "달빵달빵",
+          "server": "카단",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10319.48
+        },
+        {
+          "rank": 93,
+          "characterName": "또우반",
+          "server": "실리안",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10315.64
+        },
+        {
+          "rank": 94,
+          "characterName": "무교지만기도중",
+          "server": "카마인",
+          "className": "발키리",
+          "classLabel": "서폿 발키리",
+          "itemLevel": 1800,
+          "score": 10314.83
+        },
+        {
+          "rank": 95,
+          "characterName": "아기빼뷰",
+          "server": "루페온",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10310.23
+        },
+        {
+          "rank": 96,
+          "characterName": "은나",
+          "server": "루페온",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10310.13
+        },
+        {
+          "rank": 97,
+          "characterName": "리딩",
+          "server": "루페온",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1796.66,
+          "score": 10308.56
+        },
+        {
+          "rank": 98,
+          "characterName": "내이름은심심이",
+          "server": "카제로스",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10307.75
+        },
+        {
+          "rank": 99,
+          "characterName": "냐옹o3o",
+          "server": "카제로스",
+          "className": "도화가",
+          "classLabel": "서폿 도화가",
+          "itemLevel": 1800,
+          "score": 10307.46
+        },
+        {
+          "rank": 100,
+          "characterName": "누나가힐줄껭",
+          "server": "아브렐슈드",
+          "className": "바드",
+          "classLabel": "서폿 바드",
+          "itemLevel": 1800,
+          "score": 10305.16
+        }
+      ]
+    }
+  ]
+}

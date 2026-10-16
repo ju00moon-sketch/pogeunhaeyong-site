@@ -1,4 +1,12 @@
 {
+ "snapshots": {
+  "latest": {
+   "capturedAt": "2026-10-16T04:29:58.590Z",
+   "base": "c6d245372c933d900d4fe6c857124838c31e528d",
+   "digest": "917e31b8ad72d0cf4e50636782f3a7a579972cbbe2ab156731e4a69d0f8e0809",
+   "files": 140
+  }
+ },
  "items": [
   {
    "id": "previous-home",
@@ -4660,6 +4668,1482 @@
       "thumb": "shots/current-note-v0.1/mobile-light-thumb.webp",
       "width": 390,
       "height": 2201,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-home",
+   "version": "latest",
+   "group": "home",
+   "page": "index.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-home/pc-dark.webp",
+      "thumb": "shots/latest-home/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-home/pc-light.webp",
+      "thumb": "shots/latest-home/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-home/mobile-dark.webp",
+      "thumb": "shots/latest-home/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1509,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-home/mobile-light.webp",
+      "thumb": "shots/latest-home/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1509,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-home-commands",
+   "version": "latest",
+   "group": "home",
+   "page": "index.html#commands",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html#commands",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-home-commands/pc-dark.webp",
+      "thumb": "shots/latest-home-commands/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 6467,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-home-commands/pc-light.webp",
+      "thumb": "shots/latest-home-commands/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 6467,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-home-commands/mobile-dark.webp",
+      "thumb": "shots/latest-home-commands/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 11366,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-home-commands/mobile-light.webp",
+      "thumb": "shots/latest-home-commands/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 11366,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-home-emoticons",
+   "version": "latest",
+   "group": "home",
+   "page": "index.html#emoticons",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html#emoticons",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-home-emoticons/pc-dark.webp",
+      "thumb": "shots/latest-home-emoticons/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1518,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-home-emoticons/pc-light.webp",
+      "thumb": "shots/latest-home-emoticons/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1518,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-home-emoticons/mobile-dark.webp",
+      "thumb": "shots/latest-home-emoticons/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2409,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-home-emoticons/mobile-light.webp",
+      "thumb": "shots/latest-home-emoticons/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2409,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-home-link",
+   "version": "latest",
+   "group": "home",
+   "page": "index.html#link",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html#link",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-home-link/pc-dark.webp",
+      "thumb": "shots/latest-home-link/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2384,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-home-link/pc-light.webp",
+      "thumb": "shots/latest-home-link/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2384,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-home-link/mobile-dark.webp",
+      "thumb": "shots/latest-home-link/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4354,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-home-link/mobile-light.webp",
+      "thumb": "shots/latest-home-link/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4354,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-home-updates",
+   "version": "latest",
+   "group": "home",
+   "page": "index.html#updates",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html#updates",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-home-updates/pc-dark.webp",
+      "thumb": "shots/latest-home-updates/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2169,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-home-updates/pc-light.webp",
+      "thumb": "shots/latest-home-updates/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2169,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-home-updates/mobile-dark.webp",
+      "thumb": "shots/latest-home-updates/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3065,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-home-updates/mobile-light.webp",
+      "thumb": "shots/latest-home-updates/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3065,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-menu",
+   "version": "latest",
+   "group": "home",
+   "page": "index.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/index.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-menu/pc-dark.webp",
+      "thumb": "shots/latest-menu/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-menu/pc-light.webp",
+      "thumb": "shots/latest-menu/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-menu/mobile-dark.webp",
+      "thumb": "shots/latest-menu/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1804,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-menu/mobile-light.webp",
+      "thumb": "shots/latest-menu/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1804,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-ranking",
+   "version": "latest",
+   "group": "ranking",
+   "page": "ranking.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/ranking.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-ranking/pc-dark.webp",
+      "thumb": "shots/latest-ranking/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 5078,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-ranking/pc-light.webp",
+      "thumb": "shots/latest-ranking/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 5078,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-ranking/mobile-dark.webp",
+      "thumb": "shots/latest-ranking/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 9076,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-ranking/mobile-light.webp",
+      "thumb": "shots/latest-ranking/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 9076,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-ranking-support",
+   "version": "latest",
+   "group": "ranking",
+   "page": "ranking.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/ranking.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-ranking-support/pc-dark.webp",
+      "thumb": "shots/latest-ranking-support/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 5078,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-ranking-support/pc-light.webp",
+      "thumb": "shots/latest-ranking-support/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 5078,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-ranking-support/mobile-dark.webp",
+      "thumb": "shots/latest-ranking-support/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 9076,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-ranking-support/mobile-light.webp",
+      "thumb": "shots/latest-ranking-support/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 9076,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-ranking-empty",
+   "version": "latest",
+   "group": "ranking",
+   "page": "ranking.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/ranking.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-ranking-empty/pc-dark.webp",
+      "thumb": "shots/latest-ranking-empty/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-ranking-empty/pc-light.webp",
+      "thumb": "shots/latest-ranking-empty/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-ranking-empty/mobile-dark.webp",
+      "thumb": "shots/latest-ranking-empty/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 913,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-ranking-empty/mobile-light.webp",
+      "thumb": "shots/latest-ranking-empty/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 913,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-tools-market",
+   "version": "latest",
+   "group": "tools",
+   "page": "tools.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/tools.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-tools-market/pc-dark.webp",
+      "thumb": "shots/latest-tools-market/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1450,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-tools-market/pc-light.webp",
+      "thumb": "shots/latest-tools-market/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1450,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-tools-market/mobile-dark.webp",
+      "thumb": "shots/latest-tools-market/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1968,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-tools-market/mobile-light.webp",
+      "thumb": "shots/latest-tools-market/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1968,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-tools-bid",
+   "version": "latest",
+   "group": "tools",
+   "page": "tools.html#bid-calculator",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/tools.html#bid-calculator",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-tools-bid/pc-dark.webp",
+      "thumb": "shots/latest-tools-bid/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 919,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-tools-bid/pc-light.webp",
+      "thumb": "shots/latest-tools-bid/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 919,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-tools-bid/mobile-dark.webp",
+      "thumb": "shots/latest-tools-bid/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1141,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-tools-bid/mobile-light.webp",
+      "thumb": "shots/latest-tools-bid/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1141,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-tools-honing",
+   "version": "latest",
+   "group": "tools",
+   "page": "tools.html#honing",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/tools.html#honing",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-tools-honing/pc-dark.webp",
+      "thumb": "shots/latest-tools-honing/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 905,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-tools-honing/pc-light.webp",
+      "thumb": "shots/latest-tools-honing/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 905,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-tools-honing/mobile-dark.webp",
+      "thumb": "shots/latest-tools-honing/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1126,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-tools-honing/mobile-light.webp",
+      "thumb": "shots/latest-tools-honing/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1126,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-gem-helper",
+   "version": "latest",
+   "group": "tools",
+   "page": "gem-helper.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/gem-helper.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-gem-helper/pc-dark.webp",
+      "thumb": "shots/latest-gem-helper/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2195,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-gem-helper/pc-light.webp",
+      "thumb": "shots/latest-gem-helper/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2195,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-gem-helper/mobile-dark.webp",
+      "thumb": "shots/latest-gem-helper/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3465,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-gem-helper/mobile-light.webp",
+      "thumb": "shots/latest-gem-helper/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3465,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-gem-manual",
+   "version": "latest",
+   "group": "tools",
+   "page": "gem-helper.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/gem-helper.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-gem-manual/pc-dark.webp",
+      "thumb": "shots/latest-gem-manual/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2578,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-gem-manual/pc-light.webp",
+      "thumb": "shots/latest-gem-manual/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2578,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-gem-manual/mobile-dark.webp",
+      "thumb": "shots/latest-gem-manual/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3895,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-gem-manual/mobile-light.webp",
+      "thumb": "shots/latest-gem-manual/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3895,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-gem-auto",
+   "version": "latest",
+   "group": "tools",
+   "page": "gem-helper.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/gem-helper.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-gem-auto/pc-dark.webp",
+      "thumb": "shots/latest-gem-auto/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1866,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-gem-auto/pc-light.webp",
+      "thumb": "shots/latest-gem-auto/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1866,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-gem-auto/mobile-dark.webp",
+      "thumb": "shots/latest-gem-auto/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 2978,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-gem-auto/mobile-light.webp",
+      "thumb": "shots/latest-gem-auto/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 2978,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-gem-align",
+   "version": "latest",
+   "group": "tools",
+   "page": "gem-helper.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/gem-helper.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-gem-align/pc-dark.webp",
+      "thumb": "shots/latest-gem-align/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2195,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-gem-align/pc-light.webp",
+      "thumb": "shots/latest-gem-align/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2195,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-gem-align/mobile-dark.webp",
+      "thumb": "shots/latest-gem-align/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3985,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-gem-align/mobile-light.webp",
+      "thumb": "shots/latest-gem-align/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3985,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-gem-confirm",
+   "version": "latest",
+   "group": "tools",
+   "page": "gem-helper.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/gem-helper.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-gem-confirm/pc-dark.webp",
+      "thumb": "shots/latest-gem-confirm/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2281,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-gem-confirm/pc-light.webp",
+      "thumb": "shots/latest-gem-confirm/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2281,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-gem-confirm/mobile-dark.webp",
+      "thumb": "shots/latest-gem-confirm/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3880,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-gem-confirm/mobile-light.webp",
+      "thumb": "shots/latest-gem-confirm/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3880,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-gem-applied",
+   "version": "latest",
+   "group": "tools",
+   "page": "gem-helper.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/gem-helper.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-gem-applied/pc-dark.webp",
+      "thumb": "shots/latest-gem-applied/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2595,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-gem-applied/pc-light.webp",
+      "thumb": "shots/latest-gem-applied/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2595,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-gem-applied/mobile-dark.webp",
+      "thumb": "shots/latest-gem-applied/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4174,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-gem-applied/mobile-light.webp",
+      "thumb": "shots/latest-gem-applied/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4174,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-gem-change",
+   "version": "latest",
+   "group": "tools",
+   "page": "gem-helper.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/gem-helper.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-gem-change/pc-dark.webp",
+      "thumb": "shots/latest-gem-change/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2424,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-gem-change/pc-light.webp",
+      "thumb": "shots/latest-gem-change/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2424,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-gem-change/mobile-dark.webp",
+      "thumb": "shots/latest-gem-change/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 4003,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-gem-change/mobile-light.webp",
+      "thumb": "shots/latest-gem-change/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 4003,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-spec-search",
+   "version": "latest",
+   "group": "spec",
+   "page": "spec.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/spec.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-spec-search/pc-dark.webp",
+      "thumb": "shots/latest-spec-search/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1023,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-spec-search/pc-light.webp",
+      "thumb": "shots/latest-spec-search/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1023,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-spec-search/mobile-dark.webp",
+      "thumb": "shots/latest-spec-search/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1060,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-spec-search/mobile-light.webp",
+      "thumb": "shots/latest-spec-search/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1060,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-spec-handoff",
+   "version": "latest",
+   "group": "spec",
+   "page": "spec.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/spec.html",
+   "fixture": true,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-spec-handoff/pc-dark.webp",
+      "thumb": "shots/latest-spec-handoff/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 1023,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-spec-handoff/pc-light.webp",
+      "thumb": "shots/latest-spec-handoff/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 1023,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-spec-handoff/mobile-dark.webp",
+      "thumb": "shots/latest-spec-handoff/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 1060,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-spec-handoff/mobile-light.webp",
+      "thumb": "shots/latest-spec-handoff/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 1060,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   },
+   "twin": "spec-handoff"
+  },
+  {
+   "id": "latest-todo-gate",
+   "version": "latest",
+   "group": "todo",
+   "page": "todo.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/todo.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-todo-gate/pc-dark.webp",
+      "thumb": "shots/latest-todo-gate/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-todo-gate/pc-light.webp",
+      "thumb": "shots/latest-todo-gate/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-todo-gate/mobile-dark.webp",
+      "thumb": "shots/latest-todo-gate/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-todo-gate/mobile-light.webp",
+      "thumb": "shots/latest-todo-gate/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-guild-gate",
+   "version": "latest",
+   "group": "guild",
+   "page": "guild.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/guild.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-guild-gate/pc-dark.webp",
+      "thumb": "shots/latest-guild-gate/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-guild-gate/pc-light.webp",
+      "thumb": "shots/latest-guild-gate/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 900,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-guild-gate/mobile-dark.webp",
+      "thumb": "shots/latest-guild-gate/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-guild-gate/mobile-light.webp",
+      "thumb": "shots/latest-guild-gate/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 940,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-account",
+   "version": "latest",
+   "group": "account",
+   "page": "account.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/account.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-account/pc-dark.webp",
+      "thumb": "shots/latest-account/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 970,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-account/pc-light.webp",
+      "thumb": "shots/latest-account/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 970,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-account/mobile-dark.webp",
+      "thumb": "shots/latest-account/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-account/mobile-light.webp",
+      "thumb": "shots/latest-account/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 844,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   },
+   "twin": "account-login"
+  },
+  {
+   "id": "latest-updates",
+   "version": "latest",
+   "group": "docs",
+   "page": "updates.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-updates/pc-dark.webp",
+      "thumb": "shots/latest-updates/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 28786,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/latest-updates/pc-dark.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/latest-updates/pc-dark-2.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/latest-updates/pc-dark-3.webp",
+        "height": 4786
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/latest-updates/pc-light.webp",
+      "thumb": "shots/latest-updates/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 28786,
+      "thumbWidth": 384,
+      "thumbHeight": 270,
+      "segments": [
+       {
+        "src": "shots/latest-updates/pc-light.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/latest-updates/pc-light-2.webp",
+        "height": 12000
+       },
+       {
+        "src": "shots/latest-updates/pc-light-3.webp",
+        "height": 4786
+       }
+      ]
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-updates/mobile-dark.webp",
+      "thumb": "shots/latest-updates/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 57742,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/latest-updates/mobile-dark.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/latest-updates/mobile-dark-2.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/latest-updates/mobile-dark-3.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/latest-updates/mobile-dark-4.webp",
+        "height": 9742
+       }
+      ]
+     },
+     "light": {
+      "src": "shots/latest-updates/mobile-light.webp",
+      "thumb": "shots/latest-updates/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 57742,
+      "thumbWidth": 195,
+      "thumbHeight": 422,
+      "segments": [
+       {
+        "src": "shots/latest-updates/mobile-light.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/latest-updates/mobile-light-2.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/latest-updates/mobile-light-3.webp",
+        "height": 16000
+       },
+       {
+        "src": "shots/latest-updates/mobile-light-4.webp",
+        "height": 9742
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-terms",
+   "version": "latest",
+   "group": "docs",
+   "page": "terms.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/terms.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-terms/pc-dark.webp",
+      "thumb": "shots/latest-terms/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 4963,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-terms/pc-light.webp",
+      "thumb": "shots/latest-terms/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 4963,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-terms/mobile-dark.webp",
+      "thumb": "shots/latest-terms/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 7864,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-terms/mobile-light.webp",
+      "thumb": "shots/latest-terms/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 7864,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-privacy",
+   "version": "latest",
+   "group": "docs",
+   "page": "privacy.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/privacy.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-privacy/pc-dark.webp",
+      "thumb": "shots/latest-privacy/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 6527,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-privacy/pc-light.webp",
+      "thumb": "shots/latest-privacy/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 6527,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-privacy/mobile-dark.webp",
+      "thumb": "shots/latest-privacy/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 10719,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-privacy/mobile-light.webp",
+      "thumb": "shots/latest-privacy/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 10719,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-note-site-home-ranking",
+   "version": "latest",
+   "group": "notes",
+   "page": "updates/site-home-ranking.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/site-home-ranking.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-note-site-home-ranking/pc-dark.webp",
+      "thumb": "shots/latest-note-site-home-ranking/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2449,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-note-site-home-ranking/pc-light.webp",
+      "thumb": "shots/latest-note-site-home-ranking/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2449,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-note-site-home-ranking/mobile-dark.webp",
+      "thumb": "shots/latest-note-site-home-ranking/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3450,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-note-site-home-ranking/mobile-light.webp",
+      "thumb": "shots/latest-note-site-home-ranking/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3450,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-note-upcoming",
+   "version": "latest",
+   "group": "notes",
+   "page": "updates/upcoming.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/upcoming.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-note-upcoming/pc-dark.webp",
+      "thumb": "shots/latest-note-upcoming/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2224,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-note-upcoming/pc-light.webp",
+      "thumb": "shots/latest-note-upcoming/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2224,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-note-upcoming/mobile-dark.webp",
+      "thumb": "shots/latest-note-upcoming/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3500,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-note-upcoming/mobile-light.webp",
+      "thumb": "shots/latest-note-upcoming/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3500,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-note-bot-upcoming",
+   "version": "latest",
+   "group": "notes",
+   "page": "updates/bot-upcoming.html",
+   "live": "https://ju00moon-sketch.github.io/pogeunhaeyong-site/updates/bot-upcoming.html",
+   "fixture": false,
+   "candidate": false,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-note-bot-upcoming/pc-dark.webp",
+      "thumb": "shots/latest-note-bot-upcoming/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 2326,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     },
+     "light": {
+      "src": "shots/latest-note-bot-upcoming/pc-light.webp",
+      "thumb": "shots/latest-note-bot-upcoming/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 2326,
+      "thumbWidth": 384,
+      "thumbHeight": 270
+     }
+    },
+    "mobile": {
+     "dark": {
+      "src": "shots/latest-note-bot-upcoming/mobile-dark.webp",
+      "thumb": "shots/latest-note-bot-upcoming/mobile-dark-thumb.webp",
+      "width": 390,
+      "height": 3628,
+      "thumbWidth": 195,
+      "thumbHeight": 422
+     },
+     "light": {
+      "src": "shots/latest-note-bot-upcoming/mobile-light.webp",
+      "thumb": "shots/latest-note-bot-upcoming/mobile-light-thumb.webp",
+      "width": 390,
+      "height": 3628,
       "thumbWidth": 195,
       "thumbHeight": 422
      }

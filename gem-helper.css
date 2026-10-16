@@ -1,0 +1,101 @@
+/* Gem processing helper: a work tool on the shared realm tokens. The screen sits beside the judgement
+   column; the recommended action is the one gold element, everything else stays teal and neutral. */
+.gem-shell { padding-top: 34px; }
+.gem-intro h1 { font-size: clamp(22px, 2.4vw, 30px); line-height: 1.45; letter-spacing: -.04em; font-weight: 500; }
+.gem-lead { margin-top: 8px; max-width: 72ch; color: var(--text-dim); font-size: 14px; line-height: 1.7; }
+.gem-note { margin-top: 6px; color: var(--text-muted); font-size: 12px; }
+.gem-layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 20px; align-items: start; margin-top: 12px; }
+.gem-judge { display: grid; gap: 16px; min-width: 0; }
+
+.gem-page :is(button, select, input) { min-height: 44px; }
+.gem-page :is(button, select, input, a, summary):focus-visible { outline: 2px solid var(--cyan, var(--accent)); outline-offset: 2px; }
+.gem-button { border: 1px solid var(--border-strong, var(--border)); background: transparent; color: var(--text); padding: 8px 16px; font: inherit; font-size: 13px; font-weight: 500; }
+.gem-button-strong { border-color: var(--accent); background: var(--accent); color: var(--theme-on-accent, var(--bg)); font-weight: 600; }
+.tools-page .gem-button-strong:not(:disabled):hover { color: var(--theme-on-accent, var(--bg)); border-color: var(--accent); filter: brightness(1.08); }
+.gem-source, .gem-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.gem-actions { margin-top: 12px; }
+.gem-actions:empty { display: none; }
+
+.gem-file { display: grid; gap: 6px; margin-top: 14px; font-size: 12px; color: var(--text-dim); }
+.gem-file input { width: 100%; }
+.gem-notes { margin: 14px 0 0; padding-left: 18px; display: grid; gap: 4px; color: var(--text-dim); font-size: 12px; line-height: 1.6; }
+.gem-hint { margin-top: 8px; color: var(--text-dim); font-size: 12px; line-height: 1.6; }
+.gem-hint:empty, .gem-source-state:empty { display: none; }
+.gem-issue { color: var(--text); border-left: 2px solid var(--theme-danger); padding-left: 8px; }
+.gem-source-state { margin-top: 12px; font-size: 13px; line-height: 1.6; color: var(--text); }
+
+.gem-stage { position: relative; margin-top: 14px; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--bg); }
+.gem-stage video, .gem-stage canvas { display: block; width: 100%; height: auto; }
+.gem-overlay { position: absolute; inset: 0; }
+.gem-page .gem-roi { position: absolute; display: block; min-height: 0; padding: 0; margin: 0; border: 1px dashed color-mix(in srgb, var(--accent) 70%, transparent); border-radius: 2px; background: transparent; }
+.gem-page .gem-roi[data-kind="edit"] { border: 2px solid var(--accent); cursor: move; touch-action: none; }
+.gem-page .gem-roi[data-region="anchor"][data-kind="edit"] { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.gem-roi-handle { position: absolute; right: -11px; bottom: -11px; width: 22px; height: 22px; border: 2px solid var(--bg); border-radius: 50%; background: var(--accent); cursor: nwse-resize; }
+.gem-align { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 13px; line-height: 1.6; }
+
+.gem-chip { display: inline-block; padding: 1px 8px; border: 1px solid var(--border); border-radius: 999px; color: var(--text-dim); font-size: 11px; font-weight: 500; line-height: 1.6; white-space: nowrap; }
+.gem-chip:empty { display: none; }
+.gem-chip[data-status="ok"] { border-color: color-mix(in srgb, var(--accent) 70%, var(--border)); color: var(--text); }
+.gem-chip:is([data-status="review"], [data-status="inferred"], [data-status="family"], [data-status="effect"]) { padding: 0 7px; border: 2px solid var(--theme-danger); color: var(--text); }
+.gem-chip[data-status="unread"] { border-style: dashed; }
+.gem-chip[data-status="fixed"] { border-color: var(--text-dim); color: var(--text); }
+
+.gem-mode { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.tools-page .gem-mode button { border: 0; border-radius: 0; background: transparent; color: var(--text-dim); padding: 8px 18px; font: inherit; font-size: 13px; }
+.tools-page .gem-mode button[aria-pressed="true"] { background: var(--bg-soft, var(--bg)); color: var(--text); box-shadow: inset 0 -2px 0 var(--accent); }
+.gem-auto, .gem-manual { margin-top: 14px; }
+.gem-auto-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; font-size: 12px; color: var(--text-dim); }
+.gem-candidates, .gem-question fieldset { margin: 12px 0 0; padding: 0; border: 0; min-width: 0; }
+.gem-candidates legend, .gem-question legend, .gem-field legend { margin-bottom: 6px; padding: 0; color: var(--text-dim); font-size: 12px; }
+.gem-candidate, .gem-choices label { display: flex; gap: 8px; align-items: center; min-height: 44px; padding: 6px 0; font-size: 13px; line-height: 1.5; color: var(--text); }
+.gem-page :is(.gem-candidate, .gem-choices) input { min-height: 0; margin-top: 0; accent-color: var(--accent); }
+.gem-choices { display: grid; gap: 2px; }
+
+.gem-clause { display: grid; gap: 10px; min-width: 0; margin: 12px 0 0; padding: 12px; border: 1px solid var(--border); border-radius: 8px; }
+.gem-clause legend { padding: 0 4px; color: var(--text-dim); font-size: 12px; }
+.gem-clause-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.gem-effect-row { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) auto; gap: 8px; align-items: end; }
+
+.gem-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px; margin-top: 12px; }
+.gem-field { display: grid; gap: 6px; min-width: 0; color: var(--text-dim); font-size: 12px; }
+.gem-field > label, .gem-field > span:first-child { display: flex; gap: 8px; align-items: center; justify-content: space-between; }
+.gem-field select { width: 100%; }
+.gem-field-wide { grid-column: 1 / -1; margin: 0; padding: 0; border: 0; }
+.gem-pair { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 8px; }
+.gem-chip-inline { justify-self: end; }
+.gem-question { margin-top: 12px; padding: 12px; border: 1px solid var(--theme-danger); border-radius: 8px; font-size: 13px; }
+
+.gem-offer-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 12px 0 0; padding: 0; list-style: none; }
+.gem-offer { display: grid; gap: 8px; align-content: start; min-width: 0; padding: 10px; border: 1px solid var(--border); border-radius: 8px; }
+.gem-offer-slot { color: var(--text-muted); font-size: 11px; }
+.gem-offer-text { min-height: 2.9em; font-size: 14px; font-weight: 600; line-height: 1.45; overflow-wrap: anywhere; }
+.gem-offer select { width: 100%; }
+
+.gem-rec { border-color: color-mix(in srgb, var(--gold) 45%, var(--border)); }
+.gem-rec-action { color: var(--gold); font-size: clamp(26px, 3vw, 34px); font-weight: 600; line-height: 1.25; letter-spacing: -.02em; }
+.gem-rec-action:empty { display: none; }
+.gem-rec-reason { margin-top: 6px; color: var(--text); font-size: 14px; line-height: 1.6; }
+.gem-subhead { margin-top: 16px; color: var(--text-dim); font-size: 12px; font-weight: 600; }
+.gem-rec-values { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 18px; margin: 8px 0 0; font-size: 13px; }
+.gem-rec-values dt { color: var(--text-dim); }
+.gem-rec-values dd { margin: 0; color: var(--text); font-variant-numeric: tabular-nums; }
+.gem-rec-values [data-best] { color: var(--text); font-weight: 600; }
+.gem-assumptions { margin-top: 10px; color: var(--text-dim); font-size: 12px; }
+.gem-assumptions summary { display: flex; align-items: center; min-height: 44px; cursor: pointer; }
+.gem-assumptions ul { display: grid; gap: 4px; margin: 6px 0 0; padding-left: 18px; line-height: 1.6; }
+.gem-licenses { margin-top: 28px; color: var(--text-muted); font-size: 12px; }
+.gem-licenses a { color: var(--text-dim); text-decoration: underline; text-underline-offset: 3px; }
+
+@media (max-width: 1024px) { .gem-layout { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 640px) {
+  .gem-offer-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gem-clause-grid { grid-template-columns: minmax(0, 1fr); }
+  /* Small stage: only the anchor and the region being adjusted keep a resize handle, so the game text stays visible. */
+  .gem-page .gem-roi:not([data-region="anchor"]):not(:focus):not(:hover) .gem-roi-handle { display: none; }
+}
+@media (max-width: 480px) {
+  .gem-shell { padding-top: 22px; }
+  .gem-fields { grid-template-columns: minmax(0, 1fr); }
+  .gem-effect-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .gem-effect-row .gem-button { grid-column: 1 / -1; }
+}

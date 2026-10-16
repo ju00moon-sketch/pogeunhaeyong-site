@@ -1,7 +1,13 @@
 (() => {
   'use strict';
-  // GitHub Pages 사본에는 세션 API가 없다. 계정 화면 이동과 계정 링크는 renewal.js가 운영 서비스로 넘긴다.
-  if (window.pogeunStaticHost?.active) return;
+  // GitHub Pages 사본에는 세션 API가 없다. 세션을 묻지 않고 확인 불가(unavailable)를 발표해 접근 확인을 정착시킨다.
+  // 관문은 pogeunStaticHost로 정적 안내를 고르고, 계정 화면은 동작할 수 없는 로그인 대신 운영 서비스 안내를 보인다.
+  if (window.pogeunStaticHost?.active) {
+    window.publishPogeunSiteAccess?.({ authenticated: false, personal: 'unavailable', guild: 'unavailable' });
+    const card = document.body.hasAttribute('data-account-page') ? document.querySelector('.account-card') : null;
+    if (card && window.pogeunStaticNotice) card.replaceWith(window.pogeunStaticNotice({ area: 'account', href: `${window.pogeunStaticHost.serviceOrigin}/account.html` }));
+    return;
+  }
   const $ = id => document.getElementById(id);
   const isAccountPage = document.body.hasAttribute('data-account-page');
   const accountLink = document.querySelector('[data-account-link]');
@@ -41,6 +47,9 @@
     ownership_state_changed: '캐릭터 인증 상태가 변경되었어요. 현재 상태를 확인해 주세요.',
   };
   let session = null, generation = 0, actionSerial = 0, busy = false, refreshTask = null, expiredNotice = '';
+  // Last verified account (null when signed out). Kept through hidden tabs and failed checks so that only a real change
+  // of account is announced as site:account-change (no account data in the event, not an authorisation signal).
+  let verifiedUserId = null, verifiedOnce = false;
   const controllers = new Set();
   const query = new URLSearchParams(location.search);
   const initialError = errorMessages[query.get('error')] || '';
@@ -131,6 +140,10 @@
         const { response, data } = await request('/api/auth/session');
         if (current !== generation) return;
         if (!response.ok || !validSession(data)) throw new Error('invalid session');
+        const userId = data.authenticated ? data.user.id : null;
+        const accountChanged = verifiedOnce && userId !== verifiedUserId;
+        verifiedUserId = userId; verifiedOnce = true;
+        if (accountChanged) document.dispatchEvent(new CustomEvent('site:account-change'));
         // 다른 계정이거나 같은 계정의 세션이 바뀌었으면(CSRF 교체) 새 상태보다 먼저 확인 불가를 발표해 개인 상태와 대기 쓰기를
         // 비우게 한다. 옛 명령에 새 인증을 붙여 다시 보내지 않기 위해서다.
         const changedAccount = session?.authenticated && data.authenticated && (session.user.id !== data.user.id || session.csrfToken !== data.csrfToken);

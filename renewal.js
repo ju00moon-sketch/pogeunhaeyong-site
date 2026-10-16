@@ -1,27 +1,31 @@
 (() => {
   'use strict';
   const base = new URL('.', document.currentScript.src);
-  // GitHub Pages 사본은 정적 파일만 있고 /api가 없다. 서버가 필요한 화면은 같은 경로·쿼리·해시로 운영 서비스로 넘기고,
-  // 그 화면으로 가는 링크와 폼도 서비스 주소로 바꾼다. 운영 서비스·로컬 서버에서는 아무것도 바꾸지 않는다.
+  // GitHub Pages 사본은 정적 파일만 있고 /api가 없다. 모든 화면·링크·폼은 이 사본 안에 그대로 두고(자동 이동이나
+  // 주소 치환 없음), 서버가 필요한 기능은 화면마다 정착된 안내와 운영 서비스로 가는 명시적인 링크만 보인다.
   const serviceOrigin = 'https://pogeunhaeyong.duckdns.org';
-  const servicePages = new Set(['spec.html', 'tools.html', 'todo.html', 'guild.html', 'account.html']);
   const staticHost = /^https:\/\/[^/]+\.github\.io$/i.test(location.origin);
-  const serviceUrl = href => {
-    const url = new URL(href, base);
-    if (url.origin !== base.origin || !url.pathname.startsWith(base.pathname)) return null;
-    const page = url.pathname.slice(base.pathname.length);
-    const name = page.endsWith('.html') ? page : `${page}.html`;
-    return servicePages.has(name) ? `${serviceOrigin}/${name}${url.search}${url.hash}` : null;
-  };
   window.pogeunStaticHost = Object.freeze({ active: staticHost, serviceOrigin });
-  if (staticHost) {
-    const target = serviceUrl(location.pathname + (location.search || '') + (location.hash || ''));
-    if (target) { location.replace(target); return; }
-    document.addEventListener('DOMContentLoaded', () => {
-      for (const link of document.querySelectorAll('a[href]')) { const to = serviceUrl(link.href); if (to) link.href = to; }
-      for (const form of document.querySelectorAll('form[action]')) { const to = serviceUrl(form.action); if (to) form.action = to; }
-    });
-  }
+  // 정적 안내 문구(docs/static-copy.js). 빠진 키는 그 자리를 비우고 한 번만 알린다.
+  const reportedCopy = new Set();
+  const staticText = (key, values = {}) => {
+    const value = window.POGEUN_STATIC_COPY?.[key];
+    if (typeof value === 'string' && value) return value.replace(/\{name\}/g, match => ('name' in values ? String(values.name) : match));
+    if (!reportedCopy.has(key)) { reportedCopy.add(key); console.error(`static copy missing: ${key}`); }
+    return '';
+  };
+  // 서버가 필요한 화면(계정·캐릭터·도구)의 정착 안내: 표시·제목·설명과 운영 서비스 링크. 링크는 사용자가 눌러야만 이동한다.
+  window.pogeunStaticNotice = ({ area, action = `${area}.action`, href, values }) => {
+    const card = document.createElement('section'); card.className = 'site-access-gate static-boundary'; card.setAttribute('role', 'status');
+    const badge = document.createElement('p'); badge.className = 'site-access-stage'; badge.textContent = staticText('stage');
+    const title = document.createElement('h2'); title.textContent = staticText(`${area}.title`);
+    const body = document.createElement('p'); body.textContent = staticText(`${area}.body`);
+    const actions = document.createElement('div'); actions.className = 'site-access-actions';
+    const link = document.createElement('a'); link.className = 'realm-action primary'; link.href = href; link.textContent = staticText(action, values);
+    actions.append(link);
+    card.append(badge, title, body, actions);
+    return card;
+  };
   // 공개·본인·길드 접근(specs/2026-10-14-public-service-contract.md §2). unavailable은 서버 값이 아니라
   // 확인 전·전환 중·조회 실패를 뜻하는 화면 전용 상태다.
   const personalStates = new Set(['anonymous', 'ownership_required', 'ready', 'unavailable']);
@@ -75,13 +79,19 @@
     const stateKey = `${initial ? 'checking' : state}:${detail.authenticated}`;
     if (accessCard.dataset.accessState === stateKey) return;
     accessCard.dataset.accessState = stateKey;
+    // GitHub 사본: auth.js가 세션을 묻지 않고 unavailable을 발표한다. 확인 실패 안내 대신 정적 안내와 운영 서비스의
+    // 같은 화면으로 가는 링크를 둔다.
+    const area = feature.dataset.siteFeature;
+    const staticState = !initial && staticHost;
     const copy = initial ? ['확인 중', '이용 권한을 확인하고 있어요.', '잠시만 기다려 주세요.', '내 계정']
+      : staticState ? [staticText('stage'), staticText(`${area}.title`), staticText(`${area}.body`), staticText(`${area}.action`)]
       : gateCopy[requirement][state] || gateCopy[requirement].unavailable;
     const badge = document.createElement('p'); badge.className = 'site-access-stage'; badge.textContent = copy[0];
     const title = document.createElement('h1'); title.textContent = copy[1]; title.tabIndex = -1;
     const description = document.createElement('p'); description.textContent = copy[2];
     const actions = document.createElement('div'); actions.className = 'site-access-actions';
-    const account = document.createElement('a'); account.className = 'realm-action primary'; account.href = new URL('account.html', base).href;
+    const account = document.createElement('a'); account.className = 'realm-action primary';
+    account.href = staticState ? `${serviceOrigin}/${area}.html` : new URL('account.html', base).href;
     account.textContent = copy[3];
     const home = document.createElement('a'); home.className = 'realm-action'; home.href = new URL('index.html', base).href; home.textContent = '홈으로';
     actions.append(account, home);
@@ -116,7 +126,7 @@
   root.classList.add('realm-header');
   root.innerHTML = `<div class="realm-header-inner"><a class="realm-brand" href="${path('index.html')}" aria-label="포근해용 홈">${mark}<span>포근해용</span></a><nav id="realm-navigation" class="realm-nav" aria-label="주요 메뉴"></nav><div class="realm-header-tools"><a class="realm-icon-link" href="${path('spec.html')}" aria-label="캐릭터 검색" title="캐릭터 검색">${searchIcon}</a><a class="realm-icon-link realm-update-link" href="${path('updates.html')}" aria-label="업데이트 내역" title="업데이트 내역">${updateIcon}</a><div class="realm-account"><a href="${path('account.html')}" data-account-link>로그인</a><a href="${path('account.html')}" data-registration-link>회원가입</a></div><button class="realm-menu-toggle" type="button" aria-expanded="false" aria-controls="realm-navigation realm-menu-panel" aria-label="메뉴 열기"><span></span><span></span><span></span></button></div><div id="realm-menu-panel" class="realm-menu-panel" hidden><a href="${path('account.html')}">내 계정·가입 상태</a><a href="${path('guild.html')}" data-guild-link hidden>우리 길드</a><div data-theme-mount></div></div></div>`;
   const nav = root.querySelector('nav');
-  const items = [['home','홈','index.html#intro'],['spec','캐릭터','spec.html'],['todo','숙제','todo.html'],['tools','시장·도구','tools.html'],['guild','길드','guild.html'],['commands','명령어','index.html#commands'],['updates','업데이트','index.html#updates']];
+  const items = [['home','홈','index.html#intro'],['spec','캐릭터','spec.html'],['ranking','랭킹','ranking.html'],['todo','숙제','todo.html'],['tools','시장·도구','tools.html'],['guild','길드','guild.html'],['commands','명령어','index.html#commands'],['updates','업데이트','index.html#updates']];
   for (const [key,label,url] of items) {
     const a = document.createElement('a'); a.href = path(url); a.textContent = label; a.dataset.nav = key; nav.append(a);
   }
@@ -138,6 +148,8 @@
   memberProfileLink.hidden = true; memberProfileLink.setAttribute('aria-label', '내 대표 캐릭터 · 내 계정');
   root.querySelector('.realm-account').prepend(memberProfileLink);
   let profileGeneration = 0, profileController = null, profileTask = null, profileData = null, profileFetchedAt = 0;
+  // 이미지 출처를 자기 사이트로 묶은 페이지는 data-member-avatar="initial"로 첫 글자 아바타만 쓰고 원격 초상화를 요청하지 않는다.
+  const remotePortrait = root.dataset.memberAvatar !== 'initial';
   const characterName = value => typeof value === 'string' && /^[가-힣A-Za-z0-9]{2,12}$/.test(value);
   const profileImage = value => typeof value === 'string' && value.length <= 2048 && /^https:\/\/cdn-lostark\.game\.onstove\.com\/armory\/(?:[A-Za-z0-9_-]+\/)*[A-Za-z0-9_-]+\.(?:jpg|png|webp)(?:\?v=[A-Za-z0-9_-]{1,64})?$/.test(value);
   const profileNode = (tag, name, text) => { const e = document.createElement(tag); e.className = name; if (text !== undefined) e.textContent = text; return e; };
@@ -149,7 +161,7 @@
     root.querySelector('[data-account-link]').hidden = available;
     if (!available) return;
     const avatar = profileNode('span', 'realm-member-avatar', profile.characterName.slice(0, 1)); avatar.setAttribute('aria-hidden', 'true');
-    if (profileImage(profile.characterImage)) {
+    if (remotePortrait && profileImage(profile.characterImage)) {
       const img = document.createElement('img'); img.src = profile.characterImage; img.alt = ''; img.decoding = 'async';
       img.addEventListener('error', () => img.remove(), { once: true }); avatar.append(img);
     }
