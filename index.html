@@ -48,11 +48,11 @@
       <section class="realm-panel dashboard-market"><div class="realm-panel-head"><h2>주요 재련 재료</h2><a href="tools.html">더보기</a></div><div id="home-market" aria-live="polite" class="dashboard-market-grid"></div><p id="home-market-time" class="dashboard-source"></p></section>
       <section class="realm-panel dashboard-notices"><div class="realm-panel-head"><h2>로스트아크 공지</h2><a href="https://lostark.game.onstove.com/News/Notice/List" target="_blank" rel="noopener noreferrer">더보기 ↗</a></div><div id="home-notices" aria-live="polite"></div></section>
       <section class="realm-panel dashboard-updates"><div class="realm-panel-head"><h2>포근해용 업데이트</h2><button type="button" data-tab="updates">더보기</button></div><div class="dashboard-release-list">
+        <a href="updates/ui-apps.html"><span class="dashboard-release-version">UI 갤러리</span><div><b>데스크톱 도우미 화면 추가와 앱별 UI 갤러리 개편</b><p>데스크톱 도우미 20개 화면 상태 모음 · 앱별 필터 및 PC 전용 안내 · 검증용 가상 자료 고지</p></div></a>
         <a href="updates/site-home-ranking.html"><span class="dashboard-release-version">홈페이지</span><div><b>홈 화면 복원과 랭킹 스냅샷 · 젬 도우미 안내</b><p>성채 배경과 주요 타일 복원, LOPEC 공개 환산 점수 기반 역할별 100위 랭킹 스냅샷 페이지 추가</p></div></a>
         <a href="updates/upcoming.html"><span class="dashboard-release-version">출시 예정</span><div><b>공개 도구와 숙제표 분리, 안내 페이지</b><p>도구 비회원 공개 · 숙제표 소유 인증 분리 · 정적 안내 페이지</p></div></a>
         <a href="updates/bot-upcoming.html"><span class="dashboard-release-version">출시 예정</span><div><b>봇 기능 개선 및 시세·효율 조회 보완</b><p>/젬값 최저가 시세 · 지옥·나락 효율 바로 조회 · 팔찌효율 간편 조회</p></div></a>
         <a href="updates/v1.4.html"><span class="dashboard-release-version">v1.4</span><div><b>장비 강화 탭과 회원 기능 보완</b><p>재료별 소모량 · 숙제표 저장 보완 · 인공지능 답변 모델 교체</p></div></a>
-        <a href="updates/v1.3.html"><span class="dashboard-release-version">v1.3</span><div><b>재련 최저 비용 계산기</b><p>숨결·책을 가장 싸게 넣는 법 · 캐릭터 화면 스펙업 탭 · 10단계 티어 · 팔찌 자동 조회</p></div></a>
       </div></section>
       <section class="realm-panel dashboard-tools"><div class="realm-panel-head"><h2>유용한 도구</h2><a href="tools.html">전체 보기</a></div><div class="dashboard-tool-grid"><a href="spec.html"><b>캐릭터 스펙</b><small>장비와 세팅 조회</small></a><a href="tools.html"><b>거래소 검색</b><small>현재가 · 일별 시세</small></a><a href="tools.html?kind=gems&amp;q=10겁"><b>보석 경매</b><small>겁화 · 작열 최저가</small></a><a href="tools.html#bid-calculator"><b>분배금 계산</b><small>4인 · 8인 · 16인</small></a><button data-tab="commands" type="button"><b>봇 명령어</b><small>71개 명령과 별칭</small></button><button data-tab="emoticons" type="button"><b>이모티콘</b><small>182종 키워드 찾기</small></button></div></section>
       <section class="realm-panel dashboard-guild"><div class="realm-panel-head"><h2>포근해 길드</h2></div><div class="dashboard-guild-body"><p>루페온 · 포근해</p><a class="realm-action primary" href="guild.html">길드 일정</a></div><div class="dashboard-guild-links"><a href="https://discord.com/oauth2/authorize?client_id=1542885088038092901&amp;permissions=52224&amp;scope=bot%20applications.commands">디스코드 봇 초대 ↗</a><button type="button" data-tab="link">카카오톡 안내</button></div></section>
@@ -335,9 +335,14 @@
   <!-- ── 업데이트 ── -->
   <section class="tab-panel" id="panel-updates">
     <h1 class="page">업데이트</h1>
-    <p class="lead">카드를 누르면 그 버전의 자세한 노트로 넘어갑니다. <a href="updates.html">전체 노트 보기 →</a> · <a href="ui/">UI 갤러리 둘러보기 →</a></p>
+    <p class="lead">카드를 누르면 그 버전의 자세한 노트로 넘어갑니다. <a href="updates.html">전체 노트 보기 →</a> · <a href="ui/">앱별 UI 갤러리 둘러보기 →</a></p>
 
     <div class="releases">
+      <a class="release" href="updates/ui-apps.html">
+        <div class="head"><span class="ver">UI 갤러리</span></div>
+        <p class="summary">개발 및 로컬 검증 중인 Windows 데스크톱 도우미의 20개 구동 화면 상태를 모은 앱별 UI 갤러리를 선보입니다. 실시간 전투 보조·파티 신청자·상자 골드 환산·오버레이 등 실제 앱 화면을 확인하실 수 있으며, 데스크톱 수치는 로컬 검증용 가상 자료입니다.</p>
+        <div class="chips"><span>데스크톱 도우미 화면 모음</span><span>앱별 필터</span><span>PC 전용 안내</span><span>검증용 가상 자료 고지</span><span>시험용 오버레이 창</span></div>
+      </a>
       <a class="release" href="updates/site-home-ranking.html">
         <div class="head"><span class="ver">홈페이지</span></div>
         <p class="summary">성채 배경과 주요 타일 복원, LOPEC 공개 환산 점수 기반 역할별 100위 랭킹 스냅샷 페이지 추가</p>

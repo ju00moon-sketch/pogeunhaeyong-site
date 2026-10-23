@@ -7,11 +7,14 @@
   const items = new Map(data.items.map(item => [item.id, item]));
   const cards = [...document.querySelectorAll('.ui-card')];
   const groups = [...document.querySelectorAll('.ui-group')];
+  const apps = [...document.querySelectorAll('.ui-app')];
+  const groupButtons = [...document.querySelectorAll('[data-filter-group]')];
+  const empty = document.querySelector('[data-empty]');
   const controls = document.querySelector('.ui-controls');
   const count = document.querySelector('.ui-count');
   const viewer = document.querySelector('.ui-viewer');
   // The newest capture set opens by default when there is one; ?version=all shows every version.
-  const defaults = { version: data.items.some(item => item.version === 'latest') ? 'latest' : 'all', group: 'all', device: 'pc', theme: 'dark' };
+  const defaults = { version: data.items.some(item => item.version === 'latest') ? 'latest' : 'all', app: 'all', group: 'all', device: 'pc', theme: 'dark' };
   const state = { ...defaults };
   const params = new URLSearchParams(location.search);
   for (const key of Object.keys(state)) {
@@ -29,11 +32,19 @@
     img.src = s.thumb; img.width = s.thumbWidth; img.height = s.thumbHeight; img.alt = s.alt;
     card.querySelector('.ui-thumb').href = s.src;
   }
-  function visible(card) {
-    return (state.version === 'all' || card.dataset.version === state.version) && (state.group === 'all' || card.dataset.group === state.group);
+  // An app with no mobile captures (the Windows desktop helper) is PC only: in the mobile view its cards are hidden instead
+  // of showing a PC capture under the mobile label, and its section says so (data-pconly).
+  const hasDevice = card => card.dataset.devices.split(' ').includes(state.device);
+  function matches(card) {
+    return (state.version === 'all' || card.dataset.version === state.version) && (state.app === 'all' || card.dataset.app === state.app)
+      && (state.group === 'all' || card.dataset.group === state.group);
   }
+  function visible(card) { return matches(card) && hasDevice(card); }
   function render() {
     root.dataset.device = state.device;
+    // The group row follows the chosen app; a group of another app falls back to all.
+    for (const button of groupButtons) button.hidden = state.app !== 'all' && !!button.dataset.app && button.dataset.app !== state.app;
+    if (!groupButtons.some(button => !button.hidden && button.dataset.filterGroup === state.group)) state.group = 'all';
     for (const button of controls.querySelectorAll('button')) {
       const [kind, value] = Object.entries(button.dataset).find(([key]) => /^(filter|view)/.test(key)) || [];
       if (!kind) continue;
@@ -43,6 +54,13 @@
     let shown = 0;
     for (const card of cards) { const on = visible(card); card.hidden = !on; if (on) { shown++; paintCard(card); } }
     for (const group of groups) group.hidden = !group.querySelector('.ui-card:not([hidden])');
+    for (const section of apps) {
+      const pcOnly = cards.some(card => card.dataset.app === section.dataset.app && matches(card) && !hasDevice(card));
+      const notice = section.querySelector('[data-pconly]');
+      if (notice) notice.hidden = !pcOnly;
+      section.hidden = !section.querySelector('.ui-card:not([hidden])') && !pcOnly;
+    }
+    empty.hidden = apps.some(section => !section.hidden);
     count.textContent = count.dataset.template.replace('{n}', String(shown));
     const query = new URLSearchParams();
     for (const [key, value] of Object.entries(state)) if (value !== defaults[key]) query.set(key, value);
@@ -56,12 +74,27 @@
     state[entry[0].replace(/^(filter|view)/, '').toLowerCase()] = entry[1];
     render();
   });
+  // No screen for these filters: back to the default version, app and group (device and theme stay as chosen).
+  empty.querySelector('[data-empty-reset]').addEventListener('click', () => {
+    Object.assign(state, { version: defaults.version, app: defaults.app, group: defaults.group });
+    render();
+    root.focus({ preventScroll: true });
+  });
+  for (const button of document.querySelectorAll('[data-pconly-action]')) {
+    button.addEventListener('click', () => {
+      const section = button.closest('.ui-app');
+      state.device = 'pc';
+      render();
+      (section.querySelector('.ui-card:not([hidden]) .ui-thumb') || root).focus();
+    });
+  }
 
   // Viewer
   const view = { id: null, device: 'pc', theme: 'dark', opener: null };
   const stage = viewer.querySelector('.ui-viewer-images');
   const live = viewer.querySelector('[data-viewer-live]');
   const noLive = viewer.querySelector('[data-viewer-nolive]');
+  const pcOnlyNote = viewer.querySelector('[data-viewer-pconly]');
   const twinButtons = [...viewer.querySelectorAll('[data-viewer-twin]')];
   const segmentsNote = viewer.querySelector('.ui-viewer-segments');
   const themeLabel = theme => viewer.querySelector(`[data-viewer-theme="${theme}"]`).textContent;
@@ -87,9 +120,15 @@
   function paintViewer() {
     const item = items.get(view.id);
     const card = cards.find(c => c.dataset.id === view.id);
-    viewer.querySelector('.ui-viewer-title h2').textContent = card.querySelector('h3').textContent;
+    // A PC-only screen opens in the PC view; its mobile button is off and the note says why.
+    if (!item.shots[view.device]) view.device = 'pc';
+    viewer.querySelector('.ui-viewer-title h2').textContent = card.querySelector('.ui-card-title').textContent;
     viewer.querySelector('.ui-viewer-title p').textContent = card.querySelector('.ui-card-meta').textContent.replace(/\s+/g, ' ').trim();
-    for (const button of viewer.querySelectorAll('[data-viewer-device]')) button.setAttribute('aria-pressed', String(button.dataset.viewerDevice === view.device));
+    for (const button of viewer.querySelectorAll('[data-viewer-device]')) {
+      button.setAttribute('aria-pressed', String(button.dataset.viewerDevice === view.device));
+      button.disabled = !item.shots[button.dataset.viewerDevice];
+    }
+    if (pcOnlyNote) pcOnlyNote.hidden = !!item.shots.mobile;
     for (const button of viewer.querySelectorAll('[data-viewer-theme]')) button.setAttribute('aria-pressed', String(button.dataset.viewerTheme === view.theme));
     const themes = view.theme === 'compare' ? ['dark', 'light'] : [view.theme];
     const figures = themes.map(theme => figure(item, theme, themes.length > 1));

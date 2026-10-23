@@ -5,6 +5,12 @@
    "base": "c6d245372c933d900d4fe6c857124838c31e528d",
    "digest": "917e31b8ad72d0cf4e50636782f3a7a579972cbbe2ab156731e4a69d0f8e0809",
    "files": 140
+  },
+  "desktop": {
+   "capturedAt": "2026-10-23T14:05:00.289Z",
+   "base": "17bb4c50a0d31e9ebbd1a38f124c566497b57179",
+   "digest": "874dc200079a089bc8b260aad0e2311781c370299304957c49995666ca42d750",
+   "files": 106
   }
  },
  "items": [
@@ -6146,6 +6152,574 @@
       "height": 3628,
       "thumbWidth": 195,
       "thumbHeight": 422
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-live",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-live",
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-live/pc-dark.webp",
+      "thumb": "shots/latest-desktop-live/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-live/pc-light.webp",
+      "thumb": "shots/latest-desktop-live/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-live-combat",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-live",
+   "fixture": true,
+   "candidate": true,
+   "standin": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-live-combat/pc-dark.webp",
+      "thumb": "shots/latest-desktop-live-combat/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-live-combat/pc-light.webp",
+      "thumb": "shots/latest-desktop-live-combat/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-live-party",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-live",
+   "fixture": true,
+   "candidate": true,
+   "standin": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-live-party/pc-dark.webp",
+      "thumb": "shots/latest-desktop-live-party/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-live-party/pc-light.webp",
+      "thumb": "shots/latest-desktop-live-party/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-live-chest",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-live",
+   "fixture": true,
+   "candidate": true,
+   "standin": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-live-chest/pc-dark.webp",
+      "thumb": "shots/latest-desktop-live-chest/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-live-chest/pc-light.webp",
+      "thumb": "shots/latest-desktop-live-chest/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-character",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-character",
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-character/pc-dark.webp",
+      "thumb": "shots/latest-desktop-character/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-character/pc-light.webp",
+      "thumb": "shots/latest-desktop-character/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-gem",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-gem",
+   "fixture": true,
+   "candidate": true,
+   "standin": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-gem/pc-dark.webp",
+      "thumb": "shots/latest-desktop-gem/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-gem/pc-light.webp",
+      "thumb": "shots/latest-desktop-gem/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-grid",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-grid",
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-grid/pc-dark.webp",
+      "thumb": "shots/latest-desktop-grid/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-grid/pc-light.webp",
+      "thumb": "shots/latest-desktop-grid/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-auction",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-auction",
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-auction/pc-dark.webp",
+      "thumb": "shots/latest-desktop-auction/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-auction/pc-light.webp",
+      "thumb": "shots/latest-desktop-auction/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-homework",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-homework",
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-homework/pc-dark.webp",
+      "thumb": "shots/latest-desktop-homework/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-homework/pc-light.webp",
+      "thumb": "shots/latest-desktop-homework/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-homework-signed-out",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-homework",
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-homework-signed-out/pc-dark.webp",
+      "thumb": "shots/latest-desktop-homework-signed-out/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-homework-signed-out/pc-light.webp",
+      "thumb": "shots/latest-desktop-homework-signed-out/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-attendance",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-attendance",
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-attendance/pc-dark.webp",
+      "thumb": "shots/latest-desktop-attendance/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-attendance/pc-light.webp",
+      "thumb": "shots/latest-desktop-attendance/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-attendance-request",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-attendance",
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-attendance-request/pc-dark.webp",
+      "thumb": "shots/latest-desktop-attendance-request/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-attendance-request/pc-light.webp",
+      "thumb": "shots/latest-desktop-attendance-request/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-display",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-display",
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-display/pc-dark.webp",
+      "thumb": "shots/latest-desktop-display/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-display/pc-light.webp",
+      "thumb": "shots/latest-desktop-display/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-connection",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-connection",
+   "fixture": false,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-connection/pc-dark.webp",
+      "thumb": "shots/latest-desktop-connection/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-connection/pc-light.webp",
+      "thumb": "shots/latest-desktop-connection/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-connection-official",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-connection",
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-connection-official/pc-dark.webp",
+      "thumb": "shots/latest-desktop-connection-official/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-connection-official/pc-light.webp",
+      "thumb": "shots/latest-desktop-connection-official/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-connection-signed-in",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-connection",
+   "fixture": true,
+   "candidate": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-connection-signed-in/pc-dark.webp",
+      "thumb": "shots/latest-desktop-connection-signed-in/pc-dark-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     },
+     "light": {
+      "src": "shots/latest-desktop-connection-signed-in/pc-light.webp",
+      "thumb": "shots/latest-desktop-connection-signed-in/pc-light-thumb.webp",
+      "width": 1280,
+      "height": 860,
+      "thumbWidth": 384,
+      "thumbHeight": 258
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-overlay-combat",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-overlay",
+   "fixture": true,
+   "candidate": true,
+   "standin": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-overlay-combat/pc-dark.webp",
+      "thumb": "shots/latest-desktop-overlay-combat/pc-dark-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "thumbWidth": 384,
+      "thumbHeight": 216
+     },
+     "light": {
+      "src": "shots/latest-desktop-overlay-combat/pc-light.webp",
+      "thumb": "shots/latest-desktop-overlay-combat/pc-light-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "thumbWidth": 384,
+      "thumbHeight": 216
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-overlay-party",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-overlay",
+   "fixture": true,
+   "candidate": true,
+   "standin": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-overlay-party/pc-dark.webp",
+      "thumb": "shots/latest-desktop-overlay-party/pc-dark-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "thumbWidth": 384,
+      "thumbHeight": 216
+     },
+     "light": {
+      "src": "shots/latest-desktop-overlay-party/pc-light.webp",
+      "thumb": "shots/latest-desktop-overlay-party/pc-light-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "thumbWidth": 384,
+      "thumbHeight": 216
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-overlay-hell",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-overlay",
+   "fixture": true,
+   "candidate": true,
+   "standin": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-overlay-hell/pc-dark.webp",
+      "thumb": "shots/latest-desktop-overlay-hell/pc-dark-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "thumbWidth": 384,
+      "thumbHeight": 216
+     },
+     "light": {
+      "src": "shots/latest-desktop-overlay-hell/pc-light.webp",
+      "thumb": "shots/latest-desktop-overlay-hell/pc-light-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "thumbWidth": 384,
+      "thumbHeight": 216
+     }
+    }
+   }
+  },
+  {
+   "id": "latest-desktop-overlay-abyss",
+   "version": "latest",
+   "app": "desktop",
+   "group": "desktop-overlay",
+   "fixture": true,
+   "candidate": true,
+   "standin": true,
+   "shots": {
+    "pc": {
+     "dark": {
+      "src": "shots/latest-desktop-overlay-abyss/pc-dark.webp",
+      "thumb": "shots/latest-desktop-overlay-abyss/pc-dark-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "thumbWidth": 384,
+      "thumbHeight": 216
+     },
+     "light": {
+      "src": "shots/latest-desktop-overlay-abyss/pc-light.webp",
+      "thumb": "shots/latest-desktop-overlay-abyss/pc-light-thumb.webp",
+      "width": 1920,
+      "height": 1080,
+      "thumbWidth": 384,
+      "thumbHeight": 216
      }
     }
    }
