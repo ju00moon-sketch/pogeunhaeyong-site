@@ -114,7 +114,7 @@
       <p class="section-desc">거래소와 경매장은 실시간으로 조회합니다.</p>
       <div class="cmd-table">
         <div class="cmd-row"><span class="cmd"><code>/시세 아이템명</code><em>ㅅㅅ</em></span><span class="desc">거래소 가격 검색 (부분 검색 가능)</span></div>
-        <div class="cmd-row"><span class="cmd"><code>/골드시세</code><em>ㄱㄷㅅㅅ</em></span><span class="desc">서버별 골드 시세: 게임비트 실시간 기준 1만 골드당 원화 현재가와 전일 종가 대비 변동 (5분 캐시)</span></div>
+        <div class="cmd-row"><span class="cmd"><code>/골드시세</code><em>ㄱㄷㅅㅅ</em></span><span class="desc">서버별 골드 시세: 게임비트 실시간 기준 1만 골드당 원화 현재가와 바로 전날 일봉 종가 대비 등락폭·등락률 및 비교 기준일 표시 (5분 캐시)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/강화 부위 현재 목표</code><em>ㄱㅎ 무기 18 20</em></span><span class="desc">재련 최저 비용: 숨결·책을 어떻게 넣는 게 가장 싼지 현재 거래소 시세로 계산 · 단계마다 넣을 개수와 기대 비용, 평균 시도 횟수 · 보조 재료 없이 두드릴 때보다 얼마나 아끼는지 함께 표시 · 목표 +21 이상은 거래소에 책이 없어 숨결만 계산 · 실링·귀속 재료 제외</span></div>
         <div class="cmd-row"><span class="cmd"><code>/쌀</code><em>ㅆ · .쌀값</em></span><span class="desc">쌀값: 재련 재료(파괴석·수호석·돌파석·융화 재료·파편 주머니·숨결·에스더의 기운) 거래소 최저가 한눈에 + 전일 대비 (5분 캐시)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/젬값</code><em>.젬값</em></span><span class="desc">아크 그리드 젬 최저가: 질서·혼돈의 젬 희귀·영웅 등급 거래소 낱개 최저가와 전일 평균 거래가 대비 (5분 캐시, 채팅 <code>.젬값</code>)</span></div>
@@ -338,6 +338,11 @@
     <p class="lead">카드를 누르면 그 버전의 자세한 노트로 넘어갑니다. <a href="updates.html">전체 노트 보기 →</a> · <a href="ui/">앱별 UI 갤러리 둘러보기 →</a></p>
 
     <div class="releases">
+      <a class="release" href="updates/gold-stock.html">
+        <div class="head"><span class="ver">기능</span></div>
+        <p class="summary"><code>/골드시세</code>(채팅 <code>ㄱㄷㅅㅅ</code>)에서 게임비트 실시간 피드 기준 8개 서버의 1만 골드당 원화 현재가와 바로 전날 일봉 종가 대비 등락폭(원)·등락률(%), 실제 비교 기준일을 함께 표시합니다. 자료 날짜 미확인·일봉 조회 실패·전일 종가 미확인 상태를 구분하여 안내합니다.</p>
+        <div class="chips"><span>/골드시세 실시간 현재가</span><span>전일 종가 대비 등락폭·등락률</span><span>비교 기준일 표시</span><span>비교 불가 상태 구분</span></div>
+      </a>
       <a class="release" href="updates/ui-apps.html">
         <div class="head"><span class="ver">UI 갤러리</span></div>
         <p class="summary">개발 및 로컬 검증 중인 Windows 데스크톱 도우미의 20개 구동 화면 상태를 모은 앱별 UI 갤러리를 선보입니다. 실시간 전투 보조·파티 신청자·상자 골드 환산·오버레이 등 실제 앱 화면을 확인하실 수 있으며, 데스크톱 수치는 로컬 검증용 가상 자료입니다.</p>
@@ -354,8 +359,8 @@
       </a>
       <a class="release" href="updates/bot-upcoming.html">
         <div class="head"><span class="ver">출시 예정</span></div>
-        <p class="summary">아크 그리드 젬 최저가와 전일 평균가 대비를 한눈에 볼 수 있는 <code>/젬값</code> 커맨드를 새롭게 추가하고, 지옥·나락 보상 효율 바로 조회와 3연마 고대 악세서리 힘민지 하한 검색을 지원합니다. 게임비트 실시간 피드 기준 골드 시세의 정확도를 높이고, 팔찌 효율 간편 조회(<code>.팔찌효율</code>)와 불필요한 조회 방지를 적용했습니다. 주급과 젬값의 혼선을 방지하기 위해 초성 <code>ㅈㄱ</code> 별칭은 제거했습니다.</p>
-        <div class="chips"><span>/젬값 최저가 시세</span><span>지옥·나락 효율 바로 조회</span><span>고대 3연마 악세 힘민지</span><span>실시간 골드 시세</span><span>팔찌효율 간편 조회</span><span>주급 ㅈㄱ 제거</span></div>
+        <p class="summary">아크 그리드 젬 최저가와 전일 평균가 대비를 한눈에 볼 수 있는 <code>/젬값</code> 커맨드를 새롭게 추가하고, 지옥·나락 보상 효율 바로 조회와 3연마 고대 악세서리 힘민지 하한 검색을 지원합니다. 팔찌 효율 간편 조회(<code>.팔찌효율</code>)와 불필요한 조회 방지를 적용했습니다. 주급과 젬값의 혼선을 방지하기 위해 초성 <code>ㅈㄱ</code> 별칭은 제거했습니다.</p>
+        <div class="chips"><span>/젬값 최저가 시세</span><span>지옥·나락 효율 바로 조회</span><span>고대 3연마 악세 힘민지</span><span>팔찌효율 간편 조회</span><span>주급 ㅈㄱ 제거</span></div>
       </a>
       <a class="release latest" href="updates/v1.4.html">
         <div class="head"><span class="ver">v1.4</span><span class="badge">최신</span></div>

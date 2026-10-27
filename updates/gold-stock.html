@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08111d">
+<script src="../theme.js"></script>
+<link rel="preload" href="../assets/fonts/body-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="../updates.css">
+<title>기능 골드 시세 실시간 현재가와 전일 종가 대비 등락폭·등락률 표시 — 포근해용 업데이트 노트</title>
+<meta name="description" content="포근해용 기능 업데이트 노트 — 게임비트 실시간 피드 기준 1만 골드당 원화 현재가, 바로 전날 일봉 종가 대비 등락폭(원)·등락률(%)과 비교 기준일 표시 및 비교 불가 상태 구분 안내.">
+<link rel="stylesheet" href="../theme.css">
+<link rel="stylesheet" href="../renewal.css">
+<script src="../renewal.js" defer></script>
+<script src="../auth.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">본문 바로가기</a>
+
+<header data-site-header data-active="updates"></header>
+<section class="updates-intro">
+  <div class="wrap">
+    <div class="nav-row">
+      <a class="back" href="../index.html#updates">← 포근해용 홈으로</a>
+      <a class="back" href="../updates.html">전체 노트 보기 →</a>
+    </div>
+    <h1>업데이트 <span class="accent">노트</span></h1>
+    <p class="lead">기능 · 골드 시세 실시간 현재가와 전일 종가 대비 등락폭·등락률 표시</p>
+  </div>
+</section>
+
+<main class="wrap" id="main-content" tabindex="-1">
+
+  <article class="release" id="gold-stock">
+    <div class="release-head">
+      <h2><span class="ver">기능</span> 골드 시세 실시간 현재가와 전일 종가 대비 등락폭·등락률 표시</h2>
+    </div>
+    <p class="summary"><code>/골드시세</code>(채팅 <code>ㄱㄷㅅㅅ</code>)에서 게임비트 실시간 피드 기준 8개 서버의 1만 골드당 원화 현재가와 자료 날짜 바로 전날(KST) 일봉 종가 대비 등락폭(원)·등락률(%)을 함께 표시하고, 실제 비교 기준일을 안내합니다. 디스코드와 카카오톡에서 동일한 서버별 시세와 등락 수치, 비교 기준일을 확인할 수 있으며, 모든 서버 비교가 완료된 응답만 5분 동안 캐시합니다.</p>
+
+    <h3>디스코드</h3>
+    <ul>
+      <li><b>실시간 피드 현재가와 직전 날짜 일봉 종가 비교</b>: 중개 사이트(게임비트) 실시간 피드의 검증된 1만 골드당 원화 현재가와 피드 자료 날짜(HTTP Last-Modified, KST) 바로 전날의 일봉 종가를 각각 원 단위로 반올림하여 비교합니다. 주말을 건너뛰지 않고 직전 달력 날짜의 일봉 종가만 기준으로 삼습니다.</li>
+      <li><b>부호 있는 등락폭(원)과 소수 둘째 자리 등락률(%) 표시</b>: 서버마다 반올림한 현재가와 함께 전일 종가 대비 차액(<code>+14원</code>, <code>-3원</code>, <code>0원</code>) 및 기준 종가 대비 등락률(<code>+1.84%</code>, <code>-0.40%</code>, <code>0.00%</code>)을 한 줄씩 표시합니다.</li>
+      <li><b>자료 갱신 시각과 실제 비교 기준일 안내</b>: 임베드 하단 푸터에 피드 문서의 자료 갱신 시각(KST)과 실제 비교 기준일(<code>전일(M/D) 종가 대비</code>), 봇 조회 시각을 함께 표시합니다.</li>
+      <li><b>비교 불가 및 가격 미확인 상태 구분</b>: 피드에서 서버 가격을 확인할 수 없을 때는 <code>가격 확인 불가</code>로 표시하며 일봉 종가로 대체하지 않습니다. 현재가는 확인되었으나 피드 자료 날짜를 알 수 없을 때는 <code>자료 날짜 미확인</code>, 일봉 조회에 실패했을 때는 <code>일봉 조회 실패</code>, 바로 전날 일봉이 없거나 반올림한 기준 종가가 0 이하일 때는 <code>전일 종가 미확인</code>으로 구분하여 비교 불가 상태를 <code>0원</code>이나 <code>0.00%</code>로 표시하지 않습니다.</li>
+      <li><b>완전 응답 5분 캐시 유지</b>: 8개 서버 모두 현재가와 전일 종가 비교까지 확인된 경우에만 5분 동안 캐시하며, 한 서버라도 가격이나 비교 정보가 빠진 응답은 캐시하지 않고 다음 요청에서 다시 조회합니다.</li>
+    </ul>
+
+    <h3>카카오톡</h3>
+    <ul>
+      <li><b>디스코드와 동일한 서버별 등락폭·등락률 표시</b>: 카카오톡 오픈채팅방에서도 <code>/골드시세</code>, <code>.골드시세</code>, <code>/ㄱㄷㅅㅅ</code>, <code>.ㄱㄷㅅㅅ</code>로 8개 서버의 1만 골드당 원화 현재가와 전일 종가 대비 등락폭(원)·등락률(%)을 디스코드와 같은 줄 형식으로 안내합니다.</li>
+      <li><b>자료 갱신 시각 및 비교 기준일 하단 표시</b>: 본문 마지막 줄에 피드 문서의 자료 갱신 시각(KST)과 실제 비교 기준일(<code>자료 갱신 M/D HH:MM · 전일(M/D) 종가 대비</code>)을 함께 표시합니다.</li>
+    </ul>
+  </article>
+
+  <nav class="pager" aria-label="이전 · 다음 글">
+    <a class="pager-item prev" href="ui-apps.html"><span class="k">이전 글</span><span class="t">UI 갤러리 · 데스크톱 도우미 화면 추가와 앱별 UI 갤러리 개편</span></a>
+    <span class="pager-item empty" aria-hidden="true"></span>
+  </nav>
+
+  <section class="board" aria-label="전체 업데이트 목록">
+    <div class="board-head">전체 업데이트</div>
+    <a class="row current" href="gold-stock.html"><span class="badge">기능</span><span class="title">골드 시세 실시간 현재가와 전일 종가 대비 등락폭·등락률 표시</span></a>
+    <a class="row" href="ui-apps.html"><span class="badge">UI 갤러리</span><span class="title">데스크톱 도우미 화면 추가와 앱별 UI 갤러리 개편</span></a>
+    <a class="row" href="site-home-ranking.html"><span class="badge">홈페이지</span><span class="title">홈 화면 복원과 랭킹 스냅샷 · 젬 도우미 안내</span></a>
+    <a class="row" href="upcoming.html"><span class="badge">출시 예정</span><span class="title">공개 도구와 숙제표 분리, 안내 페이지</span></a>
+    <a class="row" href="bot-upcoming.html"><span class="badge">출시 예정</span><span class="title">봇 기능 개선 및 시세·효율 조회 보완</span></a>
+    <a class="row" href="v1.4.html"><span class="badge">v1.4</span><span class="title">장비 강화 탭과 회원 기능 보완</span></a>
+    <a class="row" href="v1.3.html"><span class="badge">v1.3</span><span class="title">홈페이지 리뉴얼과 채팅 기능 확장</span></a>
+    <a class="row" href="v1.2.html"><span class="badge">v1.2</span><span class="title">카카오톡 오픈채팅방 연동</span></a>
+    <a class="row" href="v1.1.html"><span class="badge">v1.1</span><span class="title">길드원 랭킹 추가</span></a>
+    <a class="row" href="2026-08-31.html"><span class="badge">기능</span><span class="title">캐릭터 분석 확장</span></a>
+    <a class="row" href="v0.1.html"><span class="badge">v0.1</span><span class="title">첫 공개</span></a>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>🌱 <a href="../index.html">포근해용 홈</a> · <a href="../updates.html">전체 업데이트 노트</a> · MIT License</p>
+  </div>
+</footer>
+
+</body>
+</html>
