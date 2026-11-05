@@ -119,7 +119,7 @@
         <div class="cmd-row"><span class="cmd"><code>/쌀</code><em>ㅆ · .쌀값</em></span><span class="desc">쌀값: 재련 재료(파괴석·수호석·돌파석·융화 재료·파편 주머니·숨결·에스더의 기운) 거래소 최저가 한눈에 + 전일 대비 (5분 캐시)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/젬값</code><em>.젬값</em></span><span class="desc">아크 그리드 젬 최저가: 질서·혼돈의 젬 희귀·영웅 등급 거래소 낱개 최저가와 전일 평균 거래가 대비 (5분 캐시, 채팅 <code>.젬값</code>)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/팔찌검색 옵션</code><em>ㅍㅉㄱㅅ</em></span><span class="desc">경매장 팔찌 검색: 특·치·신·제·인·숙 최소값(예: <code>특90치90</code>, 붙여 써도 됨), 선택 <code>부여3</code>·<code>고정2</code>·특수 효과 이름 → 고대 4티어 즉시 구매가 최저 10개 (부여 효과 내용은 API 미제공)</span></div>
-        <div class="cmd-row"><span class="cmd"><code>/보석</code><em>ㅄ · ㅂㅅ</em></span><span class="desc">겁화→작열 순, 종류별 10→7레벨 최저가 시세판 + 전일 대비 · <code>/보석 종류 레벨</code> 단일 시세 · <code>/보석 닉네임</code> 그 캐릭터 장착 보석 · <code>/보석현황</code> 4티어 레벨별 표</span></div>
+        <div class="cmd-row"><span class="cmd"><code>/보석</code><em>ㅄ · ㅂㅅ</em></span><span class="desc">겁화→작열 순, 종류별 10→7레벨 최저가 시세판 + 전일 대비 · <code>/보석 종류 레벨</code> 단일 시세 · <code>/보석 닉네임</code> 그 캐릭터 장착 보석 · <code>/보석현황 [닉네임]</code> 4티어 레벨별 시세판(닉네임 입력 시 원정대 전 서버 장착 보석 현황 — 직접 거래 가능 확인 합계와 조율 광휘 복원 추정 분리 · 귀속은 개수만 집계하고 미확인·미추정은 0G로 합산하지 않으며 카톡은 본문이 실제로 잘릴 때만 전체 보기 링크 안내)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/보석최저가</code></span><span class="desc">인자 없는 <code>/보석</code>과 같은 겁화·작열 10~7레벨 최저가와 전일 대비 시세판 · 채팅 <code>.보석최저가</code> 지원</span></div>
         <div class="cmd-row"><span class="cmd"><code>/경매장 10겁</code><em>ㄱㅁㅈ</em></span><span class="desc">겁화·작열 보석 단일 최저가 검색 (1~10레벨) · <code>ㄱㅁㅈ 9작</code> · <code>.경매장 겁화 10</code> · 카톡은 <code>/ㄱㅁㅈ 10겁</code>도 지원 · 결과는 정식 보석명으로 표시</span></div>
         <div class="cmd-row"><span class="cmd"><code>/각인서 각인명</code><em>ㄱㅇㅅ</em></span><span class="desc">각인서 시세 (등급별)</span></div>
@@ -338,6 +338,10 @@
     <p class="lead">카드를 누르면 그 버전의 자세한 노트로 넘어갑니다. <a href="updates.html">전체 노트 보기 →</a> · <a href="ui/">앱별 UI 갤러리 둘러보기 →</a></p>
 
     <div class="releases">
+      <a class="release" href="updates/gem-roster-status.html">
+        <div class="head"><span class="ver">기능</span></div>
+        <p class="summary">원정대 장착 보석 현황 조회(<code>/보석현황 닉네임</code>)</p>
+      </a>
       <a class="release" href="updates/versus-multi.html">
         <div class="head"><span class="ver">기능</span></div>
         <p class="summary">선택지 골라주기(<code>/vs</code>) 3개 이상 선택지 지원</p>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08111d">
+<script src="../theme.js"></script>
+<link rel="preload" href="../assets/fonts/body-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="../updates.css">
+<title>기능 원정대 장착 보석 현황 조회(/보석현황 닉네임) — 포근해용 업데이트 노트</title>
+<meta name="description" content="포근해용 기능 업데이트 노트 — 원정대 장착 보석 현황 조회(/보석현황 닉네임).">
+<link rel="stylesheet" href="../theme.css">
+<link rel="stylesheet" href="../renewal.css">
+<script src="../renewal.js" defer></script>
+<script src="../auth.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">본문 바로가기</a>
+
+<header data-site-header data-active="updates"></header>
+<section class="updates-intro">
+  <div class="wrap">
+    <div class="nav-row">
+      <a class="back" href="../index.html#updates">← 포근해용 홈으로</a>
+      <a class="back" href="../updates.html">전체 노트 보기 →</a>
+    </div>
+    <h1>업데이트 <span class="accent">노트</span></h1>
+    <p class="lead">기능 · 원정대 장착 보석 현황 조회(/보석현황 닉네임)</p>
+  </div>
+</section>
+
+<main class="wrap" id="main-content" tabindex="-1">
+
+  <article class="release" id="gem-roster-status">
+    <div class="release-head">
+      <h2><span class="ver">기능</span> 원정대 장착 보석 현황 조회(<code>/보석현황 닉네임</code>)</h2>
+    </div>
+    <p class="summary"><code>/보석현황 [닉네임]</code>(디스코드 채팅 <code>.보석현황 닉네임</code>·<code>!보석현황 닉네임</code>, 카카오톡 <code>/보석현황 닉네임</code>·<code>.보석현황 닉네임</code>)으로 해당 원정대의 모든 서버 캐릭터가 현재 장착한 보석(가방·창고 제외)을 조회합니다. 직접 거래 가능 보석의 즉시 구매 최저가 확인 합계와 조율 광휘 보석의 보수적 복원 추정치를 분리해 표시하며, 닉네임을 생략한 <code>/보석현황</code>은 기존 4티어 보석 최저가 시세판을 그대로 유지합니다.</p>
+
+    <h3>디스코드</h3>
+    <ul>
+      <li><b>직접 거래 가능 확인 합계와 조율 광휘 복원 추정 분리</b>: 직접 거래 가능한 보석(4티어 겁화·작열, 3티어 멸화·홍염)은 경매장 즉시 구매 최저가 기준 확인 합계로 계산하고, 거래 불가인 4티어 조율 광휘의 보석은 동일 레벨·등급 겁화·작열 최저가 중 낮은 값을 기준으로 보수적 복원 추정치를 별도 줄에 표시합니다(조율 전 원형 미상 및 복원 제약으로 즉시 판매 확정가가 아님을 함께 안내).</li>
+      <li><b>캐릭터별 3줄 요약 및 귀속·미확인 구분</b>: 아이템 레벨 내림차순으로 캐릭터별 장착 보석 묶음(거래 가능, 광겁·광작·광휘 복원 가능, 판별 불가, 거래 불가 개수)과 소계를 3줄로 간결하게 표시합니다. 귀속·거래 불가 보석은 개수만 집계하고 시세 미확인·미추정·판별 불가 보석은 <code>0G</code>로 합산하지 않으며, 미확인·미추정 개수와 부분합 상태를 명시합니다. 거래 불가 보석만 장착했거나 장착 보석이 없는 캐릭터는 하단에 묶어 표시합니다.</li>
+    </ul>
+
+    <h3>카카오톡</h3>
+    <ul>
+      <li><b>동일한 원정대 보석 현황 및 실제 잘림 시에만 전체 보기 안내</b>: 카카오톡 오픈채팅방에서도 <code>/보석현황 닉네임</code>·<code>.보석현황 닉네임</code>으로 디스코드와 같은 합계·캐릭터별 요약을 확인할 수 있습니다. 본문이 미리보기 한도 안에 모두 들어가면 별도 링크 없이 본문만 표시하고, 한도를 넘어 실제로 잘릴 때만 전체 보기 보조 링크를 안내합니다.</li>
+    </ul>
+  </article>
+
+  <nav class="pager" aria-label="이전 · 다음 글">
+    <a class="pager-item prev" href="versus-multi.html"><span class="k">이전 글</span><span class="t">기능 · 선택지 골라주기(/vs) 3개 이상 선택지 지원</span></a>
+    <span class="pager-item empty" aria-hidden="true"></span>
+  </nav>
+
+  <section class="board" aria-label="전체 업데이트 목록">
+    <div class="board-head">전체 업데이트</div>
+    <a class="row current" href="gem-roster-status.html"><span class="badge">기능</span><span class="title">원정대 장착 보석 현황 조회(/보석현황 닉네임)</span></a>
+    <a class="row" href="versus-multi.html"><span class="badge">기능</span><span class="title">선택지 골라주기(/vs) 3개 이상 선택지 지원</span></a>
+    <a class="row" href="gold-stock.html"><span class="badge">기능</span><span class="title">골드 시세 실시간 현재가와 전일 종가 대비 등락폭·등락률 표시</span></a>
+    <a class="row" href="ui-apps.html"><span class="badge">UI 갤러리</span><span class="title">데스크톱 도우미 화면 추가와 앱별 UI 갤러리 개편</span></a>
+    <a class="row" href="site-home-ranking.html"><span class="badge">홈페이지</span><span class="title">홈 화면 복원과 랭킹 스냅샷 · 젬 도우미 안내</span></a>
+    <a class="row" href="upcoming.html"><span class="badge">출시 예정</span><span class="title">공개 도구와 숙제표 분리, 안내 페이지</span></a>
+    <a class="row" href="bot-upcoming.html"><span class="badge">출시 예정</span><span class="title">봇 기능 개선 및 시세·효율 조회 보완</span></a>
+    <a class="row" href="v1.4.html"><span class="badge">v1.4</span><span class="title">장비 강화 탭과 회원 기능 보완</span></a>
+    <a class="row" href="v1.3.html"><span class="badge">v1.3</span><span class="title">홈페이지 리뉴얼과 채팅 기능 확장</span></a>
+    <a class="row" href="v1.2.html"><span class="badge">v1.2</span><span class="title">카카오톡 오픈채팅방 연동</span></a>
+    <a class="row" href="v1.1.html"><span class="badge">v1.1</span><span class="title">길드원 랭킹 추가</span></a>
+    <a class="row" href="2026-08-31.html"><span class="badge">기능</span><span class="title">캐릭터 분석 확장</span></a>
+    <a class="row" href="v0.1.html"><span class="badge">v0.1</span><span class="title">첫 공개</span></a>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>🌱 <a href="../index.html">포근해용 홈</a> · <a href="../updates.html">전체 업데이트 노트</a> · MIT License</p>
+  </div>
+</footer>
+
+</body>
+</html>
