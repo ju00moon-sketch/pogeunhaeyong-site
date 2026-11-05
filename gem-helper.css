@@ -1,10 +1,11 @@
-/* Gem processing helper: a work tool on the shared realm tokens. The screen sits beside the judgement
-   column; the recommended action is the one gold element, everything else stays teal and neutral. */
-.gem-shell { padding-top: 34px; }
-.gem-intro h1 { font-size: clamp(22px, 2.4vw, 30px); line-height: 1.45; letter-spacing: -.04em; font-weight: 500; }
-.gem-lead { margin-top: 8px; max-width: 72ch; color: var(--text-dim); font-size: 14px; line-height: 1.7; }
-.gem-note { margin-top: 6px; color: var(--text-muted); font-size: 12px; }
-.gem-layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 20px; align-items: start; margin-top: 12px; }
+/* Gem processing helper: a work tool on the bright-portal tokens. The screen panel sits beside the judgement column
+   (recommendation, target, current state); the recommended action is the one accent element. Presentation only;
+   gem-helper.js, gem-screen.js and gem-capture.js are unchanged. */
+.gem-shell { padding-top: 28px; }
+.gem-intro h1 { font-size: 26px; line-height: 1.35; letter-spacing: -.03em; font-weight: 700; }
+.gem-lead { margin-top: 8px; max-width: 72ch; color: var(--text-dim); font-size: 14px; line-height: 1.75; }
+.gem-note { margin-top: 6px; color: var(--text-muted); font-size: 12.5px; }
+.gem-layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 20px; align-items: start; margin-top: 18px; }
 .gem-judge { display: grid; gap: 16px; min-width: 0; }
 
 .gem-page :is(button, select, input) { min-height: 44px; }
@@ -71,8 +72,8 @@
 .gem-offer-text { min-height: 2.9em; font-size: 14px; font-weight: 600; line-height: 1.45; overflow-wrap: anywhere; }
 .gem-offer select { width: 100%; }
 
-.gem-rec { border-color: color-mix(in srgb, var(--gold) 45%, var(--border)); }
-.gem-rec-action { color: var(--gold); font-size: clamp(26px, 3vw, 34px); font-weight: 600; line-height: 1.25; letter-spacing: -.02em; }
+.gem-rec { border-color: var(--accent); background: var(--accent-soft); }
+.gem-rec-action { color: var(--accent); font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.25; letter-spacing: -.03em; }
 .gem-rec-action:empty { display: none; }
 .gem-rec-reason { margin-top: 6px; color: var(--text); font-size: 14px; line-height: 1.6; }
 .gem-subhead { margin-top: 16px; color: var(--text-dim); font-size: 12px; font-weight: 600; }

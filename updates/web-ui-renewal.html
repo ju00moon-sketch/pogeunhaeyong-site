@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08111d">
+<script src="../theme.js"></script>
+<link rel="preload" href="../assets/fonts/body-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="../updates.css">
+<title>홈페이지 홈 화면과 주요 메뉴 화면 구성 정돈 — 포근해용 업데이트 노트</title>
+<meta name="description" content="포근해용 홈페이지 업데이트 노트 — 밝은 홈 화면과 메뉴 바로가기, 명령어 분야별 목차 이동, 캐릭터·시세·장비 강화·숙제표·길드·내 계정 화면 읽기 편한 배치 및 모바일·키보드 이동 보완.">
+<link rel="stylesheet" href="../theme.css">
+<link rel="stylesheet" href="../renewal.css">
+<script src="../renewal.js" defer></script>
+<script src="../auth.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">본문 바로가기</a>
+
+<header data-site-header data-active="updates"></header>
+<section class="updates-intro">
+  <div class="wrap">
+    <div class="nav-row">
+      <a class="back" href="../index.html#updates">← 포근해용 홈으로</a>
+      <a class="back" href="../updates.html">전체 노트 보기 →</a>
+    </div>
+    <h1>업데이트 <span class="accent">노트</span></h1>
+    <p class="lead">홈페이지 · 홈 화면과 주요 메뉴 화면 구성 정돈</p>
+  </div>
+</section>
+
+<main class="wrap" id="main-content" tabindex="-1">
+
+  <article class="release" id="web-ui-renewal">
+    <div class="release-head">
+      <h2><span class="ver">홈페이지</span> 홈 화면과 주요 메뉴 화면 구성 정돈</h2>
+    </div>
+    <p class="summary">홈페이지 전체를 밝은 바탕과 흰색 카드 중심의 깔끔한 화면으로 정돈하고, 기존의 라이트·다크·시스템 테마 전환을 그대로 지원합니다. 홈에서 캐릭터 검색·이벤트·시세·일정을 한눈에 살펴보고 명령어 안내에서 원하는 분야로 바로 이동할 수 있도록 다듬었으며, 캐릭터·시장·장비 강화·숙제표·길드·내 계정 화면도 모바일과 PC에서 읽기 편하게 정돈했습니다. 숙제표는 기존처럼 이용자가 직접 완료 여부를 체크하는 방식이며 자동으로 완료 처리하는 기능이 추가된 것은 아닙니다. 계산식과 캐릭터 소유 인증·가입 승인 절차, 이용 권한도 기존과 같습니다.</p>
+
+    <h3>홈 화면과 상단 메뉴·명령어 찾기</h3>
+    <ul>
+      <li><b>한눈에 보는 홈 화면</b>: 상단 캐릭터 검색창과 주요 기능 바로가기 아래에서 내 캐릭터(최근 조회·즐겨찾기), 유용한 도구, 진행 중인 공식 이벤트, 서버별 골드 시세 추이와 주요 재련 재료, 다가오는 콘텐츠와 공지를 한 화면에서 살펴볼 수 있습니다.</li>
+      <li><b>모바일 메뉴 이동과 키보드 닫기 보완</b>: 작은 화면에서도 상단 메뉴를 좌우로 넘기며 모든 메뉴로 바로 이동할 수 있습니다. 열어 둔 내 계정 메뉴나 테마 메뉴를 <code>Escape</code> 키로 닫을 때 검색창·입력란을 쓰고 있었다면 입력 위치가 그대로 유지됩니다.</li>
+      <li><b>명령어 분야별 목차 이동</b>: 명령어 안내 화면에서 캐릭터 조회, 캐릭터 상세, 시세·계산, 레이드·게임 정보, 콘텐츠·소식, 카카오톡 전용 항목으로 바로 이동할 수 있는 목차와 이모티콘·서버 초대·업데이트 바로가기를 제공합니다.</li>
+    </ul>
+
+    <h3>캐릭터·시장·장비 강화·숙제표·길드·내 계정</h3>
+    <ul>
+      <li><b>캐릭터와 시장·장비 강화 화면</b>: 캐릭터 화면은 왼쪽에 기본 프로필과 원정대 목록을 두고 오른쪽에서 종합 정보·장비·각인·보석 등 세부 탭과 장비 품질 막대를 보기 쉽게 정리했습니다. 거래소·보석 시세는 표 보기와 카드 보기를 고를 수 있고 모바일에서도 가격과 버튼이 겹치지 않게 배치했으며, 장비 강화 계산기에서는 기대 비용·최악 비용·첫 시도 비용 비교 막대와 단계별 보조 재료 추천을 한눈에 확인할 수 있습니다.</li>
+      <li><b>숙제표와 길드·내 계정 화면</b>: 숙제표는 캐릭터별 일일·주간 숙제 진행도를 막대로 보여 주고 작은 화면에서도 주간 골드 합계가 줄바꿈 없이 한눈에 읽히도록 다듬었습니다(완료 여부는 기존과 같이 직접 체크합니다). 길드 화면은 일정표와 참여 현황·직업별 빠른 입력, 운영진 관리 목록과 출석 현황을 함께 보기 좋게 배치했으며, 내 계정 화면은 계정 요약과 캐릭터 소유 인증·가입 신청·대표 캐릭터 선택 단계를 차례대로 안내합니다.</li>
+    </ul>
+
+    <h3>정적 안내 화면 및 이용 기준 안내</h3>
+    <ul>
+      <li><b>정적 미리보기 화면 디자인 통일</b>: 공개 정적 안내 사이트의 랭킹 스냅샷과 아크 그리드 젬 가공 도우미 화면에도 같은 카드·표 스타일을 적용했습니다. 두 화면은 정적 미리보기 전용이며 운영 홈페이지 메뉴에는 포함되지 않습니다.</li>
+      <li><b>계산식과 인증·권한 기준 유지</b>: 이번 개편은 화면 배치와 읽기 편의를 다듬은 것으로, 시세·재련·스펙업·보석현황 계산식, 숙제 직접 체크 방식, 캐릭터 소유 인증 및 운영진 가입 승인 절차, 계정·저장 권한은 바뀌지 않습니다.</li>
+    </ul>
+  </article>
+
+  <nav class="pager" aria-label="이전 · 다음 글">
+    <a class="pager-item prev" href="gem-roster-status.html"><span class="k">이전 글</span><span class="t">기능 · 원정대 장착 보석 현황 조회(/보석현황 닉네임)</span></a>
+    <span class="pager-item empty" aria-hidden="true"></span>
+  </nav>
+
+  <section class="board" aria-label="전체 업데이트 목록">
+    <div class="board-head">전체 업데이트</div>
+    <a class="row current" href="web-ui-renewal.html"><span class="badge">홈페이지</span><span class="title">홈 화면과 주요 메뉴 화면 구성 정돈</span></a>
+    <a class="row" href="gem-roster-status.html"><span class="badge">기능</span><span class="title">원정대 장착 보석 현황 조회(/보석현황 닉네임)</span></a>
+    <a class="row" href="versus-multi.html"><span class="badge">기능</span><span class="title">선택지 골라주기(/vs) 3개 이상 선택지 지원</span></a>
+    <a class="row" href="gold-stock.html"><span class="badge">기능</span><span class="title">골드 시세 실시간 현재가와 전일 종가 대비 등락폭·등락률 표시</span></a>
+    <a class="row" href="ui-apps.html"><span class="badge">UI 갤러리</span><span class="title">데스크톱 도우미 화면 추가와 앱별 UI 갤러리 개편</span></a>
+    <a class="row" href="site-home-ranking.html"><span class="badge">홈페이지</span><span class="title">홈 화면 복원과 랭킹 스냅샷 · 젬 도우미 안내</span></a>
+    <a class="row" href="upcoming.html"><span class="badge">출시 예정</span><span class="title">공개 도구와 숙제표 분리, 안내 페이지</span></a>
+    <a class="row" href="bot-upcoming.html"><span class="badge">출시 예정</span><span class="title">봇 기능 개선 및 시세·효율 조회 보완</span></a>
+    <a class="row" href="v1.4.html"><span class="badge">v1.4</span><span class="title">장비 강화 탭과 회원 기능 보완</span></a>
+    <a class="row" href="v1.3.html"><span class="badge">v1.3</span><span class="title">홈페이지 리뉴얼과 채팅 기능 확장</span></a>
+    <a class="row" href="v1.2.html"><span class="badge">v1.2</span><span class="title">카카오톡 오픈채팅방 연동</span></a>
+    <a class="row" href="v1.1.html"><span class="badge">v1.1</span><span class="title">길드원 랭킹 추가</span></a>
+    <a class="row" href="2026-08-31.html"><span class="badge">기능</span><span class="title">캐릭터 분석 확장</span></a>
+    <a class="row" href="v0.1.html"><span class="badge">v0.1</span><span class="title">첫 공개</span></a>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>🌱 <a href="../index.html">포근해용 홈</a> · <a href="../updates.html">전체 업데이트 노트</a> · MIT License</p>
+  </div>
+</footer>
+
+</body>
+</html>

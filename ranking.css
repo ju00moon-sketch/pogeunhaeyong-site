@@ -1,26 +1,25 @@
-/* Ranking page: the published LOPEC top-100 snapshot, one role at a time. It keeps the realm surfaces of the tools
-   page (castle masthead, underline switch, card panel); the one accent is the gold rank of the top three rows. */
+/* Ranking page: the published LOPEC top-100 snapshot, one role at a time, on the bright-portal surfaces: title and
+   source card, an underline role switch, filters, then the board; the top three ranks carry the accent. */
 .ranking-page .visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-.ranking-shell{max-width:1180px;margin:auto;padding:0 28px 64px}
+.ranking-shell{max-width:1180px;margin:auto;padding:0 24px 64px}
 
 /* What the board is on the left; source, coverage and collection time stay in view on the right. */
-.ranking-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,360px);gap:18px 40px;align-items:end;padding:38px 0 0}
-.ranking-hero h1{margin:0 0 8px;font-size:clamp(23px,2.6vw,34px);line-height:1.5;letter-spacing:-.03em;font-weight:500}
+.ranking-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,360px);gap:18px 40px;align-items:end;padding:28px 0 0}
+.ranking-hero h1{margin:0 0 8px;font-size:26px;line-height:1.35;letter-spacing:-.03em;font-weight:700}
 .ranking-intro{margin:0;max-width:62ch;color:var(--text-dim);font-size:15px;line-height:1.8}
 .ranking-notice{margin:10px 0 0;max-width:62ch;color:var(--text-dim);font-size:13px;line-height:1.75}
-.ranking-facts{display:grid;gap:6px;padding:14px 18px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-dim);font-size:13px;line-height:1.6}
+.ranking-facts{display:grid;gap:6px;padding:14px 18px;border:1px solid var(--border);border-radius:12px;background:var(--bg-card);box-shadow:var(--shadow);color:var(--text-dim);font-size:13px;line-height:1.6}
 .ranking-facts p{margin:0}
 .ranking-facts a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .ranking-facts time{color:var(--text);font-weight:600}
 
 /* Role switch: the same underline switch as the tools page. */
-.ranking-roles{display:flex;gap:4px;margin:26px 0 0;border-bottom:1px solid var(--border)}
-.ranking-roles button{display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 28px;border:0;border-bottom:2px solid transparent;border-radius:0;background:none;color:var(--text-dim);font-size:14px;line-height:1.5;cursor:pointer}
+.ranking-roles{display:flex;gap:4px;margin:22px 0 0;border-bottom:1px solid var(--border)}
+.ranking-roles button{display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 20px;border:0;border-bottom:2px solid transparent;border-radius:0;background:none;color:var(--text-dim);font-size:14px;font-weight:500;line-height:1.5;cursor:pointer}
 .ranking-roles button:hover:not(:disabled){color:var(--text);border-bottom-color:var(--border-strong)}
 .ranking-roles button[aria-pressed=true]{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
 .ranking-roles button:focus-visible{outline-offset:-2px}
-/* Light theme: the switch row sits low in the castle art, whose dark pixels pull the teal label just under 4.5:1. */
-:root[data-theme="light"] .ranking-roles{background:var(--bg)}
+.ranking-roles button{margin-bottom:-1px}
 
 /* Filters work inside the captured board only. */
 .ranking-filters{display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 12px;margin:18px 0 12px}
@@ -35,7 +34,7 @@
 .ranking-count{margin:0;color:var(--text-dim);font-size:13px}
 
 /* The board. The header row stays in view while the 100 rows scroll. */
-.ranking-board{border:1px solid var(--border);border-radius:10px;background:var(--bg-card)}
+.ranking-board{border:1px solid var(--border);border-radius:12px;background:var(--bg-card);box-shadow:var(--shadow)}
 .ranking-table{width:100%;border-collapse:separate;border-spacing:0;font-size:14px;font-variant-numeric:tabular-nums}
 .ranking-table th,.ranking-table td{padding:10px 14px;border-bottom:1px solid var(--border);text-align:left;vertical-align:middle}
 .ranking-table thead th{position:sticky;top:0;z-index:1;background:var(--bg-soft);color:var(--text-dim);font-size:13px;font-weight:600;white-space:nowrap}
@@ -47,7 +46,7 @@
 .ranking-table :is(.ranking-level,.ranking-score){text-align:right;white-space:nowrap}
 .ranking-table tbody .ranking-name{font-weight:600}
 .ranking-table tbody .ranking-score{color:var(--text);font-weight:600}
-.ranking-table .ranking-top .ranking-rank{color:var(--gold);font-weight:700}
+.ranking-table .ranking-top .ranking-rank{color:var(--accent);font-weight:700}
 .ranking-sub{display:none}
 .ranking-sub-level::before{content:" · "}
 .ranking-state{margin:0;padding:32px 18px;color:var(--text-dim);text-align:center}

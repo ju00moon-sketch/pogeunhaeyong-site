@@ -133,7 +133,16 @@
   const button = root.querySelector('.realm-menu-toggle');
   const menuPanel = root.querySelector('.realm-menu-panel');
   button.addEventListener('click', () => { const open = button.getAttribute('aria-expanded') !== 'true'; button.setAttribute('aria-expanded', String(open)); button.setAttribute('aria-label', open ? '메뉴 닫기' : '메뉴 열기'); root.classList.toggle('menu-open', open); menuPanel.hidden = !open; });
-  root.addEventListener('keydown', event => { if (event.key === 'Escape' && root.classList.contains('menu-open')) { button.click(); button.focus(); } });
+  // Escape는 메뉴가 열려 있을 때 어디서 눌러도 닫는다. 열린 <dialog> 안의 Escape는 그 대화상자 몫이라 건드리지 않는다.
+  // 포커스는 메뉴 안이나 빈 곳에 있었을 때만 토글 버튼으로 돌리고, 다른 입력란에 있었으면 그대로 둔다.
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape' || event.defaultPrevented || !root.classList.contains('menu-open')) return;
+    if (event.target instanceof Element && event.target.closest('dialog[open]')) return;
+    const active = document.activeElement;
+    const typing = active instanceof Element && !root.contains(active) && active.matches('input, textarea, select, [contenteditable=""], [contenteditable="true"]');
+    button.click();
+    if (!typing) button.focus();
+  });
   nav.addEventListener('click', event => { if (event.target.closest('a') && root.classList.contains('menu-open')) button.click(); });
   document.addEventListener('click', event => { if (!root.contains(event.target) && root.classList.contains('menu-open')) button.click(); });
   function renderAccountLinks(detail) {
