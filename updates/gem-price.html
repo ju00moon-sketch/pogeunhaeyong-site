@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08111d">
+<script src="../theme.js"></script>
+<link rel="preload" href="../assets/fonts/body-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="../updates.css">
+<title>기능 아크 그리드 젬 최저가 시세판(/젬값) 추가 및 ㅈㄱ 초성 연결 해제 — 포근해용 업데이트 노트</title>
+<meta name="description" content="포근해용 기능 업데이트 노트 — 공식 거래소 질서·혼돈의 젬 희귀·영웅 낱개 최저가와 전일 평균 거래가 대비 등락 표시, 완전한 시세판 5분 캐시 및 초성 ㅈㄱ 연결 해제.">
+<link rel="stylesheet" href="../theme.css">
+<link rel="stylesheet" href="../renewal.css">
+<script src="../renewal.js" defer></script>
+<script src="../auth.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">본문 바로가기</a>
+
+<header data-site-header data-active="updates"></header>
+<section class="updates-intro">
+  <div class="wrap">
+    <div class="nav-row">
+      <a class="back" href="../index.html#updates">← 포근해용 홈으로</a>
+      <a class="back" href="../updates.html">전체 노트 보기 →</a>
+    </div>
+    <h1>업데이트 <span class="accent">노트</span></h1>
+    <p class="lead">기능 · 아크 그리드 젬 최저가 시세판(/젬값) 추가 및 ㅈㄱ 초성 연결 해제</p>
+  </div>
+</section>
+
+<main class="wrap" id="main-content" tabindex="-1">
+
+  <article class="release" id="gem-price">
+    <div class="release-head">
+      <h2><span class="ver">기능</span> 아크 그리드 젬 최저가 시세판(<code>/젬값</code>) 추가 및 <code>ㅈㄱ</code> 초성 연결 해제</h2>
+    </div>
+    <p class="summary">공식 거래소의 아크 그리드 재료 중 질서의 젬(견고·안정·불변)과 혼돈의 젬(붕괴·왜곡·침식) 희귀·영웅 등급 6종(총 12품목)의 낱개 현재 최저가와 전일 평균 거래가 대비 등락을 한눈에 확인하는 <code>/젬값</code>(디스코드 채팅 <code>.젬값</code>·<code>!젬값</code>, 카카오톡 <code>/젬값</code>·<code>.젬값</code>) 커맨드를 추가했습니다. 젬값과 주급 사이의 오작동과 혼선을 막기 위해 초성 <code>ㅈㄱ</code>는 어느 명령에도 연결하지 않으며, 주간 골드 수입 추정은 <code>/주급</code>·<code>.주급</code>으로 이용합니다.</p>
+
+    <h3>디스코드</h3>
+    <ul>
+      <li><b>질서·혼돈의 젬 희귀·영웅 최저가와 전일 평균가 대비 표시</b>: 슬래시 <code>/젬값</code>(옵션 없음) 또는 채팅 <code>.젬값</code>(<code>!젬값</code>)으로 질서의 젬(견고·안정·불변)과 혼돈의 젬(붕괴·왜곡·침식)의 희귀·영웅 등급 낱개 현재 최저가를 조회합니다(<code>.젬값</code> 뒤에 추가 단어를 적으면 사용법을 안내합니다). 하단에는 거래소가 제공하는 전일 평균 거래가 대비 등락을 <code>/쌀</code>과 같은 형식으로 함께 표시하며, 전일 평균 거래가가 없거나 0 이하인 품목은 비교 줄을 생략합니다.</li>
+      <li><b>정렬 기준과 매물 없음·조회 실패 상태 구분</b>: 질서의 젬→혼돈의 젬, 희귀→영웅 순서로 묶고 같은 등급 안에서는 현재 최저가가 낮은 품목부터 정렬합니다. 정상 조회된 등급 안에서 매물이 없거나 가격이 0 이하인 품목은 등급 마지막에 <code>매물 없음</code>으로 표시하고, 특정 등급 요청 실패·응답 누락·기한 초과 시에는 해당 등급만 <code>조회 실패</code>로 구분하며, 두 등급 모두 받지 못했을 때는 안내 문구를 표시합니다.</li>
+      <li><b>완전한 시세판 5분 캐시</b>: 12개 품목의 현재 최저가가 모두 확인된 시세판만 5분 동안 캐시합니다. 일부 품목이 매물 없음이거나 한 등급 조회에 실패한 판은 확인된 내용을 먼저 보여 주되 캐시하지 않고 다음 요청에서 다시 조회하며, 별도 시세 이력이나 이용자 기록은 저장하지 않습니다.</li>
+      <li><b>초성 <code>ㅈㄱ</code> 연결 해제</b>: 초성 <code>ㅈㄱ</code>는 주급과 젬값 어느 쪽에도 연결하지 않아 디스코드에서 <code>ㅈㄱ</code>·<code>.ㅈㄱ</code>·<code>!ㅈㄱ</code> 입력 시 응답하지 않습니다. 주간 골드 수입 추정은 기존과 같이 <code>/주급</code>·<code>.주급</code>(<code>!주급</code>)으로 조회할 수 있습니다.</li>
+    </ul>
+
+    <h3>카카오톡</h3>
+    <ul>
+      <li><b>동일한 아크 그리드 젬 최저가 시세판 지원</b>: 카카오톡 오픈채팅방에서도 <code>/젬값</code>·<code>.젬값</code>으로 디스코드와 같은 질서·혼돈의 젬 희귀·영웅 최저가와 전일 평균 거래가 대비 등락을 조회할 수 있습니다(뒤에 추가 입력이 있으면 사용법을 안내합니다).</li>
+      <li><b>초성 <code>ㅈㄱ</code> 연결 해제 및 <code>/주급</code>·<code>.주급</code> 유지</b>: 카카오톡에서도 단독 <code>ㅈㄱ</code>와 <code>.ㅈㄱ</code>에는 응답하지 않으며(<code>/ㅈㄱ</code>는 미등록 명령 기본 안내 표시), 주간 골드 수입 추정은 <code>/주급</code>·<code>.주급</code>으로 동일하게 이용합니다.</li>
+    </ul>
+  </article>
+
+  <nav class="pager" aria-label="이전 · 다음 글">
+    <a class="pager-item prev" href="roster-gold.html"><span class="k">이전 글</span><span class="t">기능 · 원정대·부캐 조회(/원정대 · /부캐) 주간 골드 획득 추정 요약</span></a>
+    <span class="pager-item empty" aria-hidden="true"></span>
+  </nav>
+
+  <section class="board" aria-label="전체 업데이트 목록">
+    <div class="board-head">전체 업데이트</div>
+    <a class="row current" href="gem-price.html"><span class="badge">기능</span><span class="title">아크 그리드 젬 최저가 시세판(/젬값) 추가 및 ㅈㄱ 초성 연결 해제</span></a>
+    <a class="row" href="roster-gold.html"><span class="badge">기능</span><span class="title">원정대·부캐 조회(/원정대 · /부캐) 주간 골드 획득 추정 요약</span></a>
+    <a class="row" href="web-ui-renewal.html"><span class="badge">홈페이지</span><span class="title">홈 화면과 주요 메뉴 화면 구성 정돈</span></a>
+    <a class="row" href="gem-roster-status.html"><span class="badge">기능</span><span class="title">원정대 장착 보석 현황 조회(/보석현황 닉네임)</span></a>
+    <a class="row" href="versus-multi.html"><span class="badge">기능</span><span class="title">선택지 골라주기(/vs) 3개 이상 선택지 지원</span></a>
+    <a class="row" href="gold-stock.html"><span class="badge">기능</span><span class="title">골드 시세 실시간 현재가와 전일 종가 대비 등락폭·등락률 표시</span></a>
+    <a class="row" href="ui-apps.html"><span class="badge">UI 갤러리</span><span class="title">데스크톱 도우미 화면 추가와 앱별 UI 갤러리 개편</span></a>
+    <a class="row" href="site-home-ranking.html"><span class="badge">홈페이지</span><span class="title">홈 화면 복원과 랭킹 스냅샷 · 젬 도우미 안내</span></a>
+    <a class="row" href="upcoming.html"><span class="badge">출시 예정</span><span class="title">공개 도구와 숙제표 분리, 안내 페이지</span></a>
+    <a class="row" href="bot-upcoming.html"><span class="badge">출시 예정</span><span class="title">봇 기능 개선 및 시세·효율 조회 보완</span></a>
+    <a class="row" href="v1.4.html"><span class="badge">v1.4</span><span class="title">장비 강화 탭과 회원 기능 보완</span></a>
+    <a class="row" href="v1.3.html"><span class="badge">v1.3</span><span class="title">홈페이지 리뉴얼과 채팅 기능 확장</span></a>
+    <a class="row" href="v1.2.html"><span class="badge">v1.2</span><span class="title">카카오톡 오픈채팅방 연동</span></a>
+    <a class="row" href="v1.1.html"><span class="badge">v1.1</span><span class="title">길드원 랭킹 추가</span></a>
+    <a class="row" href="2026-08-31.html"><span class="badge">기능</span><span class="title">캐릭터 분석 확장</span></a>
+    <a class="row" href="v0.1.html"><span class="badge">v0.1</span><span class="title">첫 공개</span></a>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>🌱 <a href="../index.html">포근해용 홈</a> · <a href="../updates.html">전체 업데이트 노트</a> · MIT License</p>
+  </div>
+</footer>
+
+</body>
+</html>
