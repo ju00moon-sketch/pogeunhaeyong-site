@@ -48,6 +48,7 @@
       <section class="realm-panel dashboard-market"><div class="realm-panel-head"><h2>주요 재련 재료</h2><a href="tools.html">더보기</a></div><div id="home-market" aria-live="polite" class="dashboard-market-grid"></div><p id="home-market-time" class="dashboard-source"></p></section>
       <section class="realm-panel dashboard-notices"><div class="realm-panel-head"><h2>로스트아크 공지</h2><a href="https://lostark.game.onstove.com/News/Notice/List" target="_blank" rel="noopener noreferrer">더보기 ↗</a></div><div id="home-notices" aria-live="polite"></div></section>
       <section class="realm-panel dashboard-updates"><div class="realm-panel-head"><h2>포근해용 업데이트</h2><button type="button" data-tab="updates">더보기</button></div><div class="dashboard-release-list">
+        <a href="updates/roster-gold.html"><span class="dashboard-release-version">기능</span><div><b>원정대·부캐 조회 주간 골드 획득 추정 요약</b><p>상위 6캐릭·전체 캐릭터 획득 골드와 더보기 차감 순수익 4가지 합계 표시</p></div></a>
         <a href="updates/web-ui-renewal.html"><span class="dashboard-release-version">홈페이지</span><div><b>홈 화면과 주요 메뉴 화면 구성 정돈</b><p>밝은 홈 화면 · 명령어 분야별 목차 · 캐릭터·시세·숙제·길드·계정 배치 보완</p></div></a>
         <a href="updates/ui-apps.html"><span class="dashboard-release-version">UI 갤러리</span><div><b>데스크톱 도우미 화면 추가와 앱별 UI 갤러리 개편</b><p>데스크톱 도우미 20개 화면 상태 모음 · 앱별 필터 및 PC 전용 안내 · 검증용 가상 자료 고지</p></div></a>
         <a href="updates/site-home-ranking.html"><span class="dashboard-release-version">홈페이지</span><div><b>홈 화면 복원과 랭킹 스냅샷 · 젬 도우미 안내</b><p>성채 배경과 주요 타일 복원, LOPEC 공개 환산 점수 기반 역할별 100위 랭킹 스냅샷 페이지 추가</p></div></a>
@@ -86,7 +87,7 @@
         <div class="cmd-row"><span class="cmd"><code>/젬효율 닉네임</code><em>ㅈㅎㅇ</em></span><span class="desc">아크 그리드 젬 효율: 옵션/포인트 구성과 옵션별 실효율, 젬 뽑기 기댓값(개발 버전)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/스펙업 닉네임</code><em>ㅅㅍㅇ</em></span><span class="desc">스펙업 효율: 첫 조회 속도·카카오톡 응답 대기 개선 · 같은 골드 대비 딜 상승률(%) 순으로 디스코드 상위 10개·카톡 상위 5개 · 강화·장신구는 로펙 점수 비율, 보석은 직업·빌드별 스킬 딜 비중으로 계산 · 카톡은 옵션·비용·딜 상승·효율을 나눠 표시, 전체 보기에서 모든 후보와 모델 환산 점수 또는 로펙 변경 후 점수 제공 · 0G는 무료, 로펙 시세 보충 비용은 * · 페온은 자동 갱신 또는 직접 설정한 크리스탈 시세로 환산(<code>/크리스탈</code>로 확인, 시세 미수신 시 제외)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/크리스탈 [95개가격]</code><em>ㅋㄹㅅㅌ</em></span><span class="desc">스펙업 페온 환산용 크리스탈 시세: 매일 08:00 로아툴(LOSPI) 시세 자동 갱신, 직접 적은 값(화폐거래소에서 골드로 블루 크리스탈 95개를 살 때 가격)은 24시간 우선. 시세가 있으면 스펙업의 악세·스톤 비용에 페온 골드 포함</span></div>
-        <div class="cmd-row"><span class="cmd"><code>/원정대</code> <code>/부캐 닉네임</code><em>ㅂㅋ</em></span><span class="desc">계정의 모든 캐릭터를 아이템 레벨 순으로 (서버별 묶음)</span></div>
+        <div class="cmd-row"><span class="cmd"><code>/원정대</code> <code>/부캐 닉네임</code><em>ㅂㅋ</em></span><span class="desc">계정의 모든 캐릭터를 아이템 레벨 순으로 (서버별 묶음) · 하단에 상위 6캐릭·전체 캐릭터 주간 클리어 골드와 더보기 전액 차감 순수익 등 4가지 추정 합계 표시 (캐릭터당 상위 3레이드 기준, 실제 클리어·골드 지정 기록 미조회, 긴 목록은 표시만 줄여 합계 보존)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/랭킹</code><em>ㄹㅋ</em></span><span class="desc">길드 내 스펙 랭킹: 등록된 길드원의 로펙 달성 최고 점수 순 (중앙값 대비 · 직업 순위 · 딜러/서포터 구분)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/체급</code><em>ㅊㄱ</em></span><span class="desc">원정대 체급 랭킹: 1720↑ 캐릭터의 로펙 환산 점수 합 (딜러·서포터 같은 척도)</span></div>
         <div class="cmd-row"><span class="cmd"><code>/환산가치</code><em>ㅎㅅㄱㅊ</em></span><span class="desc">원정대 환산 가치 랭킹: 1720↑ 캐릭터를 골드로 환산한 합의 <b>최고 기록</b> (재련·보석·악세·각인서·팔찌·젬, 시세는 매일 새벽 반영) · <code>/환산가치 갱신</code>으로 지금 장비 다시 계산</span></div>
@@ -339,6 +340,11 @@
     <p class="lead">카드를 누르면 그 버전의 자세한 노트로 넘어갑니다. <a href="updates.html">전체 노트 보기 →</a> · <a href="ui/">앱별 UI 갤러리 둘러보기 →</a></p>
 
     <div class="releases">
+      <a class="release" href="updates/roster-gold.html">
+        <div class="head"><span class="ver">기능</span></div>
+        <p class="summary"><code>/원정대</code>·<code>/부캐</code>(디스코드 채팅 <code>.부캐</code>·<code>!부캐</code>·<code>ㅂㅋ</code>, 카카오톡 <code>/원정대</code>·<code>.원정대</code>·<code>/부캐</code>·<code>.부캐</code>·<code>/ㅂㅋ</code>·<code>.ㅂㅋ</code>) 조회 결과 하단에 상위 6캐릭터 획득 골드, 전체 캐릭터 단순 합계, 더보기 전액 차감 후 순수익(상위 6캐릭터·전체) 등 4가지 주간 골드 추정 합계를 함께 표시합니다.</p>
+        <div class="chips"><span>/원정대 · /부캐 주간 골드</span><span>상위 6캐릭 · 전체 단순 합계</span><span>더보기 차감 순수익</span><span>긴 목록 요약 보존</span></div>
+      </a>
       <a class="release" href="updates/web-ui-renewal.html">
         <div class="head"><span class="ver">홈페이지</span></div>
         <p class="summary">밝은 바탕과 흰색 카드 중심으로 홈 화면과 상단 메뉴를 정돈하고, 명령어 분야별 목차 이동과 캐릭터·시장·장비 강화·숙제표·길드·내 계정 화면의 읽기 편한 배치를 적용했습니다.</p>
